@@ -3,7 +3,7 @@ It's a [Mindustry](https://github.com/Anuken/Mindustry/) mod.
 
 ~~That Means Oh Phuck Mod, because yes.~~
 
-This mod just add upgraded(but sometimes op) version of vanilla blocks.
+This mod just add upgraded(but sometimes op) version of vanilla blocks. This doesn't means it's a hack.
 
 ## Changelog
 See that shit [here](Changelog.md)
