@@ -1,0 +1,21 @@
+{
+  "type": "Conveyor",
+  "name": "Fast Conveyor",
+  "description": "Very Fast",
+  "health": 300,
+  "requirements": [
+    {
+      "item": "copper",
+      "amount": 2
+    },
+    {
+      "item": "lead",
+      "amount": 2
+    }
+  ],
+  "category": "distribution",
+  "buildCostMultiplier": 0.7,
+  "speed": 0.15,
+  "displayedSpeed": 21,
+  "research": "titanium-conveyor"
+}
