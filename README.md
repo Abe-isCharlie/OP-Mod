@@ -1,5 +1,6 @@
 # OP Mod
-That Means Oh Phuck Mod, because yes.
+~~That Means Oh Phuck Mod, because yes.~~
+This mod just add upgraded(but a little op) versions of vannila blocks, but that doesn't mean it's a hack.
 
-## Changelog
+## [Changelog](Changelog.md)
 See that shit [here](Changelog.md)
