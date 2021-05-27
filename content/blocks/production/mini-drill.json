@@ -3,7 +3,7 @@
     "name": "Mini Drill",
     "cescription": "A small version of mechanical drill.",
     "size": 1,
-    "tier": 3,
+    "tier": 4,
     "drillTime": 4,
     "category": "production"
 }
