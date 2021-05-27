@@ -1,9 +1,1 @@
-{
-    "type": "drill",
-    "name": "Mini Drill",
-    "cescription": "A small version of mechanical drill.",
-    "size": 1,
-    "tier": 5,
-    "drillTime": 4,
-    "category": "production"
-}
+
