@@ -2,11 +2,11 @@
     "type": "drill",
     "name": "Mini Drill",
     "cescription": "A small version of mechanical drill.",
-    "liquidBoostIntensity": 2.5,
+    "liquidBoostIntensity": 1,
     "rotateSpeed": 0.5,
     "size": 1,
     "tier": 2,
-    "drillTime": 600,
+    "drillTime": 750,
     "category": "production",
     "requirements": [
         {
