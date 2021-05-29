@@ -1,0 +1,17 @@
+{
+    "type": "drill",
+    "name": "Mini Drill",
+    "cescription": "A small version of mechanical drill.",
+    "liquidBoostIntensity": 1.6,
+    "size": 1,
+    "tier": 3,
+    "drillTime": 400,
+    "category": "production",
+    "requirements": [
+        {
+            "item": "copper",
+            "amount": 6
+        }
+    ],
+    "research": "mechanical-drill"
+}
