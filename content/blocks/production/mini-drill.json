@@ -1,7 +1,7 @@
 {
     "type": "drill",
     "name": "Mini Drill",
-    "cescription": "A small version of mechanical drill.",
+    "description": "A small version of mechanical drill.",
     "drawMineItem": false,
     "liquidBoostIntensity": 1.6,
     "rotateSpeed": 1.5,
