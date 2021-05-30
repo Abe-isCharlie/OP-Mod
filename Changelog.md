@@ -4,3 +4,6 @@
 - Added Faster Conveyor. is more fast than titanium conveyor (but you unlock before titanium conveyor).
 2. **V0.2**
 - Added Big Kiln. It's a kiln, but bigger. Uses water to cooler more fast, generating more metaglass (i know, this don't manke sense, just accept).
+3. **V0.3:**
+- Added Mini Drill. It's a small version of mechanical drill.
+- Reworked on Fast Conveyor. Now is Surge Conveyor. Crafting just add 2 surge alloys.
