@@ -8,7 +8,7 @@
     "hasPower": true,
     "itemCapacity": 15,
     "liquidCapacity": 144,
-    "craftTime": 55,
+    "craftTime": 120,
     "flameColor": "e1e9f0",
     "updateEffect": "smokeCloud",
     "requirements": [
