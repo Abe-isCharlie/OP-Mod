@@ -12,7 +12,7 @@
     "requirements": [
         {
             "item": "copper",
-            "amount": 6
+            "amount": 3
         }
     ],
     "research": "mechanical-drill"
