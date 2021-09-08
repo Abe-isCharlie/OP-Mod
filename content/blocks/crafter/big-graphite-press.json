@@ -6,7 +6,7 @@
    "health": 280,
    "hasItems": true,
    "itemCapacity": 15,
-   "craftTime": 72,
+   "craftTime": 15,
    "requirements": [
        {
          "item": "copper",
