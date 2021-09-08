@@ -1,6 +1,6 @@
 {
   "type": "Conveyor",
-  "name": "Surge Conveyor",
+  "name": "Fast Conveyor",
   "description": "Very Fast. Yes, more fast than titanium conveyor.",
   "health": 300,
   "requirements": [
@@ -17,5 +17,5 @@
   "buildCostMultiplier": 0.7,
   "speed": 0.15,
   "displayedSpeed": 21,
-  "research": "titanium-conveyor"
+  "research": "conveyor"
 }
