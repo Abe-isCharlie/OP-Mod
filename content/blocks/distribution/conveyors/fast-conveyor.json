@@ -12,10 +12,6 @@
       "item": "lead",
       "amount": 2
     },
-    {
-      "item": "surge-alloy",
-      "amount": 2
-    }
   ],
   "category": "distribution",
   "buildCostMultiplier": 0.7,
