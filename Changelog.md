@@ -7,5 +7,5 @@
 3. **V0.3:**
 - Added Mini Drill. It's a small version of mechanical drill.
 - Reworked on Fast Conveyor. Now is Surge Conveyor. Crafting just add 2 surge alloys.
-- 4. **V0.3.1**
+4. **V0.3.1**
 - Forget Surge Conveyor, we'll go back to Fast Conveyor.
