@@ -6,11 +6,11 @@
   "requirements": [
     {
       "item": "copper",
-      "amount": 4
+      "amount": 3
     },
     {
       "item": "lead",
-      "amount": 4
+      "amount": 3
     },
   ],
   "category": "distribution",
