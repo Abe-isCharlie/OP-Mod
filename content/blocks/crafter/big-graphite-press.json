@@ -1,7 +1,7 @@
 {
    "type": "GenericCrafter",
    "name": "Big Graphite Press",
-   "description": "I know there is already a multi-press.",
+   "description": "I know there is already the multi-press.",
    "size": 3,
    "health": 280,
    "hasItems": true,
