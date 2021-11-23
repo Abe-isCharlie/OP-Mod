@@ -6,7 +6,7 @@ It's a [Mindustry](https://github.com/Anuken/Mindustry/) mod.
 This mod just add upgraded(but sometimes op) version of vanilla blocks. This doesn't means it's a hack.
 
 ## Changelog
-- Actual version: **0.3**
+- Actual version: **0.3.4**
 
 See that shit [here](Changelog.md)
 
