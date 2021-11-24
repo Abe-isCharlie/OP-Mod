@@ -9,3 +9,5 @@
 - Reworked on Fast Conveyor. Now is Surge Conveyor. Crafting just add 2 surge alloys.
 4. **V0.3.1**
 - Forget Surge Conveyor, we'll go back to Fast Conveyor.
+5. **V0.3.4**
+- Adjusting things.
