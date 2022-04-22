@@ -4,6 +4,8 @@
     "description": "WIP",
     "targetAir": true,
     "targetGround": true,
+    "hasLiquid": true,
+    "liquidCapacity": 108,
     "category": "turret",
     "research": "lancer",
     "health": 1350,
@@ -17,7 +19,7 @@
     "ammoTypes":
         {
             "metaglass": {
-                "damage": 27,
+                "damage": 35,
                 "speed": 8,
                 "height": 18,
                 "width": 7,
@@ -44,12 +46,12 @@
         "consumes": {
             "liquid": {
                 "liquid": "cold-water",
+                "liquidBoostItensity": 2.5,
                 "amount": 0.6,
                 "booster": true,
                 "optional": true
             }
         },
-        "liquidBoostItensity": 2.5,
     "requirements": [
         {
             "item": "copper",
