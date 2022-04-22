@@ -3,6 +3,7 @@
     "explosiveness": 0,
     "flammability": 0,
     "radioactivity": 0,
+    "status": "freezing",
     "research": "water",
     "color": "486acd"
 }
