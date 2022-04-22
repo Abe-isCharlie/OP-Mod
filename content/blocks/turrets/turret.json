@@ -46,10 +46,10 @@
         "consumes": {
             "liquid": {
                 "liquid": "cold-water",
-                "liquidBoostItensity": 2.5,
                 "amount": 0.6,
                 "booster": true,
-                "optional": true
+                "optional": true,
+                "coolantMultiplier": 2.4
             }
         },
     "requirements": [
