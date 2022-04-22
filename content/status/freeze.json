@@ -6,14 +6,13 @@
     "dragMultiplier": 0,
     "effect": {
         "type": "ParticleEffect",
-        "particles": 4,
+        "particles": 2,
         "length": 0.02,
         "line": true,
         "lifetime": 40,
         "lenFrom": 2,
         "lenTo": 0,
-        "colorTo": "5fcde4",
-        "sizeIterp": "linear"
+        "colorTo": "5fcde4"
     },
-    "effectChance": 1
+    "effectChance": 0.24
 }
