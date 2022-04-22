@@ -30,7 +30,7 @@
     ],
     "consumes": {
         "power": 1.01,
-        "liquids": [
+        "liquid": [
             {
                 "liquid": "water",
                 "amount": 0.47
