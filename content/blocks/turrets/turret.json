@@ -15,7 +15,7 @@
     "reloadTime": 6,
     "shots": 2,
     "range": 192,
-    "coolantMultiplier": 1.4,
+    "coolantMultiplier": 0.9,
     "rotateSpeed": 25,
     "ammoTypes":
         {
