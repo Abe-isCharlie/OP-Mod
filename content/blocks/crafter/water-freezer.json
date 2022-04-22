@@ -8,7 +8,7 @@
     "hasPower": true,
     "itemCapacity": 8,
     "liquidCapacity": 140,
-    "craftTime":  157,
+    "craftTime": 157,
     "updateEffect": "purify",
     "requirements": [
         {
@@ -32,21 +32,21 @@
         "power": 1.01,
         "liquid": {
             "liquid": [
-            {
-                "liquid": "water",
-                "amount": 0.6
-            },
-            {
-                "liquid": "cold-water",
-                "amount": 0.5
-            }
-        ]
-    }
-    },
-    "category": "crafting",
-    "research": "thorium",
-    "outputItem": {
-        "item": "ice",
-        "amount": "4"
+                {
+                    "liquid": "water",
+                    "amount": 0.6
+                },
+                {
+                    "liquid": "cold-water",
+                    "amount": 0.6
+                }
+            ]
+        },
+        "category": "crafting",
+        "research": "thorium",
+        "outputItem": {
+            "item": "ice",
+            "amount": "4"
+        }
     }
 }
