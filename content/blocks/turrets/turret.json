@@ -7,20 +7,21 @@
     "research": "lancer",
     "health": 1350,
     "size": 2,
-    "inaccuracy": 0.5,
+    "inaccuracy": 8,
     "reloadTime": 3,
     "shots": 3,
-    "range": 24,
+    "range": 192,
     "rotateSpeed": 20,
     "ammoTypes":
         {
             "metaglass": {
-                "speed": 4,
+                "damage": 50,
+                "speed": 8,
                 "height": 18,
                 "width": 7,
                 "lifetime": 200,
                 "status": "shocked",
-                "ammoMultipliers": 3
+                "ammoMultiplier": 3
             }
         },
     "requirements": [
@@ -37,5 +38,5 @@
             "amount": 60
         }
     ],
-    "shootCone": 1.5
+    "shootCone": 2
 }
