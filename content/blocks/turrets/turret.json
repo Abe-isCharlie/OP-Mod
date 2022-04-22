@@ -44,14 +44,6 @@
                 "ammoMultiplier": 1.5
             }
         },
-        "consumes": {
-            "liquid": {
-                "liquid": "cold-water",
-                "amount": 0.6,
-                "booster": true,
-                "optional": true
-            }
-        },
     "requirements": [
         {
             "item": "copper",
