@@ -1,0 +1,41 @@
+{
+    "type": "itemTurret",
+    "name": "testTurret",
+    "targetAir": true,
+    "targetGround": true,
+    "category": "turret",
+    "research": "lancer",
+    "health": 1350,
+    "size": 2,
+    "inaccuracy": 0.5,
+    "reloadTime": 3,
+    "shots": 3,
+    "range": 24,
+    "rotateSpeed": 20,
+    "ammoTypes":
+        {
+            "metaglass": {
+                "speed": 4,
+                "height": 18,
+                "width": 7,
+                "lifetime": 200,
+                "status": "shocked",
+                "ammoMultipliers": 3
+            }
+        },
+    "requirements": [
+        {
+            "item": "copper",
+            "amount": 85
+        },
+        {
+            "item": "graphite",
+            "amount": 40
+        },
+        {
+            "item": "lead",
+            "amount": 60
+        }
+    ],
+    "shootCone": 1.5
+}
