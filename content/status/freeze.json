@@ -11,9 +11,9 @@
         "line": true,
         "lifetime": 40,
         "strokeFrom": 0,
-        "strokeTo": 3,
-        "lenFrom": 10,
-        "lenTo": 10,
+        "strokeTo": 2,
+        "lenFrom": 2,
+        "lenTo": 2,
         "colorTo": "5fcde4",
         "sizeIterp": "linear"
     },
