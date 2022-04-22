@@ -30,7 +30,8 @@
     ],
     "consumes": {
         "power": 1.01,
-        "liquid": [
+        "liquid": {
+            "liquid": [
             {
                 "liquid": "water",
                 "amount": 0.6
@@ -40,6 +41,7 @@
                 "amount": 0.5
             }
         ]
+    }
     },
     "category": "crafting",
     "research": "thorium",
