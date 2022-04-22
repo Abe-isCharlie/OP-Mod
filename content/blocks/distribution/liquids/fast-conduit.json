@@ -9,8 +9,7 @@
     "placeableLiquid": true,
     "liquidPressure": 4,
     "research": "conduit",
-    "requirements": [
-        {
+    "requirements": [{
             "item": "metaglass",
             "amount": 1
         },

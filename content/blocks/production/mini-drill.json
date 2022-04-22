@@ -9,11 +9,9 @@
     "tier": 3,
     "drillTime": 130,
     "category": "production",
-    "requirements": [
-        {
-            "item": "copper",
-            "amount": 3
-        }
-    ],
+    "requirements": [{
+        "item": "copper",
+        "amount": 3
+    }],
     "research": "mechanical-drill"
 }

@@ -3,8 +3,7 @@
   "name": "Fast Conveyor",
   "description": "Very Fast. Yes, faster than titanium conveyor.",
   "health": 300,
-  "requirements": [
-    {
+  "requirements": [{
       "item": "copper",
       "amount": 3
     },

@@ -11,10 +11,9 @@
     "craftTime": 67,
     "flameColor": "e1e9f0",
     "updateEffect": "smokeCloud",
-    "requirements": [
-        {
-          "item": "copper",
-          "amount": 120
+    "requirements": [{
+            "item": "copper",
+            "amount": 120
         },
         {
             "item": "lead",
@@ -28,8 +27,7 @@
     "consumes": {
         "power": 1.2,
         "items": {
-            "items": [
-                {
+            "items": [{
                     "item": "lead",
                     "amount": 1.5
                 },

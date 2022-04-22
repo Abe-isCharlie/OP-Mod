@@ -1,7 +1,7 @@
 {
     "type": "GenericCrafter",
     "name": "Water Freezer",
-    "description": "Lowers the temperature to minus degrees to make ice. You can use cold water or water.",
+    "description": "Lowers the temperature to minus degrees to freeze the water and make ice cubes.",
     "size": 2,
     "health": 250,
     "hasLiquid": true,
@@ -29,15 +29,10 @@
     ],
     "consumes": {
         "power": 1.01,
-        "liquid": [{
-                "liquid": "water",
-                "amount": 0.6
-            },
-            {
-                "liquid": "cold-water",
-                "amount": 0.6
-            }
-        ]
+        "liquid": {
+            "liquid": "water",
+            "amount": 0.6
+        }
     },
     "category": "crafting",
     "research": "thorium",
