@@ -15,20 +15,19 @@
         {
             "metaglass": {
                 "damage": 27,
-                "speed": 10,
+                "speed": 7,
                 "height": 18,
                 "width": 7,
-                "lifetime": 200,
                 "status": "shocked",
                 "ammoMultiplier": 3
             },
             "sand": {
                 "damage": 5,
-                "speed": 8,
+                "speed": 5,
                 "height": 10,
                 "widht": 5,
-                "lifetime": 150,
-                "status": "sapped"
+                "status": "sapped",
+                "ammoMultiplier": 1
             }
         },
     "requirements": [
