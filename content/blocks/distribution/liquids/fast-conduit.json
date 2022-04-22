@@ -8,6 +8,7 @@
     "liquidCapacity": 22,
     "placeableLiquid": true,
     "liquidPressure": 2,
+    "research": "conduit",
     "requirements": [
         {
             "item": "metaglass",
