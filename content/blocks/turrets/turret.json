@@ -1,6 +1,7 @@
 {
     "type": "itemTurret",
     "name": "testTurret",
+    "description": "WIP",
     "targetAir": true,
     "targetGround": true,
     "category": "turret",
