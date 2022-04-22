@@ -11,7 +11,7 @@
     "reloadTime": 1,
     "shots": 3,
     "range": 192,
-    "rotateSpeed": ,
+    "rotateSpeed": 20,
     "ammoTypes":
         {
             "metaglass": {
