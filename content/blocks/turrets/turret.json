@@ -21,6 +21,14 @@
                 "lifetime": 200,
                 "status": "shocked",
                 "ammoMultiplier": 3
+            },
+            "sand": {
+                "damage": 5,
+                "speed": 1,
+                "height": 10,
+                "widht": 5,
+                "lifetime": 150,
+                "status": "Spore Slowed"
             }
         },
     "requirements": [
