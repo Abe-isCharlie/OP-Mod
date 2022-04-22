@@ -15,7 +15,8 @@
     "reloadTime": 6,
     "shots": 2,
     "range": 192,
-    "rotateSpeed": 100,
+    "coolantMultiplier": 1.4,
+    "rotateSpeed": 25,
     "ammoTypes":
         {
             "metaglass": {
@@ -48,8 +49,7 @@
                 "liquid": "cold-water",
                 "amount": 0.6,
                 "booster": true,
-                "optional": true,
-                "coolantMultiplier": 2.4
+                "optional": true
             }
         },
     "requirements": [
