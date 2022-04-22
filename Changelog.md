@@ -11,3 +11,6 @@
 - Forget Surge Conveyor, we'll go back to Fast Conveyor.
 5. **V0.3.4**
 - Adjusting things.
+6. **V0.3.5**
+- New Faster Conduit.
+-Adjusting sprites.
