@@ -16,19 +16,27 @@
         {
             "metaglass": {
                 "damage": 27,
-                "speed": 7,
+                "speed": 8,
                 "height": 18,
                 "width": 7,
                 "status": "shocked",
                 "ammoMultiplier": 3
             },
             "sand": {
-                "damage": 5,
-                "speed": 5,
+                "damage": 7,
+                "speed": 6,
                 "height": 10,
-                "widht": 5,
+                "width": 5,
                 "status": "sapped",
                 "ammoMultiplier": 1
+            },
+            "ice": {
+                "damage": 2,
+                "speed": 4,
+                "height": 15,
+                "width": 5,
+                 "status": "freeze",
+                "ammoMultiplier": 1.5
             }
         },
     "requirements": [

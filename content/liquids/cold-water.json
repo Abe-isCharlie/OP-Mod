@@ -4,8 +4,9 @@
     "heatCapacity": 0,
     "explosiveness": 0,
     "flammability": 0,
+    "viscosity": 0.4,
     "radioactivity": 0,
-    "temperature": -1,
+    "temperature": 0.15,
     "status": "freezing",
     "research": "water",
     "color": "486acd"
