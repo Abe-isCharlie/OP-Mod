@@ -33,11 +33,11 @@
         "liquid": [
             {
                 "liquid": "water",
-                "amount": 0.47
+                "amount": 0.6
             },
             {
                 "liquid": "cold-water",
-                "amount": 0.44
+                "amount": 0.5
             }
         ]
     },
