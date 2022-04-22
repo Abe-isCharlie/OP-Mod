@@ -1,0 +1,50 @@
+{
+    "type": "GenericCrafter",
+    "name": "Water Freezer",
+    "description": "Lowers the temperature to minus degrees to make ice. You can use cold water or water.",
+    "size": 2,
+    "health": 250,
+    "hasLiquid": true,
+    "hasPower": true,
+    "itemCapacity": 8,
+    "liquidCapacity": 140,
+    "craftTime":  157,
+    "updateEffect": "purify",
+    "requirements": [
+        {
+            "item": "lead",
+            "amount": 50
+        },
+        {
+            "item": "graphite",
+            "amount": 35
+        },
+        {
+            "item": "copper",
+            "amount": 40
+        },
+        {
+            "item": "metaglass",
+            "amount": 20
+        }
+    ],
+    "consumes": {
+        "power": 1.01,
+        "liquids": [
+            {
+                "liquid": "water",
+                "amount": 0.47
+            },
+            {
+                "liquid": "cold-water",
+                "amount": 0.44
+            }
+        ]
+    },
+    "category": "crafting",
+    "research": "thorium",
+    "outputItem": {
+        "item": "ice",
+        "amount": "4"
+    }
+}
