@@ -7,7 +7,7 @@
     "effect": {
         "type": "ParticleEffect",
         "particles": 4,
-        "length": 0.2,
+        "length": 0.02,
         "line": true,
         "lifetime": 40,
         "strokeFrom": 0,
