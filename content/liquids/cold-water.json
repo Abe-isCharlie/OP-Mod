@@ -1,4 +1,6 @@
 {
+    "name": "Cold Water",
+    "description": "Look at the name, it's self-explanatory",
     "heatCapacity": 0,
     "explosiveness": 0,
     "flammability": 0,
