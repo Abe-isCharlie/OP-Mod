@@ -1,4 +1,6 @@
 {
     "name": "Ice",
-    
+    "color": "1dd1f7",
+    "cost": 1.5,
+    "reseacrh": "Cold Water"
 }
