@@ -8,8 +8,8 @@
     "health": 1350,
     "size": 2,
     "inaccuracy": 1,
-    "reloadTime": 1,
-    "shots": 3,
+    "reloadTime": 5,
+    "shots": 2,
     "range": 192,
     "rotateSpeed": 20,
     "ammoTypes":
@@ -37,6 +37,5 @@
             "item": "lead",
             "amount": 60
         }
-    ],
-    "shootCone": 2
+    ]
 }
