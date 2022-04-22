@@ -10,42 +10,40 @@
     "research": "lancer",
     "health": 1350,
     "alternate": true,
-    "recoilAmount": 3, 
+    "recoilAmount": 3,
     "size": 2,
     "reloadTime": 6,
     "shots": 2,
     "range": 192,
     "coolantMultiplier": 0.9,
     "rotateSpeed": 25,
-    "ammoTypes":
-        {
-            "metaglass": {
-                "damage": 35,
-                "speed": 8,
-                "height": 18,
-                "width": 7,
-                "status": "shocked",
-                "ammoMultiplier": 3
-            },
-            "sand": {
-                "damage": 7,
-                "speed": 6,
-                "height": 10,
-                "width": 5,
-                "status": "sapped",
-                "ammoMultiplier": 1
-            },
-            "ice": {
-                "damage": 2,
-                "speed": 4,
-                "height": 15,
-                "width": 5,
-                 "status": "freeze",
-                "ammoMultiplier": 1.5
-            }
+    "ammoTypes": {
+        "metaglass": {
+            "damage": 35,
+            "speed": 8,
+            "height": 18,
+            "width": 7,
+            "status": "shocked",
+            "ammoMultiplier": 3
         },
-    "requirements": [
-        {
+        "sand": {
+            "damage": 7,
+            "speed": 6,
+            "height": 10,
+            "width": 5,
+            "status": "sapped",
+            "ammoMultiplier": 1
+        },
+        "ice": {
+            "damage": 2,
+            "speed": 4,
+            "height": 15,
+            "width": 5,
+            "status": "freeze",
+            "ammoMultiplier": 1.5
+        }
+    },
+    "requirements": [{
             "item": "copper",
             "amount": 85
         },

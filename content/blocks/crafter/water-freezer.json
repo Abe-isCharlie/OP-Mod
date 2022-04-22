@@ -29,22 +29,20 @@
     ],
     "consumes": {
         "power": 1.01,
-        "liquid": {
-            "liquid": [{
-                    "liquid": "water",
-                    "amount": 0.6
-                },
-                {
-                    "liquid": "cold-water",
-                    "amount": 0.6
-                }
-            ]
-        },
-        "category": "crafting",
-        "research": "thorium",
-        "outputItem": {
-            "item": "ice",
-            "amount": "4"
-        }
+        "liquid": [{
+                "liquid": "water",
+                "amount": 0.6
+            },
+            {
+                "liquid": "cold-water",
+                "amount": 0.6
+            }
+        ]
+    },
+    "category": "crafting",
+    "research": "thorium",
+    "outputItem": {
+        "item": "ice",
+        "amount": "4"
     }
 }
