@@ -16,7 +16,7 @@
     "shots": 2,
     "range": 192,
     "coolantMultiplier": 0.9,
-    "rotateSpeed": 25,
+    "rotateSpeed": 5,
     "ammoTypes": {
         "metaglass": {
             "damage": 35,
