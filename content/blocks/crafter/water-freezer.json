@@ -7,7 +7,7 @@
     "hasLiquid": true,
     "hasPower": true,
     "itemCapacity": 8,
-    "liquidCapacity": 140,
+    "liquidCapacity": 142,
     "craftTime": 157,
     "updateEffect": "purify",
     "requirements": [{
