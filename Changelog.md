@@ -1,4 +1,4 @@
-## OP Mod Changes
+# OP Mod Changes
 
 1. **V0.1:**
 
@@ -6,7 +6,7 @@
 
 1. **V0.2**
 
-- Added Big Kiln. It's a kiln, but bigger. Uses water to cooler more fast, generating more metaglass (i know, this don't make sense, just accept).
+- Added Big Kiln. It's a kiln, but bigger. Uses water to cooler more fast, generating more metaglass (i know, this don't make sense, just accept.).
   
 1. **V0.3:**
 
@@ -23,5 +23,13 @@
 
 1. **V0.3.5**
 
-- New Faster Conduit.
--Adjusting sprites.
+- New: Faster Conduit - Moves liquid faster and stores more than pulse conduit.
+- Adjusting sprites.
+
+1. **V0.4.0**
+
+- New: Turret (WIP)
+- New Item: Ice - Use as ammo.
+- New Status: Freeze -  Freeze the enemies, stoping them completely.
+- New Block: Water Freezer - Freeze the water to make ice.
+- Bundles: ENG and PTBR.
