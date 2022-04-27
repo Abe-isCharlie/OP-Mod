@@ -8,11 +8,11 @@
     "liquidCapacity": 0,
     "category": "turret",
     "research": "turret",
-    "health": 2350,
+    "health": 2050,
     "reloadTime": 360,
     "recoilAmount": 12,
     "size": 3,
-    "range": 480,
+    "range": 360,
     "rotateSpeed": 2,
     "ammoTypes": {
         "sniper-ammo": {
@@ -23,10 +23,10 @@
             "hitEffect": "hitBulletSmall",
             "smokeEffect": "shootBigSmoke",
             "status": "sapped",
-            "collidesAir": true,
             "pierce": true,
             "knockback": 12,
-            "impact": true
+            "impact": true,
+            "sprite": "bullet.png"
         }
     },
     "requirements": [{
