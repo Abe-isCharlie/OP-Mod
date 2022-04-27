@@ -8,6 +8,7 @@
     "category": "turret",
     "research": "turret",
     "health": 1500,
+    "reloadTime": 170,
     "recoilAmount": 10,
     "size": 2,
     "range": 400,

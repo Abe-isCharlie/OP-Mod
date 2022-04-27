@@ -1,4 +1,6 @@
 {
     "name": "Sniper Ammo",
-    "description": "A high caliber ammo that deals moderate damage."
+    "description": "A high caliber ammo that deals moderate damage.",
+    "color": "514A49",
+    "research": "thorium"
 }
