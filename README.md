@@ -8,7 +8,7 @@ This mod add new stupid blocks or upgraded(_but sometimes op_) version of vanill
 
 ## Changelog
 
-- Actual version: **0.4.0**
+- Actual version: **0.4.1**
 
 See that shit [here](Changelog.md)
 
