@@ -3,6 +3,7 @@
     "name": "Ammo Crafter",
     "description": "Craft the ammo for the Sniper.",
     "size": 2,
+    "category": "crafting",
     "hasItems": true,
     "itemCapacity": 25,
     "craftTime": 150,
