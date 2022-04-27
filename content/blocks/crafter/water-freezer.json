@@ -35,7 +35,7 @@
         }
     },
     "category": "crafting",
-    "research": "thorium",
+    "research": "cryofluid-mixer",
     "outputItem": {
         "item": "ice",
         "amount": "4"
