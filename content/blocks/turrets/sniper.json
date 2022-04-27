@@ -19,11 +19,11 @@
             "damage": 550,
             "speed": 30,
             "ammoMultiplier": 1,
-            "hitEffect": "hitBulletBig",
+            "hitEffect": "hitBulletSmall",
             "smokeEffect": "shootBigSmoke",
             "collidesAir": true,
             "pierce": true,
-            "knockback": 40
+            "knockback": 6
         }
     },
     "requirements": [{
