@@ -5,6 +5,7 @@
     "targetAir": false,
     "targetGround": true,
     "hasLiquid": false,
+    "liquidCapacity": 0,
     "category": "turret",
     "research": "turret",
     "health": 2350,
@@ -23,7 +24,8 @@
             "smokeEffect": "shootBigSmoke",
             "collidesAir": true,
             "pierce": true,
-            "knockback": 6
+            "knockback": 6,
+            "impact": true
         }
     },
     "requirements": [{
