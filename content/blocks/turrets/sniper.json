@@ -19,5 +19,17 @@
             "speed": 20,
             "ammoMultiplier": 1
         }
-    }
+    },
+    "requirements": [{
+        "item": "lead",
+        "amount": 130
+    },
+    {
+        "item": "silicon",
+        "amount": 100
+    },
+    {
+        "item": "graphite",
+        "amount": 115
+    }]
 }
