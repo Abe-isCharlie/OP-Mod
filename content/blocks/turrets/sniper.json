@@ -9,15 +9,20 @@
     "research": "turret",
     "health": 1500,
     "reloadTime": 170,
-    "recoilAmount": 10,
+    "recoilAmount": 12,
     "size": 2,
-    "range": 325,
-    "rotateSpeed": 0.99999,
+    "range": 375,
+    "rotateSpeed": 0.99,
     "ammoTypes": {
         "sniper-ammo":  {
+            "bulletType": "BasicBulletType",
             "damage": 300,
-            "speed": 35,
-            "ammoMultiplier": 1
+            "speed": 30,
+            "ammoMultiplier": 1,
+            "hitEffect": "hitBulletBig",
+            "smokeEffect": "shootBigSmoke",
+            "collidesAir": true,
+            "pierce": true
         }
     },
     "requirements": [{
