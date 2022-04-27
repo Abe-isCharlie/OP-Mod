@@ -7,7 +7,7 @@
     "health": 135,
     "liquidCapacity": 22,
     "placeableLiquid": true,
-    "liquidPressure": 4,
+    "liquidPressure": 1.9,
     "research": "conduit",
     "requirements": [{
             "item": "metaglass",

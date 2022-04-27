@@ -2,6 +2,6 @@
     "name": "Ice",
     "color": "dcdde3",
     "cost": 1.5,
-    "research": "cold-water",
+    "research": "water-freezer",
     "status": "freeze"
 }

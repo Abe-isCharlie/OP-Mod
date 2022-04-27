@@ -27,7 +27,7 @@
             "ammoMultiplier": 3
         },
         "sand": {
-            "damage": 7,
+            "damage": 2,
             "speed": 6,
             "height": 10,
             "width": 5,
@@ -35,7 +35,7 @@
             "ammoMultiplier": 1
         },
         "ice": {
-            "damage": 2,
+            "damage": 7,
             "speed": 4,
             "height": 15,
             "width": 5,
