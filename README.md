@@ -4,7 +4,7 @@ It's a [Mindustry](https://github.com/Anuken/Mindustry/) mod.
 
 ~~That Means Oh Phuck Mod, because yes.~~
 
-This mod add new idiots blocks or upgraded(_but sometimes op_) version of vanilla blocks. This doesn't means it's a hack.
+This mod add new stupid blocks or upgraded(_but sometimes op_) version of vanilla blocks. This doesn't means it's a hack.
 
 ## Changelog
 
