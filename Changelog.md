@@ -33,3 +33,9 @@
 - New Status: Freeze -  Freeze the enemies, stoping them completely.
 - New Block: Water Freezer - Freeze the water to make ice.
 - Bundles: ENG and PTBR.
+
+1. **V0.4.1**
+
+- Another new turret: Sniper - Does moderate damage and has a very low fire rate. Your bullets can pierce the enemies.
+- New Item: Sniper Ammo - Used as ammo to the Sniper.
+- New Block: Ammo Crafter - Craft the ammo to the sniper.
