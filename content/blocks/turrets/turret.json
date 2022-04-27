@@ -10,7 +10,7 @@
     "research": "lancer",
     "health": 1350,
     "alternate": true,
-    "recoilAmount": 3,
+    "recoilAmount": 3.6,
     "size": 2,
     "reloadTime": 6,
     "shots": 2,
