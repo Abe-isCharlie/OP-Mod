@@ -1,7 +1,7 @@
 {
     "type": "itemTurret",
     "name": "Sniper",
-    "description": "",
+    "description": "A sniper that does moderate damage and has a very low fire rate.",
     "targetAir": false,
     "targetGround": true,
     "hasLiquid": false,

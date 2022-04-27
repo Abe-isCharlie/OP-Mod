@@ -1,5 +1,6 @@
 {
     "name": "Ice",
+    "description": "Colded water. You can use as ammo.",
     "color": "dcdde3",
     "cost": 1.5,
     "research": "thorium",
