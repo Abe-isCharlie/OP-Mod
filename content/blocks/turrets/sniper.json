@@ -9,7 +9,7 @@
     "category": "turret",
     "research": "turret",
     "health": 2350,
-    "reloadTime": 225,
+    "reloadTime": 540,
     "recoilAmount": 12,
     "size": 3,
     "range": 480,
@@ -22,9 +22,10 @@
             "ammoMultiplier": 1,
             "hitEffect": "hitBulletSmall",
             "smokeEffect": "shootBigSmoke",
+            "status": "sapped",
             "collidesAir": true,
             "pierce": true,
-            "knockback": 6,
+            "knockback": 12,
             "impact": true
         }
     },
