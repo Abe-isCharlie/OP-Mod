@@ -11,12 +11,12 @@
     "reloadTime": 170,
     "recoilAmount": 10,
     "size": 2,
-    "range": 400,
-    "rotateSpeed": 0.8,
+    "range": 325,
+    "rotateSpeed": 0.99999,
     "ammoTypes": {
         "sniper-ammo":  {
-            "damage": 150,
-            "speed": 20,
+            "damage": 300,
+            "speed": 35,
             "ammoMultiplier": 1
         }
     },
