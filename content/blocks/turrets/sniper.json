@@ -1,40 +1,50 @@
 {
     "type": "itemTurret",
     "name": "Sniper",
-    "description": "A sniper that does moderate damage and has a very low fire rate.",
+    "description": "A sniper that does moderate damage and has a very low fire rate. Your bullets can pierce the enemies and deal a moderate damage",
     "targetAir": false,
     "targetGround": true,
     "hasLiquid": false,
     "category": "turret",
     "research": "turret",
-    "health": 1500,
-    "reloadTime": 170,
+    "health": 2350,
+    "reloadTime": 225,
     "recoilAmount": 12,
-    "size": 2,
-    "range": 375,
-    "rotateSpeed": 0.99,
+    "size": 3,
+    "range": 480,
+    "rotateSpeed": 2,
     "ammoTypes": {
-        "sniper-ammo":  {
+        "sniper-ammo": {
             "bulletType": "BasicBulletType",
-            "damage": 300,
+            "damage": 550,
             "speed": 30,
             "ammoMultiplier": 1,
             "hitEffect": "hitBulletBig",
             "smokeEffect": "shootBigSmoke",
             "collidesAir": true,
-            "pierce": true
+            "pierce": true,
+            "knockback": 40
         }
     },
     "requirements": [{
-        "item": "lead",
-        "amount": 130
-    },
-    {
-        "item": "silicon",
-        "amount": 100
-    },
-    {
-        "item": "graphite",
-        "amount": 115
-    }]
+            "item": "lead",
+            "amount": 800
+        },
+        {
+            "item": "silicon",
+            "amount": 515
+        },
+        {
+            "item": "graphite",
+            "amount": 780
+        },
+        {
+            "item": "titanium",
+            "amount": 670
+        },
+        {
+            "item": "cooper",
+            "amount": 1200
+        }
+    ]
 }
