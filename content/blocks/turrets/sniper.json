@@ -1,7 +1,7 @@
 {
     "type": "itemTurret",
     "name": "Sniper",
-    "description": "A sniper that does moderate damage and has a very low fire rate. Your bullets can pierce the enemies and deal a moderate damage",
+    "description": "A sniper that does moderate damage and has a very low fire rate. Your bullets can pierce the enemies.",
     "targetAir": false,
     "targetGround": true,
     "hasLiquid": false,
@@ -9,7 +9,7 @@
     "category": "turret",
     "research": "turret",
     "health": 2350,
-    "reloadTime": 540,
+    "reloadTime": 360,
     "recoilAmount": 12,
     "size": 3,
     "range": 480,
@@ -17,7 +17,7 @@
     "ammoTypes": {
         "sniper-ammo": {
             "bulletType": "BasicBulletType",
-            "damage": 550,
+            "damage": 650,
             "speed": 30,
             "ammoMultiplier": 1,
             "hitEffect": "hitBulletSmall",
