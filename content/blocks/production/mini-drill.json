@@ -4,7 +4,7 @@
     "description": "A small version of mechanical drill.",
     "drawMineItem": false,
     "liquidBoostIntensity": 1.6,
-    "rotateSpeed": 1.5,
+    "rotateSpeed": 1,
     "size": 1,
     "tier": 3,
     "drillTime": 130,
