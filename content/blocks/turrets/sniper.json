@@ -13,7 +13,7 @@
     "recoilAmount": 12,
     "size": 3,
     "range": 360,
-    "rotateSpeed": 0.99999,
+    "rotateSpeed": 1,
     "ammoTypes": {
         "sniper-ammo": {
             "bulletType": "BasicBulletType",
