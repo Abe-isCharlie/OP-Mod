@@ -9,7 +9,7 @@
     "itemCapacity": 8,
     "liquidCapacity": 140,
     "craftTime": 157,
-    "updateEffect": "purify",
+    //"updateEffect": "purify",//
     "requirements": [{
             "item": "lead",
             "amount": 50
