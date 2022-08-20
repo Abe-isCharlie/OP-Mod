@@ -1,6 +1,6 @@
 {
     "type": "itemTurret",
-    "inaccuracy": 25,
+    "inaccuracy": 5,
     "name": "Death",
     "description": "WIP",
     "targetAir": true,
@@ -8,7 +8,7 @@
     "category": "turret",
     "research": "scatter",
     "health": 500,
-    "reload": 180,
+    "reload": 2,
     "size": 1,
     "range": 240,
     "rotateSpeed": 1,
