@@ -14,22 +14,22 @@
     "rotateSpeed": 5,
     "ammoTypes": {
         "copper":{
-            "damage": 800,
-            "speed": 10
+            "damage": 80,
+            "speed": 6
         },
         "coal": {
-            "damage": 900,
+            "damage": 20,
             "status": "burning",
-            "speed": 10
+            "speed": 6
         },
         "scrap": {
-            "damage": 500,
-            "speed": 10
+            "damage": 15,
+            "speed": 6
         },
         "sand": {
-            "damage": 100,
+            "damage": 10,
             "status": "sapped",
-            "speed": 10
+            "speed": 6
         }
     },
     "requirements": [{
