@@ -11,22 +11,25 @@
     "reload": 2,
     "size": 1,
     "range": 240,
-    "rotateSpeed": 1,
+    "rotateSpeed": 5,
     "ammoTypes": {
         "copper":{
             "damage": 800,
-            "speed": 18
+            "speed": 15
         },
         "coal": {
             "damage": 900,
-            "status": "burning"
+            "status": "burning",
+            "speed": 15
         },
         "scrap": {
-            "damage": 500
+            "damage": 500,
+            "speed": 15
         },
         "sand": {
             "damage": 100,
-            "status": "sapped"
+            "status": "sapped",
+            "speed": 15
         }
     },
     "requirements": [{
