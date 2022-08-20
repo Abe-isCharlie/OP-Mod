@@ -15,21 +15,21 @@
     "ammoTypes": {
         "copper":{
             "damage": 800,
-            "speed": 15
+            "speed": 10
         },
         "coal": {
             "damage": 900,
             "status": "burning",
-            "speed": 15
+            "speed": 10
         },
         "scrap": {
             "damage": 500,
-            "speed": 15
+            "speed": 10
         },
         "sand": {
             "damage": 100,
             "status": "sapped",
-            "speed": 15
+            "speed": 10
         }
     },
     "requirements": [{
