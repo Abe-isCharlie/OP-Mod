@@ -7,7 +7,7 @@
     "category": "turret",
     "research": "scatter",
     "health": 500,
-    "reload": 1800,
+    "reload": 180,
     "size": 1,
     "range": 240,
     "rotateSpeed": 1,
