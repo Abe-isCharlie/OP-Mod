@@ -6,30 +6,24 @@
     "targetGround": true,
     "category": "turret",
     "research": "scatter",
-    "health": 1000,
-    "reloadTime": 1800,
-    "recoilAmount": 12,
+    "health": 500,
+    "reloadTime": 180,
     "size": 1,
-    "range": 360,
+    "range": 240,
     "rotateSpeed": 1,
     "ammoTypes": {
         "copper":{
-            "damage": 800,
-            "speed": 30
+            "damage": 800
         },
         "coal": {
             "damage": 900,
-            "speed": 30,
             "status": "burning"
-
         },
         "scrap": {
-            "damage": 500,
-            "speed": 30
+            "damage": 500
         },
         "sand": {
             "damage": 100,
-            "speed": 30,
             "status": "sapped"
         }
     },
