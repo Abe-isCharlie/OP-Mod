@@ -13,7 +13,8 @@
     "rotateSpeed": 1,
     "ammoTypes": {
         "copper":{
-            "damage": 800
+            "damage": 800,
+            "speed": 18
         },
         "coal": {
             "damage": 900,
