@@ -1,0 +1,45 @@
+{
+    "type": "itemTurret",
+    "name": "Death",
+    "description": "WIP",
+    "targetAir": true,
+    "targetGround": true,
+    "category": "turret",
+    "research": "scatter",
+    "health": 1000,
+    "reloadTime": 1800,
+    "recoilAmount": 12,
+    "size": 1,
+    "range": 360,
+    "rotateSpeed": 1,
+    "ammoTypes": {
+        "copper":{
+            "damage": 800,
+            "speed": 30
+        },
+        "coal": {
+            "damage": 900,
+            "speed": 30,
+            "status": "burning"
+
+        },
+        "scrap": {
+            "damage": 500,
+            "speed": 30
+        },
+        "sand": {
+            "damage": 100,
+            "speed": 30,
+            "status": "sapped"
+        }
+    },
+    "requirements": [{
+            "item": "lead",
+            "amount": 5
+        },
+        {
+            "item": "copper",
+            "amount": 70
+        }
+    ]
+}
