@@ -10,7 +10,7 @@
   ],
   "category": "distribution",
   "buildCostMultiplier": 0.5,
-  "speed": 0.16,
+  "speed": 0.17,
   "displayedSpeed": 21,
   "research": "conveyor"
 }
