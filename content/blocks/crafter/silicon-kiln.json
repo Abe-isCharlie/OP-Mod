@@ -35,7 +35,7 @@
         }
     },
     "category": "crafting",
-    "research": "silcon-smelter",
+    "research": "silicon-smelter",
     "outputItem": {
         "item": "silicon",
         "amount": 5
