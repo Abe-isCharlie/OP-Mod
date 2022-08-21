@@ -1,7 +1,7 @@
 {
     "type": "GenericCrafter",
     "name": "Silicon Kiln",
-    "description": "",
+    "description": "Upgraded version of Silicon Smelter",
     "size": 2,
     "health": 300,
     "hasLiquid": true,
