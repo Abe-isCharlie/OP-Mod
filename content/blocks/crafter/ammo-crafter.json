@@ -13,11 +13,11 @@
         "items": {
             "items": [{
                     "item": "silicon",
-                    "amount": 10
+                    "amount": 5
                 },
                 {
                     "item": "lead",
-                    "amount": 15
+                    "amount": 8
                 }
             ]
         }

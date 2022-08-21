@@ -5,12 +5,12 @@
   "health": 300,
   "requirements": [{
       "item": "copper",
-      "amount": 3
+      "amount": 2
     }
   ],
   "category": "distribution",
   "buildCostMultiplier": 0.5,
-  "speed": 0.15,
+  "speed": 0.16,
   "displayedSpeed": 21,
   "research": "conveyor"
 }
