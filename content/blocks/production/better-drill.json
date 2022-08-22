@@ -21,6 +21,6 @@
     ],
     "research": {
         "block": "pneumatic-drill",
-        "parent": "mechanical-drill"
+        "parent": "mini-drill"
     }
 }

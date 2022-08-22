@@ -5,7 +5,7 @@
     "cost": 1.5,
     "research": {
         "item": "metaglass",
-        "parent": "scrap"
+        "parent": "water"
     },
     "status": "freeze"
 }
