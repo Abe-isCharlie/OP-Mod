@@ -1,3 +1,4 @@
+/*
 {
     "type": "itemTurret",
     "name": "Sniper",
@@ -7,7 +8,7 @@
     "hasLiquid": false,
     "liquidCapacity": 0,
     "category": "turret",
-    "research": "turret",
+    "research": "lancer",
     "health": 2050,
     "reloadTime": 360,
     "recoilAmount": 12,
@@ -51,3 +52,4 @@
         }
     ]
 }
+*/
