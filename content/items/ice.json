@@ -3,6 +3,9 @@
     "description": "A ice cube that can be used as ammo to freeze enemies.",
     "color": "dcdde3",
     "cost": 1.5,
-    "research": "thorium",
+    "research": {
+        "item": "metaglass",
+        "parent": "scrap"
+    },
     "status": "freeze"
 }
