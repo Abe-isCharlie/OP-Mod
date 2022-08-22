@@ -1,0 +1,24 @@
+{
+    "type": "drill",
+    "name": "Better Drill",
+    "description": "A better drill.",
+    "drawMineItem": true,
+    "liquidBoostIntensity": 1.6,
+    "rotateSpeed": 1.01,
+    "size": 2,
+    "tier": 4,
+    "drillTime": 85,
+    "category": "production",
+    "requirements": [
+        {
+            "item": "copper",
+            "amount": 8
+        },
+        {
+            "item": "lead",
+            "amount": 12
+        }
+    ],
+    "research": "pneumatic-drill",
+    "parent": "mechanical-drill"
+}
