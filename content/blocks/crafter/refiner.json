@@ -1,0 +1,59 @@
+{
+    "type": "separator",
+    "name": "Refiner",
+    "description": "Refines Copper and Scrap on heat liquid to make Silicon and Titanium.",
+    "health": 500,
+    "size": 2,
+    "hasItems": true,
+    "hasLiquids": true,
+    "hasPower": true,
+    "liquidCapacity": 0.6,
+    "requirements": [
+        {
+            "item": "copper",
+            "amount": 100
+        },
+        {
+            "item": "lead",
+            "amount": 50
+        },
+        {
+            "item": "titanium",
+            "amount": 50
+        }
+    ],
+    "consumes": {
+        "power": 1.13,
+        "items": {
+            "items": [
+                {
+                    "item": "copper",
+                    "amount": 4
+                },
+                {
+                    "item": "scrap",
+                    "amount": 6
+                }
+            ]
+        },
+        "liquid": {
+            "liquid": "slag",
+            "amount": 0.7
+        }
+    },
+    "outputItems": [
+        {
+            "item": "titanium",
+            "amount": 8
+        },
+        {
+            "item": "silicon",
+            "amount": 3
+        }
+    ],
+    "category": "crafting",
+    "research": {
+        "block": "separator",
+        "parent": "melter"
+    }
+}

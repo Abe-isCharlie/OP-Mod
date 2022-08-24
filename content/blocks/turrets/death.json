@@ -6,14 +6,17 @@
     "targetAir": true,
     "targetGround": true,
     "category": "turret",
-    "research": "scatter",
+    "research": {
+        "block": "scatter",
+        "parent": "duo"
+    },
     "health": 500,
     "reload": 2,
     "size": 1,
-    "range": 300,
+    "range": 340,
     "rotateSpeed": 5,
     "ammoTypes": {
-        "copper":{
+        "copper": {
             "damage": 80,
             "speed": 10
         },
@@ -32,7 +35,8 @@
             "speed": 10
         }
     },
-    "requirements": [{
+    "requirements": [
+        {
             "item": "lead",
             "amount": 5
         },
