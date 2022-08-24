@@ -2,14 +2,14 @@
     "type": "separator",
     "name": "Refinery",
     "description": "Refines Copper and Scrap on heat liquid to make Silicon and Titanium.",
-    "health": 500,
+    "health": 350,
     "size": 2,
     "hasItems": true,
     "hasLiquids": true,
     "hasPower": true,
-    "craftTime": 65,
+    "craftTime": 60,
     "liquidCapacity": 112,
-    "itemCapacity": 50,
+    "itemCapacity": 15,
     "requirements": [
         {
             "item": "copper",
@@ -30,18 +30,17 @@
             "items": [
                 {
                     "item": "copper",
-                    "amount": 4
+                    "amount": 2
                 },
                 {
                     "item": "scrap",
-                    "amount": 6
+                    "amount": 3
                 }
             ]
         },
         "liquid": {
             "liquid": "slag",
-            "amount": 0.7,
-            "optional": false
+            "amount": 1.2
         }
     },
     "results": [
