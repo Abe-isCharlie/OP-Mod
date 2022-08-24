@@ -1,6 +1,6 @@
 {
     "type": "itemTurret",
-    "inaccuracy": 3,
+    "inaccuracy": 1,
     "name": "Death",
     "description": "WIP",
     "targetAir": true,
@@ -11,28 +11,28 @@
         "parent": "duo"
     },
     "health": 500,
-    "reload": 2,
+    "reload": 2.2,
     "size": 1,
-    "range": 448,
-    "rotateSpeed": 5,
+    "range": 800,
+    "rotateSpeed": 7,
     "ammoTypes": {
         "copper": {
             "damage": 80,
-            "speed": 10
+            "speed": 15
         },
         "coal": {
             "damage": 50,
             "status": "burning",
-            "speed": 10
+            "speed": 15
         },
         "scrap": {
             "damage": 29,
-            "speed": 10
+            "speed": 15
         },
         "sand": {
             "damage": 25,
             "status": "sapped",
-            "speed": 10
+            "speed": 15
         }
     },
     "requirements": [
