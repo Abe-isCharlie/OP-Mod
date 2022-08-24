@@ -1,7 +1,7 @@
 {
     "type": "separator",
     "name": "Refinery",
-    "description": "Refines Copper and Scrap on heat liquid to make Silicon and Titanium.",
+    "description": "Refines Copper and Scrap on heat liquid to make Silicon and Titanium. If you are lucky, you can earn Thorium and Plastanium.",
     "health": 350,
     "size": 2,
     "hasItems": true,
@@ -25,7 +25,7 @@
         }
     ],
     "consumes": {
-        "power": 1.0008,
+        "power": 1.00000000000000000000002,
         "items": {
             "items": [
                 {
@@ -40,13 +40,13 @@
         },
         "liquid": {
             "liquid": "slag",
-            "amount": 1.2
+            "amount": 0.12
         }
     },
     "results": [
-        "titanium/500",
-        "silicon/500",
-        "thorium/150",
+        "titanium/800",
+        "silicon/650",
+        "thorium/5",
         "plastanium/1"
 
     ],

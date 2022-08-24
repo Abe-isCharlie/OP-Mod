@@ -8,7 +8,7 @@ This mod add new stupid blocks or upgraded(_sometimes op_) version of vanilla bl
 
 ## Changelog
 
-- Actual version: **0.5**
+- Actual version: **0.6**
 
 See that shit [here](Changelog.md)
 
