@@ -25,7 +25,7 @@
         }
     ],
     "consumes": {
-        "power": 1.00000000000000000000002,
+        "power": 1.068,
         "items": {
             "items": [
                 {
@@ -40,14 +40,14 @@
         },
         "liquid": {
             "liquid": "slag",
-            "amount": 0.12
+            "amount": 0.25
         }
     },
     "results": [
         "titanium/800",
         "silicon/650",
-        "thorium/5",
-        "plastanium/1"
+        "thorium/50",
+        "plastanium/5"
 
     ],
     "category": "crafting",
