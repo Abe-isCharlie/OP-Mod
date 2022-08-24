@@ -7,7 +7,7 @@
     "hasItems": true,
     "hasLiquids": true,
     "hasPower": true,
-    "craftTime": 60,
+    "craftTime": 17,
     "liquidCapacity": 112,
     "itemCapacity": 15,
     "requirements": [
@@ -44,8 +44,11 @@
         }
     },
     "results": [
-        "titanium/5",
-        "silicon/3"
+        "titanium/500",
+        "silicon/500",
+        "thorium/150",
+        "plastanium/1"
+
     ],
     "category": "crafting",
     "research": {
