@@ -4,12 +4,13 @@
     "description": "A stack conveyor. Carry less items than Plastanium Conveyor, but is faster.",
     "health": 150,
     "category": "distribution",
-    "speed": 0.22,
+    "speed": 0.1,
     "displayedSpeed": 30,
     "hasItems": true,
-    "itemCapacity": 7,
+    "itemCapacity": 6,
     "requirements": [{
         "item": "lead",
-        "amount": 1
+        "amount": 2
+        }
     }]
 }
