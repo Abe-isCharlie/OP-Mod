@@ -44,12 +44,8 @@
         }
     },
     "results": [
-        {
-            "item": "silicon"
-        },
-        {
-            "item": "titanium"
-        }
+        "titanium/5",
+        "silicon/3"
     ],
     "category": "crafting",
     "research": {
