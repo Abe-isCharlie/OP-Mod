@@ -8,7 +8,7 @@
     "hasLiquids": true,
     "hasPower": true,
     "craftTime": 65,
-    "liquidCapacity": 1,
+    "liquidCapacity": 112,
     "itemCapacity": 50,
     "requirements": [
         {
@@ -25,7 +25,7 @@
         }
     ],
     "consumes": {
-        "power": 1.13,
+        "power": 1.0008,
         "items": {
             "items": [
                 {
@@ -45,8 +45,8 @@
         }
     },
     "results": [
-        "silicon/5",
-        "titanium/10"
+        "silicon",
+        "titanium"
     ],
     "category": "crafting",
     "research": {
