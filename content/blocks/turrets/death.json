@@ -13,7 +13,7 @@
     "health": 500,
     "reload": 2.2,
     "size": 1,
-    "range": 800,
+    "range": 640,
     "rotateSpeed": 7,
     "ammoTypes": {
         "copper": {
