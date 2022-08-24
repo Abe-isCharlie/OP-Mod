@@ -7,5 +7,9 @@
     "speed": 0.22,
     "displayedSpeed": 30,
     "hasItems": true,
-    "itemCapacity": 7
+    "itemCapacity": 7,
+    "requirements": [{
+        "item": "lead",
+        "amount": 1
+    }]
 }
