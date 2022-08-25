@@ -6,9 +6,10 @@
     "health": 280,
     "hasItems": true,
     "itemCapacity": 15,
-    "craftTime": 40,
+    "craftTime": 45,
     "updateEffect": "coalSmeltsmoke",
-    "requirements": [{
+    "requirements": [
+        {
             "item": "copper",
             "amount": 130
         },
@@ -19,14 +20,19 @@
     ],
     "consumes": {
         "items": {
-            "items": [{
-                "item": "coal",
-                "amount": 3
-            }]
+            "items": [
+                {
+                    "item": "coal",
+                    "amount": 3
+                }
+            ]
         }
     },
     "category": "crafting",
-    "research": "graphite-press",
+    "research": {
+        "block": "kiln",
+        "parent": "graphite-press"
+    },
     "outputItem": {
         "item": "graphite",
         "amount": 4

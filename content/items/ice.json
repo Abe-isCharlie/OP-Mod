@@ -6,6 +6,5 @@
     "research": {
         "item": "metaglass",
         "parent": "water"
-    },
-    "status": "freeze"
+    }
 }
