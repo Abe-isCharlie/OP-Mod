@@ -1,0 +1,48 @@
+{
+    "type": "GenericCrafter",
+    "name": "Phase Misturator",
+    "description": "Uses Enriched Thorium to make more Phase Fabric using less sand.",
+    "health": 300,
+    "hasItems": true,
+    "hasPower": true,
+    "itemCapacity": 5,
+    "craftTime": 65,
+    "category": "crafting",
+    "consumes": {
+        "power": 1.8,
+        "items": {
+            "items": [
+                {
+                    "item": "enriched-thorium",
+                    "amount": 1
+                },
+                {
+                    "item": "sand",
+                    "amount": 3
+                }
+            ]
+        }
+    },
+    "outputItem": {
+        "item": "phase-fabric",
+        "amount": 2
+    },
+    "requirements": [
+        {
+            "item": "thorium",
+            "amount": 100
+        },
+        {
+            "item": "lead",
+            "amount": 200
+        },
+        {
+            "item": "silicon",
+            "amount": 150
+        }
+    ],
+    "research": {
+        "item": "thorium",
+        "parent": "pulverizer"
+    }
+}
