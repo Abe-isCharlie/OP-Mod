@@ -1,6 +1,6 @@
 # OP Mod
 
-It's a [Mindustry](https://github.com/Anuken/Mindustry/) mod.
+It's a [Mindustry](hhttps://mindustrygame.github.io) mod.
 
 ~~That Means Oh Phuck Mod, because yes.~~
 
