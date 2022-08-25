@@ -1,0 +1,41 @@
+{
+    "type": "GenericCrafter",
+    "name": "Thorium Enricher",
+    "description": "Increases the concentration of thorium isotopes to enrich it.",
+    "size": 2,
+    "health": 275,
+    "hasItem": true,
+    "hasPower": true,
+    "itemCapacity": 12,
+    "craftTime": 90,
+    "category": "crafting",
+    "consumes": {
+        "power": 2.25,
+        "items": {
+            "items": [
+                {
+                    "item": "thorium",
+                    "amount": 5
+                }
+            ]
+        }
+    },
+    "outputItem": {
+        "item": "enriched-thorium",
+        "amount": 1
+    },
+    "requirements": [
+        {
+            "item": "lead",
+            "amount": 400
+        },
+        {
+            "item": "silicon",
+            "amount": 200
+        }
+    ],
+    "research": {
+        "item": "thorium",
+        "parent": "plastanium-compressor"
+    }
+}
