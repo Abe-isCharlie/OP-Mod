@@ -6,8 +6,8 @@
     "size": 2,
     "hasItems": true,
     "hasPower": true,
-    "itemCapacity": 5,
-    "craftTime": 65,
+    "itemCapacity": 6,
+    "craftTime": 60,
     "category": "crafting",
     "consumes": {
         "power": 1.8,

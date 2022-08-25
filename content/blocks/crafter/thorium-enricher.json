@@ -7,7 +7,7 @@
     "hasItem": true,
     "hasPower": true,
     "itemCapacity": 12,
-    "craftTime": 90,
+    "craftTime": 70,
     "category": "crafting",
     "consumes": {
         "power": 2.25,
