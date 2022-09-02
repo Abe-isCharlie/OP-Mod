@@ -21,6 +21,6 @@
    ],
    "research":{
       "block":"core-shard",
-      "parent":"core-foudation"
+      "parent":"core-foundation"
    }
 }
