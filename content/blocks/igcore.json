@@ -1,0 +1,24 @@
+{
+   "type":"CoreBlock",
+   "health":650,
+   "itemCapacity":18500,
+   "size":5,
+   "category":"effect",
+   "unitType":"gamma",
+   "unitCapModifier":40,
+   "thrusterLength":12.5,
+   "requirements":[
+      {
+         "item":"copper",
+         "amount":500
+      },
+      {
+         "item":"lead",
+         "amount":600
+      }
+   ],
+   "research":{
+      "block":"core-shard",
+      "parent":"core-foudation"
+   }
+}
