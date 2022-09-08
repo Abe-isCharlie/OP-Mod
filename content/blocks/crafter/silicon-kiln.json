@@ -7,6 +7,7 @@
     "hasLiquid": true,
     "hasPower": true,
     "itemCapacity": 10,
+    "region": "top",
     "liquidCapacity": 120,
     "craftTime": 32,
     "requirements": [
