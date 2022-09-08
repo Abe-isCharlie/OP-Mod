@@ -8,14 +8,10 @@
     "itemCapacity": 10,
     "drawer": {
         "type": {
-            "DrawMulti": [
-                {
-                    "DrawFlame": {
-                        "flameColor": "#ffef99",
-                        "top": "silicon-kiln-top"
-                    }
-                }
-            ]
+            "DrawFlame": {
+                "flameColor": "#ffef99",
+                "top": "silicon-kiln-top"
+            }
         }
     },
     "liquidCapacity": 120,
