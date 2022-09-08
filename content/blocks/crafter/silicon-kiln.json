@@ -7,13 +7,10 @@
     "hasPower": true,
     "itemCapacity": 10,
     "drawer": {
-        "type": {
-            "DrawFlame": {
+        "type": "DrawFlame",
                 "flameColor": "#ffef99",
                 "top": "silicon-kiln-top"
-            }
-        }
-    },
+            },
     "liquidCapacity": 120,
     "craftTime": 32,
     "requirements": [
