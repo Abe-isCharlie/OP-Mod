@@ -41,18 +41,5 @@
     "outputItem": {
         "item": "silicon",
         "amount": 4
-    },
-    "drawer": {
-        "type": {
-            "DrawMulti": [
-                {
-                    "type": "DrawDefault"
-                },
-                {
-                    "type": "DrawFlame",
-                    "flameColor": "#ffef99"
-                }
-            ]
-        }
     }
 }
