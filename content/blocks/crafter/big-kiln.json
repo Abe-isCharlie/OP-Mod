@@ -1,5 +1,5 @@
 {
-    "type": "DrawSmelter",
+    "type": "GenericCrafter",
     "name": "Big Kiln",
     "description": "It's a kiln, but bigger. Uses water to cool faster, producing more metaglass.",
     "size": 3,

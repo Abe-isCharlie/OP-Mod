@@ -1,5 +1,5 @@
 {
-    "type": "DrawSmelter",
+    "type": "GenericCrafter",
     "name": "Silicon Kiln",
     "description": "Upgraded version of Silicon Smelter",
     "size": 2,
