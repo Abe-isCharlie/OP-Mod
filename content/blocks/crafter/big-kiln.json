@@ -47,5 +47,15 @@
     "outputItem": {
         "item": "metaglass",
         "amount": 3
-    }
+    },
+    "drawer": [
+        {
+            "type": "DrawDefault"
+        },
+        {
+            "type": "DrawFlame",
+            "flameColor": "#ffcf99",
+            "top": "big-kil-top"
+        }
+    ]
 }
