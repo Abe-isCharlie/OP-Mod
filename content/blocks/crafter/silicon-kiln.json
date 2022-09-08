@@ -44,10 +44,15 @@
     },
     "drawer": {
         "type": {
-            "DrawFlame": {
-                "top": "-top",
-                "flameColor": "#ffef99"
-            }
+            "DrawMulti": [
+                {
+                    "type": "DrawDefault"
+                },
+                {
+                    "type": "DrawFlame",
+                    "flameColor": "#ffef99"
+                }
+            ]
         }
     }
 }
