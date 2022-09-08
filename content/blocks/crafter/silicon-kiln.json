@@ -15,10 +15,7 @@
                 {
                     "type": "DrawFlame",
                     "flameColor": "#ffef99",
-                    "top": {
-                        "region": "-top",
-                        "sprite": "silicon-kiln-top.png"
-                    }
+                    "top": null
                 }
             ]
         }
