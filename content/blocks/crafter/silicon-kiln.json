@@ -10,7 +10,9 @@
         "type": {
             "DrawMulti": [
                 {
-                    "DrawFlame": "silicon-kiln-top"
+                    "DrawFlame": {
+                        "flameColor": "#990000"
+                    }
                 }
             ]
         }
