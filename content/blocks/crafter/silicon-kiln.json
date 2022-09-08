@@ -7,8 +7,8 @@
     "hasPower": true,
     "itemCapacity": 10,
     "drawer": {
-        "DrawMulti": {
-            "DrawMulti": [
+        "DrawDefault": {
+            "DrawDefault": [
                 {
                     "DrawRegion": "-top"
                 }
