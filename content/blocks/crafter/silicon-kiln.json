@@ -6,15 +6,6 @@
     "health": 300,
     "hasPower": true,
     "itemCapacity": 10,
-    "drawer": {
-        "type": {
-            "DrawMulti": [
-                {
-                    "DrawFlame" : "#ffef99"
-                }
-            ]
-        }
-    },
     "liquidCapacity": 120,
     "craftTime": 32,
     "requirements": [
@@ -50,5 +41,13 @@
     "outputItem": {
         "item": "silicon",
         "amount": 4
+    },
+    "drawer": {
+        "type": {
+            "DrawFlame": {
+                "top": "-top",
+                "flameColor": "#ffef99"
+            }
+        }
     }
 }
