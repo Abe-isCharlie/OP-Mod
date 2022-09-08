@@ -8,47 +8,43 @@
     "itemCapacity": 10,
     "drawer": {
         "DrawDefault": {
-            "DrawDefault": [
+            "DrawRegion": "-top"
+        }
+    },
+    "liquidCapacity": 120,
+    "craftTime": 32,
+    "requirements": [
+        {
+            "item": "copper",
+            "amount": 60
+        },
+        {
+            "item": "lead",
+            "amount": 50
+        }
+    ],
+    "consumes": {
+        "power": 0.7,
+        "items": {
+            "items": [
                 {
-                    "DrawRegion": "-top"
+                    "item": "coal",
+                    "amount": 3
+                },
+                {
+                    "item": "sand",
+                    "amount": 4
                 }
             ]
-        },
-        "liquidCapacity": 120,
-        "craftTime": 32,
-        "requirements": [
-            {
-                "item": "copper",
-                "amount": 60
-            },
-            {
-                "item": "lead",
-                "amount": 50
-            }
-        ],
-        "consumes": {
-            "power": 0.7,
-            "items": {
-                "items": [
-                    {
-                        "item": "coal",
-                        "amount": 3
-                    },
-                    {
-                        "item": "sand",
-                        "amount": 4
-                    }
-                ]
-            }
-        },
-        "category": "crafting",
-        "research": {
-            "block": "silicon-smelter",
-            "parent": "big-kiln"
-        },
-        "outputItem": {
-            "item": "silicon",
-            "amount": 4
         }
+    },
+    "category": "crafting",
+    "research": {
+        "block": "silicon-smelter",
+        "parent": "big-kiln"
+    },
+    "outputItem": {
+        "item": "silicon",
+        "amount": 4
     }
 }
