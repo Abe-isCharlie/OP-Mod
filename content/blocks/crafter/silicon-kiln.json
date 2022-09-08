@@ -41,10 +41,5 @@
     "outputItem": {
         "item": "silicon",
         "amount": 4
-    },
-    "drawer": {
-        "type": {
-            "DrawRegion": "-top"
-        }
     }
 }

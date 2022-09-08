@@ -19,23 +19,24 @@
     "maxAmmo": 50,
     "ammoTypes": {
         "copper": {
-            "damage": 80,
-            "speed": 17,
-            "pierce": true
+            "damage": 38,
+            "speed": 16,
+            "pierce": true,
+            "ammoMultiplier":4
         },
         "coal": {
-            "damage": 50,
+            "damage": 25,
             "status": "burning",
-            "speed": 17
+            "speed": 16
         },
         "scrap": {
-            "damage": 29,
-            "speed": 17
+            "damage": 19,
+            "speed": 16
         },
         "sand": {
-            "damage": 25,
+            "damage": 12,
             "status": "sapped",
-            "speed": 17
+            "speed": 16
         }
     },
     "requirements": [
