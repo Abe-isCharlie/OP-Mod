@@ -6,7 +6,13 @@
     "health": 300,
     "hasPower": true,
     "itemCapacity": 10,
-    "DrawRegion": "-top",
+    "drawer": {
+        "DrawMulti": [
+            {
+                "DrawRegion": "-top"
+            }
+        ]
+    },
     "liquidCapacity": 120,
     "craftTime": 32,
     "requirements": [
