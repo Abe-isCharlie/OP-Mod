@@ -8,7 +8,7 @@
     "itemCapacity": 10,
     "drawer": {
         "type": "DrawRegion",
-        "TextureRegion": {
+        "region": {
             "region": "-top"
         }
     },
