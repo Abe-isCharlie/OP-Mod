@@ -9,7 +9,10 @@
     "drawer": {
         "type": "DrawFlame",
                 "flameColor": "#ffef99",
-                "top": "silicon-kiln-top.png"
+                "top": {
+                    "region": "-top",
+                    "sprite": "silicon-kil-top.png"
+                }
             },
     "liquidCapacity": 120,
     "craftTime": 32,
