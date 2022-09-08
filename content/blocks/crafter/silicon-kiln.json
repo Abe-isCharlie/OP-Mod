@@ -49,7 +49,7 @@
                     "DrawDefault": ""
                 },
                 {
-                    "DrawrRegion": "-top"
+                    "DrawRegion": "-top"
                 }
             ]
         }
