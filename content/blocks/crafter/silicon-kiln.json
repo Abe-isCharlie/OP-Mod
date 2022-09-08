@@ -10,7 +10,7 @@
         "type": {
             "DrawMulti": [
                 {
-                    "DrawDefault": null
+                    "DrawDefault": ""
                 },
                 {
                     "DrawFlame": {
