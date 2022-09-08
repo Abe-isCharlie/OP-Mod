@@ -11,7 +11,8 @@
             "DrawMulti": [
                 {
                     "DrawFlame": {
-                        "flameColor": "#990000"
+                        "flameColor": "#ffef99",
+                        "top": "silicon-kiln-top"
                     }
                 }
             ]
