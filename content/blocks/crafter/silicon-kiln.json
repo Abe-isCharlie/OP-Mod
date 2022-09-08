@@ -9,7 +9,7 @@
     "itemCapacity": 10,
     "drawer": {
         "DrawFlame": {
-            "flameColor": "#ffef99"
+            "color": "#ffef99"
         }
     },
     "liquidCapacity": 120,
