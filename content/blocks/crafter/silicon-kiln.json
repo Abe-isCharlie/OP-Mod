@@ -8,9 +8,7 @@
     "hasPower": true,
     "itemCapacity": 10,
     "drawer": {
-        "drawFlame": {
-            "color": "#ffef99"
-        }
+        "textureRegion": "top"
     },
     "liquidCapacity": 120,
     "craftTime": 32,
