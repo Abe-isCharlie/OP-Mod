@@ -41,5 +41,17 @@
     "outputItem": {
         "item": "silicon",
         "amount": 4
+    },
+    "drawer": {
+        "type": {
+            "DrawMulti": [
+                {
+                    "DrawDefault": ""
+                },
+                {
+                    "DrawrRegion": "-top"
+                }
+            ]
+        }
     }
 }
