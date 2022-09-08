@@ -8,6 +8,8 @@
     "itemCapacity": 10,
     "liquidCapacity": 120,
     "craftTime": 32,
+    "updateEffect": "smeltSmoke",
+    "updateEffectChance": 0.15,
     "requirements": [
         {
             "item": "copper",
