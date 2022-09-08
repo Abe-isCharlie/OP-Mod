@@ -9,7 +9,7 @@
     "drawer": {
         "type": "DrawRegion",
         "region": {
-            "region": "-top"
+            "region": "top"
         }
     },
     "liquidCapacity": 120,
