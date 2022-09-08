@@ -54,8 +54,7 @@
         },
         {
             "type": "DrawFlame",
-            "flameColor": "#ffcf99",
-            "top": "big-kiln-top"
+            "flameColor": "#ffcf99"
         }
     ]
 }

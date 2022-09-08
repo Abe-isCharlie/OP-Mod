@@ -45,5 +45,17 @@
     "research": {
         "item": "enriched-thorium",
         "parent": "thorium-enricher"
-    }
+    },
+    "drawer": [
+        {
+            "type": "DrawRegion",
+            "suffix": "-bottom"
+        },
+        {
+            "type": "DrawWeave"
+        },
+        {
+            "type": "DrawDefault"
+        }
+    ]
 }
