@@ -8,7 +8,9 @@
     "itemCapacity": 10,
     "drawer": {
         "type": "DrawRegion",
-        "sprite": "silicon-kiln-top"
+        "TextureRegion": {
+            "region": "-top"
+        }
     },
     "liquidCapacity": 120,
     "craftTime": 32,
