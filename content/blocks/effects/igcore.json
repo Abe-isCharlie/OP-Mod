@@ -1,0 +1,26 @@
+{
+   "type": "CoreBlock",
+   "name": "IG Core",
+   "description": "A large capacity core, but due to the fragility of its materials, it has less health and armor.",
+   "health": 650,
+   "itemCapacity": 18500,
+   "size": 5,
+   "category": "effect",
+   "unitType": "gamma",
+   "unitCapModifier": 40,
+   "thrusterLength": 12.5,
+   "requirements": [
+      {
+         "item": "copper",
+         "amount": 500
+      },
+      {
+         "item": "lead",
+         "amount": 600
+      }
+   ],
+   "research": {
+      "block": "core-shard",
+      "parent": "core-foundation"
+   }
+}
