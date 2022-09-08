@@ -1,6 +1,6 @@
 {
     "type": "itemTurret",
-    "inaccuracy": 0.1,
+    "inaccuracy": 0.5,
     "name": "Death",
     "description": "WIP",
     "targetAir": true,
