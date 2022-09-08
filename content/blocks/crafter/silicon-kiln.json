@@ -4,10 +4,13 @@
     "description": "Upgraded version of Silicon Smelter",
     "size": 2,
     "health": 300,
-    "hasLiquid": true,
     "hasPower": true,
     "itemCapacity": 10,
-    "drawer": "DrawRegion",
+    "drawer": {
+        "DrawBlock": {
+            "DrawRegion": "-top"
+        }
+    },
     "liquidCapacity": 120,
     "craftTime": 32,
     "requirements": [
