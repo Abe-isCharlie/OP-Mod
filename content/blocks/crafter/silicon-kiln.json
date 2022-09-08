@@ -8,7 +8,7 @@
     "hasPower": true,
     "itemCapacity": 10,
     "drawer": {
-        "DrawFlame": {
+        "drawFlame": {
             "color": "#ffef99"
         }
     },
