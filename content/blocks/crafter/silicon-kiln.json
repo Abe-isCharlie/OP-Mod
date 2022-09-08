@@ -8,9 +8,7 @@
     "itemCapacity": 10,
     "drawer": {
         "type": "DrawRegion",
-        "region": {
-            "region": "top"
-        }
+        "Region": "-top"
     },
     "liquidCapacity": 120,
     "craftTime": 32,
