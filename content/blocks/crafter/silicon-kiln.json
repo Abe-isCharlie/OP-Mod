@@ -10,53 +10,53 @@
         "type": {
             "DrawMulti": [
                 {
+                    "type": "DrawDefault"
+                },
+                {
                     "type": "DrawFlame",
                     "flameColor": "#ffef99",
                     "top": {
                         "region": "-top",
-                        "sprite": "silicon-kil-top.png"
+                        "sprite": "silicon-kiln-top.png"
                     }
-                },
-                {
-                    "type": "DrawDefault"
                 }
             ]
         }
     },
-        "liquidCapacity": 120,
-        "craftTime": 32,
-        "requirements": [
-            {
-                "item": "copper",
-                "amount": 60
-            },
-            {
-                "item": "lead",
-                "amount": 50
-            }
-        ],
-        "consumes": {
-            "power": 0.7,
-            "items": {
-                "items": [
-                    {
-                        "item": "coal",
-                        "amount": 3
-                    },
-                    {
-                        "item": "sand",
-                        "amount": 4
-                    }
-                ]
-            }
+    "liquidCapacity": 120,
+    "craftTime": 32,
+    "requirements": [
+        {
+            "item": "copper",
+            "amount": 60
         },
-        "category": "crafting",
-        "research": {
-            "block": "silicon-smelter",
-            "parent": "big-kiln"
-        },
-        "outputItem": {
-            "item": "silicon",
-            "amount": 4
+        {
+            "item": "lead",
+            "amount": 50
         }
+    ],
+    "consumes": {
+        "power": 0.7,
+        "items": {
+            "items": [
+                {
+                    "item": "coal",
+                    "amount": 3
+                },
+                {
+                    "item": "sand",
+                    "amount": 4
+                }
+            ]
+        }
+    },
+    "category": "crafting",
+    "research": {
+        "block": "silicon-smelter",
+        "parent": "big-kiln"
+    },
+    "outputItem": {
+        "item": "silicon",
+        "amount": 4
     }
+}
