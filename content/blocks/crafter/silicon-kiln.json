@@ -7,8 +7,16 @@
     "hasPower": true,
     "itemCapacity": 10,
     "drawer": {
-        "type": "DrawFlame",
-        "flameColor": "#ffef99"
+        "type": {
+            "DrawMulti": [
+                {
+                    "DrawFlame": {
+                        "flameColor": "#ffef99"
+                    },
+                    "DrawDefault": ""
+                }
+            ]
+        }
     },
     "liquidCapacity": 120,
     "craftTime": 32,
