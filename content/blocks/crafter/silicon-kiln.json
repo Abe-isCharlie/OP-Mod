@@ -44,16 +44,7 @@
     },
     "drawer": {
         "type": {
-            "type": {
-                "DrawMulti": [
-                    {
-                        "DrawDefault": ""
-                    },
-                    {
-                        "DrawRegion": "-top"
-                    }
-                ]
-            }
+            "DrawRegion": "-top"
         }
     }
 }
