@@ -10,12 +10,12 @@
         "type": {
             "DrawMulti": [
                 {
-                    "DrawDefault": ""
+                    "DrawFlame": {
+                        "flameColor": "#990000"
+                    }
                 },
                 {
-                    "DrawFlame": {
-                        "flameColor": "#ffef99"
-                    }
+                    "DrawDefault": ""
                 }
             ]
         }
