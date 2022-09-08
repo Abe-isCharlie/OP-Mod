@@ -7,7 +7,6 @@
     "hasLiquid": true,
     "hasPower": true,
     "itemCapacity": 10,
-    "flameColor": "ffef99",
     "liquidCapacity": 120,
     "craftTime": 32,
     "requirements": [
