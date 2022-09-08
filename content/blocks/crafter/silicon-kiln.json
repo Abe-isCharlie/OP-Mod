@@ -7,10 +7,7 @@
     "hasLiquid": true,
     "hasPower": true,
     "itemCapacity": 10,
-    "drawer": { 
-        "DrawRegion": "-top"
-
-    },
+    "drawer": "-top",
     "liquidCapacity": 120,
     "craftTime": 32,
     "requirements": [
