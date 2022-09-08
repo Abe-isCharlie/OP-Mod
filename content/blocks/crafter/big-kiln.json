@@ -9,7 +9,7 @@
     "liquidCapacity": 112,
     "craftTime": 64,
     "updateEffect": "smokeCloud",
-    "updateEffectChance": 0.11,
+    "updateEffectChance": 0.004,
     "requirements": [
         {
             "item": "copper",
