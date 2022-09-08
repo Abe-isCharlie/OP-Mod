@@ -8,7 +8,7 @@
     "itemCapacity": 10,
     "drawer": {
         "type": "DrawFlame",
-        "FlameColor": "#ffef99"
+        "flameColor": "#ffef99"
     },
     "liquidCapacity": 120,
     "craftTime": 32,
