@@ -48,7 +48,8 @@
         },
         {
             "type": "DrawFlame",
-            "flameColor": "#ffef99"
+            "flameColor": "#ffef99",
+            "top": "silicon-kiln-top"
         }
     ]
 }
