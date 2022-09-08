@@ -7,10 +7,7 @@
     "hasPower": true,
     "itemCapacity": 10,
     "drawer": {
-        "type": "DrawRegion",
-        "region": {
-            "TextureRegion": "-top"
-        }
+        "type": "DrawRegion"
     },
     "liquidCapacity": 120,
     "craftTime": 32,
