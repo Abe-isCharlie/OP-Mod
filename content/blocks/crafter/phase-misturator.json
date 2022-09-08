@@ -49,7 +49,7 @@
     "drawer": [
         {
             "type": "DrawRegion",
-            "suffix": "-bottom"
+            "suffix": "-bottom5"
         },
         {
             "type": "DrawWeave"
