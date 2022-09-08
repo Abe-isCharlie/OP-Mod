@@ -8,8 +8,8 @@
     "itemCapacity": 10,
     "drawer": {
         "type": "DrawRegion",
-        "region": {
-            "type": "-top"
+        "TextureRegion": {
+            "region": "-top"
         }
     },
     "liquidCapacity": 120,
