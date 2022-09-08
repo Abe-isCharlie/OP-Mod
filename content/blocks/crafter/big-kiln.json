@@ -4,7 +4,6 @@
     "description": "It's a kiln, but bigger. Uses water to cool faster, producing more metaglass.",
     "size": 3,
     "health": 320,
-    "hasLiquid": true,
     "hasPower": true,
     "itemCapacity": 15,
     "liquidCapacity": 112,

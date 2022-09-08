@@ -4,7 +4,6 @@
     "description": "Lowers the temperature to minus degrees to freeze the water and make ice cubes.",
     "size": 2,
     "health": 250,
-    "hasLiquid": true,
     "hasPower": true,
     "itemCapacity": 8,
     "liquidCapacity": 140,
