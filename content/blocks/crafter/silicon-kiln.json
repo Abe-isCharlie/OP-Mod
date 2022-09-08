@@ -44,14 +44,16 @@
     },
     "drawer": {
         "type": {
-            "DrawMulti": [
-                {
-                    "DrawDefault": ""
-                },
-                {
-                    "DrawRegion": "-top"
-                }
-            ]
+            "type": {
+                "DrawMulti": [
+                    {
+                        "DrawDefault": ""
+                    },
+                    {
+                        "DrawRegion": "-top"
+                    }
+                ]
+            }
         }
     }
 }
