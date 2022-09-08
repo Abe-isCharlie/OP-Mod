@@ -7,7 +7,11 @@
     "hasLiquid": true,
     "hasPower": true,
     "itemCapacity": 10,
-    "drawer": "top",
+    "drawer": {
+        "DrawFlame": {
+            "flameColor": "#ffef99"
+        }
+    },
     "liquidCapacity": 120,
     "craftTime": 32,
     "requirements": [
