@@ -12,7 +12,7 @@
     "range": 500,
     "rotateSpeed": 4,
     "maxAmmo": 35,
-    "shots": 2,
+    "shoot": "ShootAlternate",
     "ammoTypes": {
         "silicon": {
             "type": "MissileBulletType",
