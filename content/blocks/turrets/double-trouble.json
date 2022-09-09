@@ -12,13 +12,18 @@
     "range": 500,
     "rotateSpeed": 4,
     "maxAmmo": 35,
-    "shoot": "ShootAlternate",
+    "shoot": {
+        "ShootAlternate": {
+            "barrels": 2,
+            "spread": 8
+        }
+    },
     "ammoTypes": {
         "silicon": {
             "type": "MissileBulletType",
             "lifetime": 60,
             "speed": 13,
-            "damage": 55,
+            "damage": 70,
             "hitEffect": "hitBulletBig",
             "trailColor": "#848884",
             "makeFire": true,
