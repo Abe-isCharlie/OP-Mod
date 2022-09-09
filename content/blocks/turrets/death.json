@@ -22,7 +22,7 @@
             "damage": 38,
             "speed": 16,
             "pierce": true,
-            "ammoMultiplier":4
+            "ammoMultiplier": 4
         },
         "coal": {
             "damage": 25,
@@ -37,16 +37,21 @@
             "damage": 12,
             "status": "sapped",
             "speed": 16
-        }
-    },
-    "requirements": [
-        {
-            "item": "lead",
-            "amount": 5
         },
-        {
-            "item": "copper",
-            "amount": 70
-        }
-    ]
-}
+            "ice": {
+                "damage": 50,
+                "status": "freeze",
+                "speed": 16
+            }
+        },
+        "requirements": [
+            {
+                "item": "lead",
+                "amount": 5
+            },
+            {
+                "item": "copper",
+                "amount": 70
+            }
+        ]
+    }
