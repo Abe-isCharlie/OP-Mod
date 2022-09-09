@@ -12,10 +12,11 @@
     "range": 500,
     "rotateSpeed": 4,
     "maxAmmo": 35,
+    "shootSound": "missileSmall",
     "shoot": {
         "type": "ShootAlternate",
         "barrels": 2,
-        "spread": 8
+        "spread": 5
     },
     "ammoTypes": {
         "silicon": {
@@ -24,12 +25,14 @@
             "speed": 13,
             "damage": 70,
             "hitEffect": "hitBulletBig",
-            "trailColor": "#848884",
+            "trailColor": "#404f3f",
             "makeFire": true,
             "sprite": "missile",
-            "frontColor": "#a19d98",
-            "backColor": "#504d4a",
-            "recoil": 2
+            "frontColor": "#a19a99",
+            "backColor": "#504d4d",
+            "recoil": 2,
+            "width": 7,
+            "height": 9.5
         }
     },
     "requirements": [
