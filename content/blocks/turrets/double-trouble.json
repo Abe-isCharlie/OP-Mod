@@ -12,15 +12,15 @@
     "range": 500,
     "rotateSpeed": 4,
     "maxAmmo": 35,
-    "shoots": 2,
+    "shots": 2,
     "ammoTypes": {
         "silicon": {
-            "BulletType": "MissileBulletType",
+            "type": "MissileBulletType",
             "lifetime": 60,
             "speed": 13,
             "damage": 55,
             "hitEffect": "hitBulletBig",
-            "trailCollor": "#848884",
+            "trailColor": "#848884",
             "makeFire": true,
             "sprite": "missile",
             "frontColor": "#a19d98",
