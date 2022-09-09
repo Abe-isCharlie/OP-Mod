@@ -1,0 +1,49 @@
+{
+    "type": "itemTurret",
+    "inaccuracy": 5,
+    "name": "Double Trouble",
+    "description": "WIP",
+    "targetAir": true,
+    "targetGround": true,
+    "category": "turret",
+    "health": 435,
+    "reload": 60,
+    "size": 2,
+    "range": 500,
+    "rotateSpeed": 4,
+    "maxAmmo": 35,
+    "shoots": 2,
+    "ammoTypes": {
+        "silicon": {
+            "BulletType": "MissileBulletType",
+            "lifetime": 60,
+            "speed": 13,
+            "damage": 55,
+            "hitEffect": "hitBulletBig",
+            "trailCollor": "#848884",
+            "makeFire": true,
+            "sprite": "missile",
+            "frontColor": "#a19d98",
+            "backColor": "#504d4a",
+            "recoil": 2
+        }
+    },
+    "requirements": [
+        {
+            "item": "graphite",
+            "amount": 125
+        },
+        {
+            "item": "copper",
+            "amount": 60
+        },
+        {
+            "item": "lead",
+            "amount": 200
+        }
+    ],
+    "research": {
+        "block": "scorch",
+        "parent": "death"
+    }
+}
