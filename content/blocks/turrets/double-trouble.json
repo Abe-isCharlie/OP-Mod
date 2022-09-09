@@ -13,10 +13,9 @@
     "rotateSpeed": 4,
     "maxAmmo": 35,
     "shoot": {
-        "ShootAlternate": {
-            "barrels": 2,
-            "spread": 8
-        }
+        "type": "ShootAlternate",
+        "barrels": 2,
+        "spread": 8
     },
     "ammoTypes": {
         "silicon": {
