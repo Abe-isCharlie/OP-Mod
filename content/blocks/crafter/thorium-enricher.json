@@ -6,7 +6,7 @@
     "health": 275,
     "hasPower": true,
     "itemCapacity": 12,
-    "craftTime": 70,
+    "craftTime": 48,
     "category": "crafting",
     "consumes": {
         "power": 2.25,

@@ -13,7 +13,7 @@
     "health": 500,
     "reload": 2.5,
     "size": 1,
-    "range": 640,
+    "range": 660,
     "rotateSpeed": 7,
     "ammoPerShot": 1,
     "maxAmmo": 50,
@@ -27,7 +27,8 @@
         "coal": {
             "damage": 25,
             "status": "burning",
-            "speed": 16
+            "speed": 16,
+            "ammoMultiplier": 3
         },
         "scrap": {
             "damage": 19,
@@ -36,22 +37,24 @@
         "sand": {
             "damage": 12,
             "status": "sapped",
-            "speed": 16
+            "speed": 16,
+            "ammoMultiplier": 6
         },
             "ice": {
                 "damage": 50,
                 "status": "freeze",
-                "speed": 16
+                "speed": 16,
+                "ammoMultiplier": 1
             }
         },
         "requirements": [
             {
                 "item": "lead",
-                "amount": 5
+                "amount": 20
             },
             {
                 "item": "copper",
-                "amount": 70
+                "amount": 80
             }
         ]
     }

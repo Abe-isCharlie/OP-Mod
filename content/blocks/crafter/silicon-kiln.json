@@ -9,7 +9,7 @@
     "liquidCapacity": 120,
     "craftTime": 32,
     "updateEffect": "smeltsmoke",
-    "updateEffectChance": 0.045,
+    "updateEffectChance": 0.031,
     "requirements": [
         {
             "item": "copper",
