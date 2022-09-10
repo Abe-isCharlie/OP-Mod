@@ -7,7 +7,7 @@
     "targetGround": true,
     "category": "turret",
     "health": 435,
-    "reload": 42,
+    "reload": 48,
     "size": 2,
     "range": 500,
     "rotateSpeed": 4,
@@ -23,19 +23,20 @@
             "type": "MissileBulletType",
             "hitSize": 10,
             "splashDamage": 22,
+            "splashDamageRadius": 6,
             "lifetime": 60,
             "speed": 13,
             "damage": 80,
             "hitEffect": "hitBulletBig",
             "trailColor": "#404f3f",
             "makeFire": true,
-            "incendAmount": 4,
+            "incendAmount": 2,
             "sprite": "missile",
             "frontColor": "#a19a99",
             "backColor": "#504d4d",
             "recoil": 2,
-            "width": 10,
-            "height": 13
+            "width": 7,
+            "height": 10
         }
     },
     "requirements": [
