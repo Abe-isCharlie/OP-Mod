@@ -16,7 +16,7 @@
     "shoot": {
         "type": "ShootAlternate",
         "barrels": 2,
-        "spread": 5
+        "spread": 4.8
     },
     "ammoTypes": {
         "silicon": {
@@ -28,12 +28,12 @@
             "speed": 13,
             "damage": 80,
             "hitEffect": "hitBulletBig",
-            "trailColor": "#404f3f",
+            "trailColor": "#504f5f99",
             "makeFire": true,
             "incendAmount": 2,
             "sprite": "missile",
-            "frontColor": "#a19a99",
-            "backColor": "#504d4d",
+            "frontColor": "#a19a9999",
+            "backColor": "#504d4d99",
             "recoil": 2,
             "width": 7,
             "height": 10
