@@ -39,22 +39,20 @@
             "width": 7,
             "height": 10
         },
-        {
-            "blast-compound": {
-                "type": "ExplosionBulletType",
-                "hitSize": 24,
-                "splashDamage": 50,
-                "splashDamageRadius": 72,
-                "speed": 8,
-                "lifetime": 120,
-                "damage": 220,
-                "hitEffect": "blastExplosion",
-                "makeFire": true,
-                "incendAmount": 4,
-                "incendSpread": 7,
-                "sprite": "large-bomb",
-                "recoil": 4
-            }
+        "blast-compound": {
+            "type": "ExplosionBulletType",
+            "hitSize": 24,
+            "splashDamage": 50,
+            "splashDamageRadius": 72,
+            "speed": 8,
+            "lifetime": 120,
+            "damage": 220,
+            "hitEffect": "blastExplosion",
+            "makeFire": true,
+            "incendAmount": 4,
+            "incendSpread": 7,
+            "sprite": "large-bomb",
+            "recoil": 4
         }
     },
     "requirements": [
