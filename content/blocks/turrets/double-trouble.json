@@ -40,7 +40,7 @@
             "height": 10
         },
         "blast-compound": {
-            "type": "ExplosionBulletType",
+            "type": "BombBulletType",
             "hitSize": 24,
             "splashDamage": 50,
             "splashDamageRadius": 72,
