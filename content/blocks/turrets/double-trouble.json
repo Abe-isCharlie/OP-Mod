@@ -23,7 +23,7 @@
             "type": "MissileBulletType",
             "hitSize": 10,
             "splashDamage": 22,
-            "splashDamageRadius": 6,
+            "splashDamageRadius": 40,
             "lifetime": 60,
             "speed": 13,
             "damage": 80,
