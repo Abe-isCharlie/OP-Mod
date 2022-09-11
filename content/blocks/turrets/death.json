@@ -40,21 +40,21 @@
             "speed": 16,
             "ammoMultiplier": 6
         },
-            "ice": {
-                "damage": 50,
-                "status": "freeze",
-                "speed": 16,
-                "ammoMultiplier": 1
-            }
+        "ice": {
+            "damage": 50,
+            "status": "freeze",
+            "speed": 16,
+            "ammoMultiplier": 1
+        }
+    },
+    "requirements": [
+        {
+            "item": "lead",
+            "amount": 20
         },
-        "requirements": [
-            {
-                "item": "lead",
-                "amount": 20
-            },
-            {
-                "item": "copper",
-                "amount": 80
-            }
-        ]
-    }
+        {
+            "item": "copper",
+            "amount": 80
+        }
+    ]
+}
