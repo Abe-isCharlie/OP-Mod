@@ -1,4 +1,5 @@
 # OP Mod
+![Logo](icon.png)
 
 It's a [Mindustry](https://mindustrygame.github.io) mod.
 
