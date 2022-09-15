@@ -39,6 +39,21 @@
             "width": 7,
             "height": 10
         },
+        "pyratite": {
+            "type": "MissileBulletType",
+            "hitSize": 16,
+            "splashDamage": 34,
+            "splashDamageRadius": 56,
+            "speed": 8,
+            "lifetime": 120,
+            "damage": 130,
+            "hitEffect": "blastExplosion",
+            "makeFire": true,
+            "incendAmount": 6,
+            "incendSpread": 2,
+            "sprite": "small-bomb",
+            "recoil": 3
+    },
         "blast-compound": {
             "type": "MissileBulletType",
             "hitSize": 24,
@@ -67,6 +82,10 @@
         {
             "item": "lead",
             "amount": 200
+        },
+        {
+            "item": "silicon",
+            "amount": 300
         }
     ],
     "research": {
