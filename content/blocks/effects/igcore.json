@@ -3,7 +3,7 @@
    "name": "IG Core",
    "description": "A large capacity core, but due to the fragility of its materials, it has less health and armor.",
    "health": 650,
-   "itemCapacity": 18500,
+   "itemCapacity": 19500,
    "size": 5,
    "category": "effect",
    "unitType": "gamma",

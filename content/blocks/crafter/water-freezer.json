@@ -1,14 +1,13 @@
 {
     "type": "GenericCrafter",
     "name": "Water Freezer",
-    "description": "Lowers the temperature to minus degrees to freeze the water and make ice cubes.",
+    "description": "Lowers the temperature to minus degrees to freeze water and make ice cubes.",
     "size": 2,
     "health": 250,
     "hasPower": true,
     "itemCapacity": 8,
     "liquidCapacity": 140,
     "craftTime": 157,
-    //"updateEffect": "purify",//
     "requirements": [
         {
             "item": "lead",
@@ -24,11 +23,11 @@
         },
         {
             "item": "metaglass",
-            "amount": 20
+            "amount": 30
         }
     ],
     "consumes": {
-        "power": 1.01,
+        "power": 1.05,
         "liquid": {
             "liquid": "water",
             "amount": 0.6

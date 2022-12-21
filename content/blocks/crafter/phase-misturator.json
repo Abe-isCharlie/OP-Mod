@@ -6,8 +6,8 @@
     "size": 2,
     "hasItems": true,
     "hasPower": true,
-    "itemCapacity": 6,
-    "craftTime": 60,
+    "itemCapacity": 10,
+    "craftTime": 80,
     "category": "crafting",
     "consumes": {
         "power": 1.8,
@@ -19,7 +19,7 @@
                 },
                 {
                     "item": "sand",
-                    "amount": 3
+                    "amount": 2
                 }
             ]
         }
