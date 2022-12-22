@@ -2,7 +2,14 @@
     "type": "LaserTurret",
     "name": "RL Turret",
     "description": "WIP",
+    "category": "turret",
+    "research": {
+        "item": "ruby",
+        "parent": "death"
+    },
     "targetAir": true,
+    "hasPower": true,
+    "hasLiquid": true,
     "targetGround": true,
     "health": 2000,
     "size": 3,
@@ -49,10 +56,5 @@
             "item": "graphite",
             "amount": 100
         }
-    ],
-    "category": "turret",
-    "research": {
-        "item": "ruby",
-        "parent": "death"
-    }
+    ]
 }
