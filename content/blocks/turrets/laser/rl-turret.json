@@ -1,0 +1,42 @@
+{
+    "type": "LaserTurret",
+    "name": "RL Turret",
+    "description": "WIP",
+    "targetAir": true,
+    "targetGround": true,
+    "health": 2000,
+    "size": 3,
+    "range": 640,
+    "shootDuration": 270,
+    "recoil": 4,
+    "rotateSpeed": 1,
+    "reload": 80,
+    "consumes": {
+        "power": 2.5
+    },
+    "shootType": {
+        "type": "ContinuousLaserBulletType",
+        "damage": 750,
+        "width": 640,
+        "status": "melting",
+        "statusDuration": 60,
+        "colors": [
+            "#ec745855",
+            "#ec7458aa",
+            "#a62e39",
+            "#9b111e"
+        ],
+    "pierce": true
+    },
+    "requirements": [
+        "ruby/50",
+        "copper/335",
+        "lead/200",
+        "graphite/300"
+    ],
+    "category": "turret",
+    "research": {
+        "item": "ruby",
+        "parent": "death"
+    }
+}
