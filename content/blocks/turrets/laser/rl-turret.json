@@ -14,6 +14,10 @@
     "consumes": {
         "power": 2.5
     },
+    "drawer": {
+        "type": "drawTurret",
+        "basePrefix": ""
+        },
     "shootType": {
         "type": "ContinuousLaserBulletType",
         "damage": 750,
@@ -29,10 +33,22 @@
     "pierce": true
     },
     "requirements": [
-        "ruby/50",
-        "copper/335",
-        "lead/200",
-        "graphite/300"
+        {
+            "item": "ruby",
+            "amount": 130
+        },
+        {
+            "item": "copper",
+            "amount": 300
+        },
+        {
+            "item": "lead",
+            "amount": 250
+        },
+        {
+            "item": "graphite",
+            "amount": 100
+        }
     ],
     "category": "turret",
     "research": {
