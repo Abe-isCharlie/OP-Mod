@@ -19,9 +19,14 @@
     "rotateSpeed": 1,
     "reload": 80,
     "shootSound": "beam",
-    "loopSound": "beam",
     "consumes": {
-        "power": 2.5
+        "power": 2.5,
+        "liquid": [
+            {
+                "liquid": "water",
+                "amount": 0.5
+            }
+        ]
     },
     "drawer": {
         "type": "drawTurret",
@@ -29,6 +34,7 @@
     },
     "shootType": {
         "type": "ContinuousLaserBulletType",
+        "ammoMultiplier": 1,
         "damage": 750,
         "length": 640,
         "status": "melting",
