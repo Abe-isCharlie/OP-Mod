@@ -18,13 +18,15 @@
     "recoil": 4,
     "rotateSpeed": 1,
     "reload": 80,
+    "shootSound": "beam",
+    "loopSound": "beam",
     "consumes": {
         "power": 2.5
     },
     "drawer": {
         "type": "drawTurret",
         "basePrefix": ""
-        },
+    },
     "shootType": {
         "type": "ContinuousLaserBulletType",
         "damage": 750,
@@ -37,7 +39,7 @@
             "#a62e39",
             "#9b111e"
         ],
-    "pierce": true
+        "pierce": true
     },
     "requirements": [
         {
