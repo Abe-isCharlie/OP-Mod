@@ -1,0 +1,6 @@
+{
+    "type": "OreBlock",
+    "itemDrop": "ruby",
+    "mapColor": "#9b111e",
+    "hasColor": true
+}

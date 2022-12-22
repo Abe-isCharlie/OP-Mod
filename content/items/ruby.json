@@ -1,7 +1,7 @@
 {
     "name": "Ruby",
     "description": "WIP",
-    "color": "#9b111e",
+    "color": "9b111e#",
     "cost": 1.2,
     "hardness": 3
 }
