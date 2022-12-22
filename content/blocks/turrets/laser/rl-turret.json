@@ -20,9 +20,13 @@
     "reload": 80,
     "shootSound": "laserbig",
     "loopSound": "beam",
-    "coolantMultiplier": 0.8,
+    "coolantMultiplier": 1.2,
     "consumes": {
-        "power": 2.5
+        "power": 2.5,
+        "coolant": {
+            "type": "ConsumeCoolant",
+            "amount": 0.4
+        }
     },
     "drawer": {
         "type": "drawTurret",
