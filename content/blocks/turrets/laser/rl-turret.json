@@ -28,7 +28,7 @@
     "shootType": {
         "type": "ContinuousLaserBulletType",
         "damage": 750,
-        "width": 640,
+        "length": 640,
         "status": "melting",
         "statusDuration": 60,
         "colors": [
