@@ -18,15 +18,22 @@
     "recoil": 4,
     "rotateSpeed": 2,
     "reload": 80,
-    "shootSound": "laserBig",
+    "shootSound": "laserbig",
+    "loopSound": "beam",
     "consumes": {
         "power": 2.5,
-        "liquid": 
+        "liquid": [
             {
                 "liquid": "water",
                 "amount": 0.5,
                 "optional": false
+            },
+            {
+                "liquid": "cryofluid",
+                "amount": 0.5,
+                "optional": false
             }
+        ]
     },
     "drawer": {
         "type": "drawTurret",
