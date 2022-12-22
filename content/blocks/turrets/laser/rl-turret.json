@@ -16,9 +16,9 @@
     "range": 640,
     "shootDuration": 270,
     "recoil": 4,
-    "rotateSpeed": 1,
+    "rotateSpeed": 2,
     "reload": 80,
-    "shootSound": "beam",
+    "shootSound": "laserBig",
     "consumes": {
         "power": 2.5,
         "liquid": 
@@ -35,7 +35,7 @@
     "shootType": {
         "type": "ContinuousLaserBulletType",
         "ammoMultiplier": 1,
-        "damage": 750,
+        "damage": 62.5,
         "length": 640,
         "status": "melting",
         "statusDuration": 60,
