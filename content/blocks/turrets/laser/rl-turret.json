@@ -9,7 +9,7 @@
     },
     "targetAir": true,
     "hasPower": true,
-    "hasLiquid": true,
+    "hasLiquids": true,
     "targetGround": true,
     "health": 2000,
     "size": 3,
@@ -20,18 +20,9 @@
     "reload": 80,
     "shootSound": "laserbig",
     "loopSound": "beam",
+    "coolantMultiplier": 0.8,
     "consumes": {
-        "power": 2.5,
-        "coolant": [
-            {
-                "liquid": "water",
-                "optional": false
-            },
-            {
-                "liquid": "cryofluid",
-                "optional": false
-            }
-        ]
+        "power": 2.5
     },
     "drawer": {
         "type": "drawTurret",
