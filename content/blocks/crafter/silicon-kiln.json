@@ -7,7 +7,7 @@
     "hasPower": true,
     "itemCapacity": 10,
     "liquidCapacity": 120,
-    "craftTime": 32,
+    "craftTime": 60,
     "updateEffect": "smeltsmoke",
     "updateEffectChance": 0.031,
     "requirements": [

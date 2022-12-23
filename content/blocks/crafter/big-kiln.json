@@ -7,7 +7,7 @@
     "hasPower": true,
     "itemCapacity": 15,
     "liquidCapacity": 112,
-    "craftTime": 90,
+    "craftTime": 60,
     "updateEffect": "smokeCloud",
     "updateEffectChance": 0.021,
     "requirements": [
