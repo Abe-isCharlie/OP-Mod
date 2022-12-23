@@ -35,7 +35,7 @@
     "shootType": {
         "type": "ContinuousLaserBulletType",
         "ammoMultiplier": 1,
-        "damage": 62.5,
+        "damage": 60,
         "length": 640,
         "status": "melting",
         "statusDuration": 480,

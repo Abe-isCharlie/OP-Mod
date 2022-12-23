@@ -1,7 +1,7 @@
 {
     "type": "StackConveyor",
     "name": "PC Conveyor",
-    "description": "A stack conveyor. Carry less items than Plastanium Conveyor, but is faster.",
+    "description": "A stack conveyor. Carry less items than Plastanium Conveyor, but it is faster.",
     "health": 150,
     "category": "distribution",
     "speed": 0.21,

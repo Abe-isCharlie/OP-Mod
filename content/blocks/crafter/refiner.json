@@ -7,7 +7,7 @@
     "hasItems": true,
     "hasLiquids": true,
     "hasPower": true,
-    "craftTime": 13,
+    "craftTime": 30,
     "liquidCapacity": 112,
     "itemCapacity": 15,
     "requirements": [
@@ -30,11 +30,11 @@
             "items": [
                 {
                     "item": "copper",
-                    "amount": 3
+                    "amount": 2
                 },
                 {
                     "item": "scrap",
-                    "amount": 4
+                    "amount": 3
                 }
             ]
         },

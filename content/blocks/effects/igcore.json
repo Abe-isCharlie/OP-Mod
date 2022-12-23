@@ -8,7 +8,7 @@
    "category": "effect",
    "unitType": "gamma",
    "unitCapModifier": 40,
-   "thrusterLength": 12.5,
+   "thrusterLength": 11,
    "requirements": [
       {
          "item": "copper",

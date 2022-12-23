@@ -15,5 +15,8 @@
             "amount": 3
         }
     ],
-    "research": "mechanical-drill"
+    "research": {
+        "block": "mechanical-drill",
+        "parent": "mechanical-drill"
+    }
 }
