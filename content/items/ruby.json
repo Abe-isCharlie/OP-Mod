@@ -4,7 +4,5 @@
     "color": "#9b111e",
     "cost": 1.2,
     "hardness": 3,
-    "research": {
-        "parent": "titanium"
-    }
+    "research": "titanium"
 }
