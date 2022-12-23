@@ -1,4 +1,5 @@
 # OP Mod
+
 ![Logo](icon.png)
 
 It's a [Mindustry](https://mindustrygame.github.io) mod.
@@ -6,12 +7,6 @@ It's a [Mindustry](https://mindustrygame.github.io) mod.
 ~~That Means Oh Phuck Mod, because yes.~~
 
 This mod add new stupid blocks or upgraded(_~~sometimes op~~_) version of vanilla blocks. This doesn't means it's a hack.
-
-## Changelog
-
-- Actual version: **0.6**
-
-See that shit [here](Changelog.md)
 
 ## CAUTION
 
@@ -21,3 +16,8 @@ This mod contains:
 - Bad english.
 - Bad ideas.
 - What do you want playing this?
+
+### Changelog
+
+- Actual version: **1.0**
+See that shit [here](Changelog.md)
