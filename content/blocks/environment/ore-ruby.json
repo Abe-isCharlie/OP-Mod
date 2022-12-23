@@ -1,0 +1,5 @@
+{
+    "type": "OreBlock",
+    "oreDefault": true,
+    "itemDrop": "ruby"
+}
