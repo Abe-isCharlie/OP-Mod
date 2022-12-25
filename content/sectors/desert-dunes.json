@@ -5,6 +5,7 @@
     "captureWave": 40,
     "difficulty": 6,
     "research": {
-        "capture": "craters"
+        "capture": "craters",
+        "parent": "craters"
     }
 }
