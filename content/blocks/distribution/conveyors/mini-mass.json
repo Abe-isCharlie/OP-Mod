@@ -1,0 +1,27 @@
+{
+    "type": "MassDriver",
+    "name": "Teleporter",
+    "health": 160,
+    "description": "It's just a mass driver, but smaller and act like a teleporter.",
+    "itemCapacity": 100,
+    "reload": 0.2,
+    "range": 1500,
+    "size": 1,
+    "consumes": {
+        "power": 0.2
+    },
+    "requirements": [
+        {
+            "item": "copper",
+            "amount": 75
+        },
+        {
+            "item": "lead",
+            "amount": 50
+        }
+    ],
+    "category": "distribution",
+    "research": {
+        "parent": "distributor",
+        "item": "titanium"
+}
