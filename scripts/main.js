@@ -1,1 +1,1 @@
-require('serpulo', 'tantros')
+require('serpulo')
