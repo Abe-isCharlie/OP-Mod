@@ -3,7 +3,7 @@
     "name": "Smaller Mass Driver",
     "health": 150,
     "description": "It's just a mass driver, but smaller and with a big range.",
-    "itemCapacity": 100,
+    "itemCapacity": 500,
     "reload": 0.5,
     "knockback": 1,
     "range": 3200,
