@@ -6,7 +6,6 @@
     "itemCapacity": 100,
     "reload": 0.5,
     "knockback": 1,
-    "bullet": "basicBulletType",
     "range": 3200,
     "size": 1,
     "consumes": {
