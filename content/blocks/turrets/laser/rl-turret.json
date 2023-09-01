@@ -7,7 +7,7 @@
         "item": "ruby",
         "parent": "death"
     },
-    "targetAir": true,
+    "targetAir": false,
     "hasPower": true,
     "hasLiquids": true,
     "targetGround": true,
@@ -17,7 +17,7 @@
     "shootDuration": 270,
     "recoil": 4,
     "rotateSpeed": 2,
-    "reload": 80,
+    "reload": 60,
     "shootSound": "laserbig",
     "loopSound": "beam",
     "coolantMultiplier": 1.2,
