@@ -11,7 +11,7 @@
         "parent": "duo"
     },
     "health": 500,
-    "reload": 1.7,
+    "reload": 1.9999,
     "size": 1,
     "range": 350,
     "rotateSpeed": 7,
@@ -31,7 +31,7 @@
             "ammoMultiplier": 3
         },
         "scrap": {
-            "damage": 19,
+            "damage": 15,
             "speed": 16
         },
         "sand": {
@@ -41,7 +41,7 @@
             "ammoMultiplier": 6
         },
         "ice": {
-            "damage": 50,
+            "damage": 20,
             "status": "freeze",
             "speed": 16,
             "ammoMultiplier": 1

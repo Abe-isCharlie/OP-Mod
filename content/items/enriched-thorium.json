@@ -1,9 +1,0 @@
-{
-    "name": "Enriched Thorium",
-    "description": "Enriched Thorium, like Enriched Uranium. Usefull to make more phase.",
-    "color": "#d66b98",
-    "cost": 1.8,
-    "research": "thorium",
-    "explosiveness": 0.5,
-    "radioactivity": 1.70
-}
