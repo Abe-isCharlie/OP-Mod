@@ -17,7 +17,7 @@
     "shootDuration": 270,
     "recoil": 4,
     "rotateSpeed": 2,
-    "reload": 60,
+    "reload": 10,
     "shootSound": "laserbig",
     "loopSound": "beam",
     "coolantMultiplier": 1.2,

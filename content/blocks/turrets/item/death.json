@@ -11,7 +11,7 @@
         "parent": "duo"
     },
     "health": 500,
-    "reload": 1.9999,
+    "reload": 2,
     "size": 1,
     "range": 350,
     "rotateSpeed": 7,
