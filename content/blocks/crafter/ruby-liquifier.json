@@ -36,14 +36,8 @@
         "parent": "cryofluid-mixer",
         "objectives": [
             {
-                "research": {
-                    "preset": "cryofluid-mixer"
-                }
-            },
-            {
-                "research": {
-                    "preset": "op-things-ruby"
-                }
+                "type": "research",
+                "preset": "titanium"
             }
         ]
     }
