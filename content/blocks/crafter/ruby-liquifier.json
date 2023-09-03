@@ -37,11 +37,11 @@
         "objectives": [
             {
                 "type": "research",
-                "preset": "cryofluid-mixer"
+                "content": "cryofluid-mixer"
             },
             {
                 "type": "research",
-                "preset": "ruby"
+                "content": "ruby"
             }
         ]
     }
