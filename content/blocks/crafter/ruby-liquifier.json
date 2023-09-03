@@ -36,11 +36,11 @@
         "parent": "cryofluid-mixer",
         "objectives": [
             {
-                "type": "block",
+                "type": "research",
                 "preset": "cryofluid-mixer"
             },
             {
-                "type": "item",
+                "type": "research",
                 "preset": "ruby"
             }
         ]
