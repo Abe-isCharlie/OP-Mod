@@ -11,7 +11,7 @@
     "outputsLiquid": true,
     "itemCapacity": 15,
     "liquidCapacity": 120,
-    "craftTime": 150,
+    "craftTime": 180,
     "consumes": {
         "power": 3.5,
         "items": {
@@ -24,8 +24,8 @@
         }
     },
     "outputLiquid": {
-        "liquid": "water",
-        "amount": 0.7
+        "liquid": "liquid-ruby",
+        "amount": 0.5
     },
     "requirements": [
         "lead/200",
@@ -36,8 +36,7 @@
         "parent": "cryofluid-mixer",
         "objectives": [
             "cryofluid-mixer",
-            "ruby",
-            "unloader"
+            "ruby"
         ]
     }
 }
