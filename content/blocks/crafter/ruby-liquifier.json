@@ -35,20 +35,8 @@
     "research": {
         "parent": "cryofluid-mixer",
         "objectives": [
-            {
-                "research": {
-                    "content": {
-                        "preset": "cryofluid-mixer"
-                    }
-                }
-            },
-            {
-                "research": {
-                    "content": {
-                        "preset": "titanium"
-                    }
-                }
-            }
+            "cryofluid-mixer",
+            "titanium"
         ]
     }
 }
