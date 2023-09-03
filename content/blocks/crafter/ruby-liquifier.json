@@ -37,12 +37,16 @@
         "objectives": [
             {
                 "research": {
-                    "content": "titanium"
+                    "content": {
+                        "preset": "cryofluid-mixer"
+                    }
                 }
             },
             {
                 "research": {
-                    "content": "cryofluid-mixer"
+                    "content": {
+                        "preset": "titanium"
+                    }
                 }
             }
         ]
