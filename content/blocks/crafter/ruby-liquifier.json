@@ -1,0 +1,48 @@
+{
+    "type": "GenericCrafter",
+    "name": "Ruby Blender",
+    "description": "WIP",
+    "category": "crafting",
+    "size": 2,
+    "health": 350,
+    "hasPower": true,
+    "hasItems": true,
+    "hasLiquids": true,
+    "outputsLiquid": true,
+    "itemCapacity": 15,
+    "liquidCapacity": 120,
+    "craftTime": 150,
+    "consumes": {
+        "power": 3.5,
+        "items": {
+            "items": [
+                {
+                    "item": "ruby",
+                    "amount": 5
+                }
+            ]
+        }
+    },
+    "outputLiquid": {
+        "liquid": "liquid-ruby",
+        "amount": 0.7
+    },
+    "requirements": [
+        "lead/200",
+        "titanium/150",
+        "ruby/340"
+    ],
+    "research": {
+        "parent": "cryofluid-mixer",
+        "objectives": [
+            {
+                "type": "block",
+                "preset": "cryofluid-mixer"
+            },
+            {
+                "type": "item",
+                "preset": "ruby"
+            }
+        ]
+    }
+}
