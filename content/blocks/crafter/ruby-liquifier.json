@@ -37,11 +37,10 @@
         "objectives": [
             {
                 "type": "research",
-                "content": "cryofluid-mixer"
-            },
-            {
-                "type": "research",
-                "content": "op-things-ruby"
+                "content": [
+                    "cryofluid-mixer",
+                    "op-things-ruby"
+                ]
             }
         ]
     }
