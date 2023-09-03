@@ -24,7 +24,7 @@
         }
     },
     "outputLiquid": {
-        "liquid": "liquid-ruby",
+        "liquid": "water",
         "amount": 0.7
     },
     "requirements": [
