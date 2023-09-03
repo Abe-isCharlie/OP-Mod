@@ -36,7 +36,8 @@
         "parent": "cryofluid-mixer",
         "objectives": [
             "cryofluid-mixer",
-            "titanium"
+            "ruby",
+            "unloader"
         ]
     }
 }
