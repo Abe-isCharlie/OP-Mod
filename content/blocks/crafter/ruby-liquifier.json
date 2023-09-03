@@ -36,8 +36,10 @@
         "parent": "cryofluid-mixer",
         "objectives": [
             {
-                "type": "research",
-                "content": "cryofluid-mixer"
+                "research": "cryofluid-mixer"
+            },
+            {
+                "research": "op-things-ruby"
             }
         ]
     }
