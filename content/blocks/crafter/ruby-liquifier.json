@@ -37,8 +37,8 @@
         "objectives": [
             {
                 "type": "research",
-                "preset": {
-                    "content": "titanium"
+                "content": {
+                    "preset": "titanium"
                 }
             }
         ]
