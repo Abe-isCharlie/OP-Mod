@@ -5,7 +5,10 @@
     "category": "turret",
     "research": {
         "item": "ruby",
-        "parent": "death"
+        "parent": "death",
+        "objectives": [
+            "liquid-ruby"
+        ]
     },
     "targetAir": false,
     "hasPower": true,
