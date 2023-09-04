@@ -48,13 +48,13 @@
             "type": "DrawDefault"
         },
         {
-            "type": "DrawRegion",
-            "suffix": "-top"
-        },
-        {
             "type": "DrawLiquidRegion",
             "drawLiquid": "liquid-ruby",
             "suffix": "-liquid"
+        },
+        {
+            "type": "DrawRegion",
+            "suffix": "-top"
         }
     ]
 }
