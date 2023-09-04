@@ -39,24 +39,22 @@
             "ruby"
         ]
     },
-    "drawer": {
-        "drawMulti": [
-            {
-                "type": "DrawRegion",
-                "suffix": "-bottom"
-            },
-            {
-                "type": "DrawDefault"
-            },
-            {
-                "type": "DrawRegion",
-                "prefix": "-top"
-            },
-            {
-                "type": "DrawLiquidRegion",
-                "drawLiquid": "liquid-ruby",
-                "suffix": "-liquid"
-            }
-        ]
-    }
+    "drawer": [
+        {
+            "type": "DrawRegion",
+            "suffix": "-bottom"
+        },
+        {
+            "type": "DrawDefault"
+        },
+        {
+            "type": "DrawRegion",
+            "prefix": "-top"
+        },
+        {
+            "type": "DrawLiquidRegion",
+            "drawLiquid": "liquid-ruby",
+            "suffix": "-liquid"
+        }
+    ]
 }
