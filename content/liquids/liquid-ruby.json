@@ -1,6 +1,6 @@
 {
     "name": "Liquid Ruby",
-    "temperature": -1,
+    "temperature": 0,
     "flammability": 0,
     "viscosity": 0.1,
     "heatCapacity": 0,
