@@ -38,5 +38,25 @@
             "cryofluid-mixer",
             "ruby"
         ]
+    },
+    "darwer": {
+        "drawMulti": [
+            {
+                "type": "DrawRegion",
+                "suffix": "-bottom"
+            },
+            {
+                "type": "DrawDefault"
+            },
+            {
+                "type": "DrawRegion",
+                "prefix": "-top"
+            },
+            {
+                "type": "DrawLiquidRegion",
+                "drawLiquid": "liquid-ruby",
+                "suffix": "-liquid"
+            }
+        ]
     }
 }
