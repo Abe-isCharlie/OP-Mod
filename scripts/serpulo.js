@@ -5,6 +5,5 @@ Planets.serpulo.ruleSetter = r => {
     r.waveTeam = Team.crux;
     r.placeRangeCheck = false;
     r.showSpawns = true;
-    r.allowWaveSimulation = true;
     r.deconstructRefundMultiplier = 1
 };
