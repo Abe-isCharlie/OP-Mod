@@ -29,7 +29,7 @@
         "coolant": {
             "type": "liquid-ruby",
             "amount": 0.4,
-            "colantMultiplier": 2.5
+            "coolantMultiplier": 2.5
         }
     },
     "drawer": {
