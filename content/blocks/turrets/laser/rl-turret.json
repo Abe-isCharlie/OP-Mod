@@ -4,10 +4,10 @@
     "description": "WIP",
     "category": "turret",
     "research": {
-        "item": "ruby",
         "parent": "death",
         "objectives": [
-            "liquid-ruby"
+            "liquid-ruby",
+            "ruby"
         ]
     },
     "targetAir": false,

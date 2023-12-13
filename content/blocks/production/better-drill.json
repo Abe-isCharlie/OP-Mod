@@ -3,7 +3,7 @@
     "name": "Better Drill",
     "description": "A better drill.",
     "drawMineItem": true,
-    "liquidBoostIntensity": 2.5,
+    "liquidBoostIntensity": 2.1,
     "rotateSpeed": 1.01,
     "size": 2,
     "tier": 3,
