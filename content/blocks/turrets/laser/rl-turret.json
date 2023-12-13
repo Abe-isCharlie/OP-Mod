@@ -23,7 +23,6 @@
     "reload": 40,
     "shootSound": "laserbig",
     "loopSound": "beam",
-    "coolantMultiplier": 1.2,
     "consumes": {
         "power": 2.5,
         "coolant": {
