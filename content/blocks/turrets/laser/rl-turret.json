@@ -28,7 +28,8 @@
         "power": 2.5,
         "coolant": {
             "type": "liquid-ruby",
-            "amount": 0.4
+            "amount": 0.4,
+            "collantMultiplier": 2.5
         }
     },
     "drawer": {

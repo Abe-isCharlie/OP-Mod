@@ -9,7 +9,7 @@
     "health": 435,
     "reload": 30,
     "size": 2,
-    "range": 500,
+    "range": 640,
     "rotateSpeed": 3,
     "maxAmmo": 35,
     "shootSound": "missileSmall",
