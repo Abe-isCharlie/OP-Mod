@@ -13,6 +13,7 @@
     "targetAir": false,
     "hasPower": true,
     "hasLiquids": true,
+    "liquidCapacity": 0.5,
     "targetGround": true,
     "health": 2000,
     "size": 4,
