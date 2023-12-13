@@ -1,5 +1,5 @@
 Planets.serpulo.allowSectorInvasion = true;
-Planets.serpulo.atmosphereColor = Color.valueOf("#ffffff");
+Planets.serpulo.atmosphereColor = Color.valueOf("#ff9ff9");
 Planets.serpulo.orbitRadius = 7;
 Planets.serpulo.ruleSetter = r => {
     r.waveTeam = Team.crux;
