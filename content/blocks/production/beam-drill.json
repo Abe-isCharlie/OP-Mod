@@ -8,7 +8,7 @@
     "size": 3,
     "tier": 4,
     "itemCapacity": 20,
-    "drillTime": 55,
+    "drillTime": 50,
     "updateEffect": "smokeCloud",
     "drillEffect": "mineHuge",
     "category": "production",
