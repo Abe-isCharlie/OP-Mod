@@ -4,10 +4,10 @@
   "health": 150,
   "description": "It's just a mass driver, but smaller and with a big range.",
   "itemCapacity": 500,
-  "reload": 0.5,
+  "reload": 0.9,
   "knockback": 1,
   "range": 3200,
-  "bulletLifetime": 200,
+  "bulletLifetime": 240,
   "size": 1,
   "consumes": {
     "power": 0.1
