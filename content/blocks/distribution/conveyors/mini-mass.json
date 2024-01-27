@@ -3,15 +3,15 @@
   "name": "Smaller Mass Driver",
   "health": 150,
   "description": "It's just a mass driver, but smaller and with a big range.",
-  "itemCapacity": 500,
-  "reload": 20,
+  "itemCapacity": 250,
+  "reload": 50,
   "shake": 0.5,
   "knockback": 1,
   "range": 3200,
   "bulletLifetime": 240,
   "size": 1,
   "consumes": {
-    "power": 0.1
+    "power": 0.5
   },
   "requirements": [
     {
