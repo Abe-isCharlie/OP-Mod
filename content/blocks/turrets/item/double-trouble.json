@@ -6,6 +6,7 @@
   "targetAir": true,
   "targetGround": true,
   "category": "turret",
+  "outlineRadius": 3,
   "health": 435,
   "reload": 30,
   "size": 2,
