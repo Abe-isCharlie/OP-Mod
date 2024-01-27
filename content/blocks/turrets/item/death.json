@@ -17,6 +17,7 @@
   "rotateSpeed": 7,
   "ammoPerShot": 1,
   "maxAmmo": 50,
+  "outlineRadius": 1,
   "ammoTypes": {
     "copper": {
       "damage": 30,
