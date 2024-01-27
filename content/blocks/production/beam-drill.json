@@ -1,39 +1,36 @@
 {
-    "type": "drill",
-    "name": "Beam Drill",
-    "description": "A laser drill better than of the vanilla.",
-    "drawMineItem": true,
-    "liquidBoostIntensity": 2.7,
-    "rotateSpeed": 1.5,
-    "size": 3,
-    "tier": 4,
-    "itemCapacity": 20,
-    "drillTime": 50,
-    "updateEffect": "smokeCloud",
-    "drillEffect": "mineHuge",
-    "category": "production",
-    "requirements": [
-        {
-            "item": "copper",
-            "amount": 15
-        },
-        {
-            "item": "lead",
-            "amount": 20
-        },
-        {
-            "item": "ruby",
-            "amount": 25
-        }
-    ],
-    "consumes": {
-        "power": 1.4
+  "type": "drill",
+  "name": "Beam Drill",
+  "description": "A laser drill better than of the vanilla.",
+  "drawMineItem": true,
+  "liquidBoostIntensity": 2.7,
+  "rotateSpeed": 1.5,
+  "size": 3,
+  "tier": 4,
+  "itemCapacity": 20,
+  "drillTime": 50,
+  "updateEffect": "smokeCloud",
+  "drillEffect": "mineHuge",
+  "category": "production",
+  "requirements": [
+    {
+      "item": "copper",
+      "amount": 15
     },
-    "research": {
-        "parent": "laser-drill",
-        "objectives": [
-            "ruby",
-            "laser-drill"
-        ]
+    {
+      "item": "lead",
+      "amount": 20
+    },
+    {
+      "item": "ruby",
+      "amount": 25
     }
+  ],
+  "consumes": {
+    "power": 1.4
+  },
+  "research": {
+    "parent": "laser-drill",
+    "objectives": ["ruby", "laser-drill"]
+  }
 }

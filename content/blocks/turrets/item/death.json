@@ -1,60 +1,60 @@
 {
-    "type": "itemTurret",
-    "inaccuracy": 0.5,
-    "name": "Death",
-    "description": "WIP",
-    "targetAir": true,
-    "targetGround": true,
-    "category": "turret",
-    "research": {
-        "block": "scatter",
-        "parent": "duo"
+  "type": "itemTurret",
+  "inaccuracy": 0.5,
+  "name": "Death",
+  "description": "WIP",
+  "targetAir": true,
+  "targetGround": true,
+  "category": "turret",
+  "research": {
+    "block": "scatter",
+    "parent": "duo"
+  },
+  "health": 500,
+  "reload": 2,
+  "size": 1,
+  "range": 350,
+  "rotateSpeed": 7,
+  "ammoPerShot": 1,
+  "maxAmmo": 50,
+  "ammoTypes": {
+    "copper": {
+      "damage": 30,
+      "speed": 16,
+      "pierce": true,
+      "ammoMultiplier": 4
     },
-    "health": 500,
-    "reload": 2,
-    "size": 1,
-    "range": 350,
-    "rotateSpeed": 7,
-    "ammoPerShot": 1,
-    "maxAmmo": 50,
-    "ammoTypes": {
-        "copper": {
-            "damage": 30,
-            "speed": 16,
-            "pierce": true,
-            "ammoMultiplier": 4
-        },
-        "coal": {
-            "damage": 25,
-            "status": "burning",
-            "speed": 16,
-            "ammoMultiplier": 3
-        },
-        "scrap": {
-            "damage": 15,
-            "speed": 16
-        },
-        "sand": {
-            "damage": 12,
-            "status": "sapped",
-            "speed": 16,
-            "ammoMultiplier": 6
-        },
-        "ice": {
-            "damage": 20,
-            "status": "freeze",
-            "speed": 16,
-            "ammoMultiplier": 1
-        }
+    "coal": {
+      "damage": 25,
+      "status": "burning",
+      "speed": 16,
+      "ammoMultiplier": 3
     },
-    "requirements": [
-        {
-            "item": "lead",
-            "amount": 20
-        },
-        {
-            "item": "copper",
-            "amount": 80
-        }
-    ]
+    "scrap": {
+      "damage": 15,
+      "speed": 16
+    },
+    "sand": {
+      "damage": 12,
+      "status": "sapped",
+      "speed": 16,
+      "ammoMultiplier": 6
+    },
+    "ice": {
+      "damage": 20,
+      "status": "freeze",
+      "speed": 16,
+      "ammoMultiplier": 1
+    }
+  },
+  "requirements": [
+    {
+      "item": "lead",
+      "amount": 20
+    },
+    {
+      "item": "copper",
+      "amount": 80
+    }
+  ]
 }

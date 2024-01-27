@@ -1,29 +1,29 @@
 {
-    "type": "MassDriver",
-    "name": "Smaller Mass Driver",
-    "health": 150,
-    "description": "It's just a mass driver, but smaller and with a big range.",
-    "itemCapacity": 500,
-    "reload": 0.3,
-    "knockback": 1,
-    "range": 3200,
-    "size": 1,
-    "consumes": {
-        "power": 0.1
+  "type": "MassDriver",
+  "name": "Smaller Mass Driver",
+  "health": 150,
+  "description": "It's just a mass driver, but smaller and with a big range.",
+  "itemCapacity": 500,
+  "reload": 0.3,
+  "knockback": 1,
+  "range": 3200,
+  "size": 1,
+  "consumes": {
+    "power": 0.1
+  },
+  "requirements": [
+    {
+      "item": "copper",
+      "amount": 100
     },
-    "requirements": [
-        {
-            "item": "copper",
-            "amount": 100
-        },
-        {
-            "item": "lead",
-            "amount": 100
-        }
-    ],
-    "category": "distribution",
-    "research": {
-        "parent": "distributor",
-        "item": "titanium"
+    {
+      "item": "lead",
+      "amount": 100
     }
+  ],
+  "category": "distribution",
+  "research": {
+    "parent": "distributor",
+    "item": "titanium"
+  }
 }

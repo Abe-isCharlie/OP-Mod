@@ -1,42 +1,42 @@
 {
-    "type": "GenericCrafter",
-    "name": "Water Freezer",
-    "description": "Lowers the temperature to minus degrees to freeze water and make ice cubes.",
-    "size": 2,
-    "health": 250,
-    "hasPower": true,
-    "itemCapacity": 8,
-    "liquidCapacity": 140,
-    "craftTime": 157,
-    "requirements": [
-        {
-            "item": "lead",
-            "amount": 50
-        },
-        {
-            "item": "graphite",
-            "amount": 35
-        },
-        {
-            "item": "copper",
-            "amount": 40
-        },
-        {
-            "item": "metaglass",
-            "amount": 30
-        }
-    ],
-    "consumes": {
-        "power": 1.05,
-        "liquid": {
-            "liquid": "water",
-            "amount": 0.6
-        }
+  "type": "GenericCrafter",
+  "name": "Water Freezer",
+  "description": "Lowers the temperature to minus degrees to freeze water and make ice cubes.",
+  "size": 2,
+  "health": 250,
+  "hasPower": true,
+  "itemCapacity": 8,
+  "liquidCapacity": 140,
+  "craftTime": 157,
+  "requirements": [
+    {
+      "item": "lead",
+      "amount": 50
     },
-    "category": "crafting",
-    "research": "cryofluid-mixer",
-    "outputItem": {
-        "item": "ice",
-        "amount": "4"
+    {
+      "item": "graphite",
+      "amount": 35
+    },
+    {
+      "item": "copper",
+      "amount": 40
+    },
+    {
+      "item": "metaglass",
+      "amount": 30
     }
+  ],
+  "consumes": {
+    "power": 1.05,
+    "liquid": {
+      "liquid": "water",
+      "amount": 0.6
+    }
+  },
+  "category": "crafting",
+  "research": "cryofluid-mixer",
+  "outputItem": {
+    "item": "ice",
+    "amount": "4"
+  }
 }

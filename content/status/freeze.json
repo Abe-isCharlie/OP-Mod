@@ -1,18 +1,18 @@
 {
-    "disarm": true,
-    "damage": 0.15,
-    "healthMultiplier": 0.45,
-    "speedMultiplier": 0,
-    "dragMultiplier": 0.015,
-    "effect": {
-        "type": "ParticleEffect",
-        "particles": 1,
-        "length": 0.015,
-        "line": true,
-        "lifetime": 40,
-        "lenFrom": 1,
-        "lenTo": 0,
-        "colorTo": "5fcde4"
-    },
-    "effectChance": 0.015
+  "disarm": true,
+  "damage": 0.15,
+  "healthMultiplier": 0.45,
+  "speedMultiplier": 0,
+  "dragMultiplier": 0.015,
+  "effect": {
+    "type": "ParticleEffect",
+    "particles": 1,
+    "length": 0.015,
+    "line": true,
+    "lifetime": 40,
+    "lenFrom": 1,
+    "lenTo": 0,
+    "colorTo": "#5fcde4"
+  },
+  "effectChance": 0.015
 }

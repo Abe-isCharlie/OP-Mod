@@ -1,60 +1,53 @@
 {
-    "type": "GenericCrafter",
-    "name": "Ruby Blender",
-    "description": "WIP",
-    "category": "crafting",
-    "size": 2,
-    "health": 350,
-    "hasPower": true,
-    "hasItems": true,
-    "hasLiquids": true,
-    "outputsLiquid": true,
-    "itemCapacity": 15,
-    "liquidCapacity": 120,
-    "craftTime": 180,
-    "consumes": {
-        "power": 3.5,
-        "items": {
-            "items": [
-                {
-                    "item": "ruby",
-                    "amount": 5
-                }
-            ]
+  "type": "GenericCrafter",
+  "name": "Ruby Blender",
+  "description": "WIP",
+  "category": "crafting",
+  "size": 2,
+  "health": 350,
+  "hasPower": true,
+  "hasItems": true,
+  "hasLiquids": true,
+  "outputsLiquid": true,
+  "itemCapacity": 15,
+  "liquidCapacity": 120,
+  "craftTime": 180,
+  "consumes": {
+    "power": 3.5,
+    "items": {
+      "items": [
+        {
+          "item": "ruby",
+          "amount": 5
         }
+      ]
+    }
+  },
+  "outputLiquid": {
+    "liquid": "liquid-ruby",
+    "amount": 0.5
+  },
+  "requirements": ["lead/200", "titanium/150", "ruby/340"],
+  "research": {
+    "parent": "cryofluid-mixer",
+    "objectives": ["cryofluid-mixer", "ruby"]
+  },
+  "drawer": [
+    {
+      "type": "DrawRegion",
+      "suffix": "-bottom"
     },
-    "outputLiquid": {
-        "liquid": "liquid-ruby",
-        "amount": 0.5
+    {
+      "type": "DrawDefault"
     },
-    "requirements": [
-        "lead/200",
-        "titanium/150",
-        "ruby/340"
-    ],
-    "research": {
-        "parent": "cryofluid-mixer",
-        "objectives": [
-            "cryofluid-mixer",
-            "ruby"
-        ]
+    {
+      "type": "DrawLiquidRegion",
+      "drawLiquid": "liquid-ruby",
+      "suffix": "-liquid"
     },
-    "drawer": [
-        {
-            "type": "DrawRegion",
-            "suffix": "-bottom"
-        },
-        {
-            "type": "DrawDefault"
-        },
-        {
-            "type": "DrawLiquidRegion",
-            "drawLiquid": "liquid-ruby",
-            "suffix": "-liquid"
-        },
-        {
-            "type": "DrawRegion",
-            "suffix": "-top"
-        }
-    ]
+    {
+      "type": "DrawRegion",
+      "suffix": "-top"
+    }
+  ]
 }

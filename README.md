@@ -19,5 +19,5 @@ This mod contains:
 
 ### Changelog
 
-Actual version: **1.0** <br>
+Actual version: **1.0**
 See that shit [here](Changelog.md)

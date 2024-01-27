@@ -1,10 +1,10 @@
 {
-    "name": "Ice",
-    "description": "A ice cube that can be used as ammo to freeze enemies.",
-    "color": "#dcdde3",
-    "cost": 1.5,
-    "research": {
-        "item": "metaglass",
-        "parent": "water"
-    }
+  "name": "Ice",
+  "description": "A ice cube that can be used as ammo to freeze enemies.",
+  "color": "#dcdde3",
+  "cost": 1.5,
+  "research": {
+    "item": "metaglass",
+    "parent": "water"
+  }
 }

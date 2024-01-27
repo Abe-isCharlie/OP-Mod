@@ -1,8 +1,8 @@
 {
-    "name": "Ruby",
-    "description": "WIPe",
-    "color": "#9b111e",
-    "cost": 1.2,
-    "hardness": 3,
-    "research": "titanium"
+  "name": "Ruby",
+  "description": "WIPe",
+  "color": "#9b111e",
+  "cost": 1.2,
+  "hardness": 3,
+  "research": "titanium"
 }

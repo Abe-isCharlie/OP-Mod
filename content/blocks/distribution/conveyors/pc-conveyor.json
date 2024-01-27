@@ -1,24 +1,24 @@
 {
-    "type": "StackConveyor",
-    "name": "PC Conveyor",
-    "description": "A stack conveyor. Carry less items than Plastanium Conveyor, but it is faster.",
-    "health": 150,
-    "category": "distribution",
-    "speed": 0.21,
-    "hasItems": true,
-    "itemCapacity": 6,
-    "requirements": [
-        {
-            "item": "lead",
-            "amount": 2
-        },
-        {
-            "item": "copper",
-            "amount": 3
-        }
-    ],
-    "research": {
-        "block": "faster-conveyor",
-        "parent": "titanium-conveyor"
+  "type": "StackConveyor",
+  "name": "PC Conveyor",
+  "description": "A stack conveyor. Carry less items than Plastanium Conveyor, but it is faster.",
+  "health": 150,
+  "category": "distribution",
+  "speed": 0.21,
+  "hasItems": true,
+  "itemCapacity": 6,
+  "requirements": [
+    {
+      "item": "lead",
+      "amount": 2
+    },
+    {
+      "item": "copper",
+      "amount": 3
     }
+  ],
+  "research": {
+    "block": "faster-conveyor",
+    "parent": "titanium-conveyor"
+  }
 }

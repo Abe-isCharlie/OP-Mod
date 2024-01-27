@@ -1,56 +1,56 @@
 {
-    "type": "GenericCrafter",
-    "name": "Silicon Kiln",
-    "description": "Upgraded version of Silicon Smelter",
-    "size": 2,
-    "health": 300,
-    "hasPower": true,
-    "itemCapacity": 10,
-    "liquidCapacity": 120,
-    "craftTime": 55,
-    "updateEffect": "smeltsmoke",
-    "updateEffectChance": 0.031,
-    "requirements": [
+  "type": "GenericCrafter",
+  "name": "Silicon Kiln",
+  "description": "Upgraded version of Silicon Smelter",
+  "size": 2,
+  "health": 300,
+  "hasPower": true,
+  "itemCapacity": 10,
+  "liquidCapacity": 120,
+  "craftTime": 55,
+  "updateEffect": "smeltsmoke",
+  "updateEffectChance": 0.031,
+  "requirements": [
+    {
+      "item": "copper",
+      "amount": 60
+    },
+    {
+      "item": "lead",
+      "amount": 50
+    }
+  ],
+  "consumes": {
+    "power": 0.7,
+    "items": {
+      "items": [
         {
-            "item": "copper",
-            "amount": 60
+          "item": "coal",
+          "amount": 3
         },
         {
-            "item": "lead",
-            "amount": 50
+          "item": "sand",
+          "amount": 4
         }
-    ],
-    "consumes": {
-        "power": 0.7,
-        "items": {
-            "items": [
-                {
-                    "item": "coal",
-                    "amount": 3
-                },
-                {
-                    "item": "sand",
-                    "amount": 4
-                }
-            ]
-        }
+      ]
+    }
+  },
+  "category": "crafting",
+  "research": {
+    "block": "silicon-smelter",
+    "parent": "big-kiln"
+  },
+  "outputItem": {
+    "item": "silicon",
+    "amount": 4
+  },
+  "drawer": [
+    {
+      "type": "DrawDefault"
     },
-    "category": "crafting",
-    "research": {
-        "block": "silicon-smelter",
-        "parent": "big-kiln"
-    },
-    "outputItem": {
-        "item": "silicon",
-        "amount": 4
-    },
-    "drawer": [
-        {
-            "type": "DrawDefault"
-        },
-        {
-            "type": "DrawFlame",
-            "flameColor": "#ffef99"
-        }
-    ]
+    {
+      "type": "DrawFlame",
+      "flameColor": "#ffef99"
+    }
+  ]
 }

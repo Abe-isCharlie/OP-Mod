@@ -1,68 +1,60 @@
 {
-    "type": "LaserTurret",
-    "name": "RL Turret",
-    "description": "WIP",
-    "category": "turret",
-    "research": {
-        "parent": "death",
-        "objectives": [
-            "liquid-ruby",
-            "ruby"
-        ]
+  "type": "LaserTurret",
+  "name": "RL Turret",
+  "description": "WIP",
+  "category": "turret",
+  "research": {
+    "parent": "death",
+    "objectives": ["liquid-ruby", "ruby"]
+  },
+  "targetAir": false,
+  "hasPower": true,
+  "hasLiquids": true,
+  "liquidCapacity": 0.5,
+  "targetGround": true,
+  "health": 2000,
+  "size": 4,
+  "range": 640,
+  "shootDuration": 270,
+  "recoil": 4,
+  "rotateSpeed": 2,
+  "reload": 40,
+  "shootSound": "laserbig",
+  "loopSound": "beam",
+  "consumes": {
+    "power": 2.5,
+    "coolant": {
+      "type": "liquid-ruby",
+      "amount": 0.4,
+      "coolantMultiplier": 5.5
+    }
+  },
+  "drawer": {
+    "type": "drawTurret",
+    "basePrefix": ""
+  },
+  "shootType": {
+    "type": "ContinuousLaserBulletType",
+    "ammoMultiplier": 1,
+    "damage": 60,
+    "length": 640,
+    "status": "melting",
+    "statusDuration": 480,
+    "colors": ["#C62B3950", "#a62e39", "#9b111e", "#9b111e"],
+    "pierce": true
+  },
+  "requirements": [
+    {
+      "item": "ruby",
+      "amount": 200
     },
-    "targetAir": false,
-    "hasPower": true,
-    "hasLiquids": true,
-    "liquidCapacity": 0.5,
-    "targetGround": true,
-    "health": 2000,
-    "size": 4,
-    "range": 640,
-    "shootDuration": 270,
-    "recoil": 4,
-    "rotateSpeed": 2,
-    "reload": 40,
-    "shootSound": "laserbig",
-    "loopSound": "beam",
-    "consumes": {
-        "power": 2.5,
-        "coolant": {
-            "type": "liquid-ruby",
-            "amount": 0.4,
-            "coolantMultiplier": 5.5
-        }
+    {
+      "item": "copper",
+      "amount": 500
     },
-    "drawer": {
-        "type": "drawTurret",
-        "basePrefix": ""
-    },
-    "shootType": {
-        "type": "ContinuousLaserBulletType",
-        "ammoMultiplier": 1,
-        "damage": 60,
-        "length": 640,
-        "status": "melting",
-        "statusDuration": 480,
-        "colors": [
-            "#C62B3950",
-            "#a62e39",
-            "#9b111e",
-            "#9b111e"
-        ],
-        "pierce": true
-    },
-    "requirements": [
-        {
-            "item": "ruby",
-            "amount": 200
-        },
-        {
-            "item": "copper",
-            "amount": 500
-        },
-        {
-            "item": "lead",
-            "amount": 300
-        }
-    ]
+    {
+      "item": "lead",
+      "amount": 300
+    }
+  ]
 }

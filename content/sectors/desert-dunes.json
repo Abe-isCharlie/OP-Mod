@@ -1,11 +1,11 @@
 {
-    "localizedName": "Desert Dunes",
-    "description": "A strange place. Feels like planned. Here it haves ruby.",
-    "sector": 171,
-    "captureWave": 40,
-    "difficulty": 6,
-    "research": {
-        "complete": "craters",
-        "parent": "craters"
-    }
+  "localizedName": "Desert Dunes",
+  "description": "A strange place. Feels like planned. Here it haves ruby.",
+  "sector": 171,
+  "captureWave": 40,
+  "difficulty": 6,
+  "research": {
+    "complete": "craters",
+    "parent": "craters"
+  }
 }

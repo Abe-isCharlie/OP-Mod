@@ -1,9 +1,9 @@
 {
-    "name": "Liquid Ruby",
-    "temperature": 0.1,
-    "flammability": 0,
-    "viscosity": 0.3,
-    "heatCapacity": 1.4,
-    "explosiveness": 0,
-    "color": "#9b111e"
+  "name": "Liquid Ruby",
+  "temperature": 0.1,
+  "flammability": 0,
+  "viscosity": 0.3,
+  "heatCapacity": 1.4,
+  "explosiveness": 0,
+  "color": "#9b111e"
 }

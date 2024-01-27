@@ -1,93 +1,93 @@
 {
-    "type": "itemTurret",
-    "inaccuracy": 5,
-    "name": "Double Trouble",
-    "description": "WIP",
-    "targetAir": true,
-    "targetGround": true,
-    "category": "turret",
-    "health": 435,
-    "reload": 30,
-    "size": 2,
-    "range": 640,
-    "rotateSpeed": 3,
-    "maxAmmo": 35,
-    "shootSound": "missileSmall",
-    "shoot": {
-        "type": "ShootAlternate",
-        "barrels": 2,
-        "spread": 4.8
+  "type": "itemTurret",
+  "inaccuracy": 5,
+  "name": "Double Trouble",
+  "description": "WIP",
+  "targetAir": true,
+  "targetGround": true,
+  "category": "turret",
+  "health": 435,
+  "reload": 30,
+  "size": 2,
+  "range": 640,
+  "rotateSpeed": 3,
+  "maxAmmo": 35,
+  "shootSound": "missileSmall",
+  "shoot": {
+    "type": "ShootAlternate",
+    "barrels": 2,
+    "spread": 4.8
+  },
+  "ammoTypes": {
+    "silicon": {
+      "type": "MissileBulletType",
+      "hitSize": 10,
+      "splashDamage": 22,
+      "splashDamageRadius": 40,
+      "lifetime": 60,
+      "speed": 13,
+      "damage": 80,
+      "hitEffect": "hitBulletBig",
+      "trailColor": "#504f5f99",
+      "makeFire": false,
+      "sprite": "missile-large",
+      "frontColor": "#a19a9999",
+      "backColor": "#504d4d99",
+      "recoil": 2,
+      "width": 7,
+      "height": 10
     },
-    "ammoTypes": {
-        "silicon": {
-            "type": "MissileBulletType",
-            "hitSize": 10,
-            "splashDamage": 22,
-            "splashDamageRadius": 40,
-            "lifetime": 60,
-            "speed": 13,
-            "damage": 80,
-            "hitEffect": "hitBulletBig",
-            "trailColor": "#504f5f99",
-            "makeFire": false,
-            "sprite": "missile-large",
-            "frontColor": "#a19a9999",
-            "backColor": "#504d4d99",
-            "recoil": 2,
-            "width": 7,
-            "height": 10
-        },
-        "pyratite": {
-            "type": "MissileBulletType",
-            "hitSize": 16,
-            "splashDamage": 34,
-            "splashDamageRadius": 56,
-            "speed": 8,
-            "lifetime": 120,
-            "damage": 130,
-            "hitEffect": "blastExplosion",
-            "makeFire": true,
-            "incendAmount": 6,
-            "incendSpread": 2,
-            "sprite": "small-bomb",
-            "recoil": 3
+    "pyratite": {
+      "type": "MissileBulletType",
+      "hitSize": 16,
+      "splashDamage": 34,
+      "splashDamageRadius": 56,
+      "speed": 8,
+      "lifetime": 120,
+      "damage": 130,
+      "hitEffect": "blastExplosion",
+      "makeFire": true,
+      "incendAmount": 6,
+      "incendSpread": 2,
+      "sprite": "small-bomb",
+      "recoil": 3
     },
-        "blast-compound": {
-            "type": "MissileBulletType",
-            "hitSize": 24,
-            "splashDamage": 50,
-            "splashDamageRadius": 72,
-            "speed": 8,
-            "lifetime": 120,
-            "damage": 220,
-            "hitEffect": "blastExplosion",
-            "makeFire": true,
-            "incendAmount": 4,
-            "incendSpread": 7,
-            "sprite": "large-bomb",
-            "recoil": 4
-        }
-    },
-    "requirements": [
-        {
-            "item": "graphite",
-            "amount": 125
-        },
-        {
-            "item": "copper",
-            "amount": 60
-        },
-        {
-            "item": "lead",
-            "amount": 200
-        },
-        {
-            "item": "silicon",
-            "amount": 300
-        }
-    ],
-    "research": {
-        "block": "scorch",
-        "parent": "death"
+    "blast-compound": {
+      "type": "MissileBulletType",
+      "hitSize": 24,
+      "splashDamage": 50,
+      "splashDamageRadius": 72,
+      "speed": 8,
+      "lifetime": 120,
+      "damage": 220,
+      "hitEffect": "blastExplosion",
+      "makeFire": true,
+      "incendAmount": 4,
+      "incendSpread": 7,
+      "sprite": "large-bomb",
+      "recoil": 4
     }
+  },
+  "requirements": [
+    {
+      "item": "graphite",
+      "amount": 125
+    },
+    {
+      "item": "copper",
+      "amount": 60
+    },
+    {
+      "item": "lead",
+      "amount": 200
+    },
+    {
+      "item": "silicon",
+      "amount": 300
+    }
+  ],
+  "research": {
+    "block": "scorch",
+    "parent": "death"
+  }
 }

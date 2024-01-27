@@ -1,22 +1,22 @@
 {
-    "type": "Conduit",
-    "category": "liquid",
-    "name": "Fast Conduit",
-    "description": "Moves liquid faster and stores more than pulse conduit.",
-    "leaks": true,
-    "health": 135,
-    "liquidCapacity": 22,
-    "placeableLiquid": true,
-    "liquidPressure": 1.9,
-    "research": "conduit",
-    "requirements": [
-        {
-            "item": "metaglass",
-            "amount": 1
-        },
-        {
-            "item": "copper",
-            "amount": 1
-        }
-    ]
+  "type": "Conduit",
+  "category": "liquid",
+  "name": "Fast Conduit",
+  "description": "Moves liquid faster and stores more than pulse conduit.",
+  "leaks": true,
+  "health": 135,
+  "liquidCapacity": 22,
+  "placeableLiquid": true,
+  "liquidPressure": 1.9,
+  "research": "conduit",
+  "requirements": [
+    {
+      "item": "metaglass",
+      "amount": 1
+    },
+    {
+      "item": "copper",
+      "amount": 1
+    }
+  ]
 }

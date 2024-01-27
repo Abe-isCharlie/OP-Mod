@@ -1,26 +1,26 @@
 {
-    "type": "drill",
-    "name": "Better Drill",
-    "description": "A better drill.",
-    "drawMineItem": true,
-    "liquidBoostIntensity": 2.1,
-    "rotateSpeed": 1.01,
-    "size": 2,
-    "tier": 3,
-    "drillTime": 75,
-    "category": "production",
-    "requirements": [
-        {
-            "item": "copper",
-            "amount": 8
-        },
-        {
-            "item": "lead",
-            "amount": 12
-        }
-    ],
-    "research": {
-        "block": "pneumatic-drill",
-        "parent": "mini-drill"
+  "type": "drill",
+  "name": "Better Drill",
+  "description": "A better drill.",
+  "drawMineItem": true,
+  "liquidBoostIntensity": 2.1,
+  "rotateSpeed": 1.01,
+  "size": 2,
+  "tier": 3,
+  "drillTime": 75,
+  "category": "production",
+  "requirements": [
+    {
+      "item": "copper",
+      "amount": 8
+    },
+    {
+      "item": "lead",
+      "amount": 12
     }
+  ],
+  "research": {
+    "block": "pneumatic-drill",
+    "parent": "mini-drill"
+  }
 }

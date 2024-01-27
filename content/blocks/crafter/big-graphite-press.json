@@ -1,40 +1,40 @@
 {
-    "type": "GenericCrafter",
-    "name": "Big Graphite Press",
-    "description": "I know there is already the multi-press, but these don't use water!",
-    "size": 3,
-    "health": 280,
-    "hasItems": true,
-    "itemCapacity": 15,
-    "craftTime": 52,
-    "updateEffect": "coalSmeltsmoke",
-    "requirements": [
-        {
-            "item": "copper",
-            "amount": 130
-        },
-        {
-            "item": "lead",
-            "amount": 60
-        }
-    ],
-    "consumes": {
-        "items": {
-            "items": [
-                {
-                    "item": "coal",
-                    "amount": 3
-                }
-            ]
-        }
+  "type": "GenericCrafter",
+  "name": "Big Graphite Press",
+  "description": "I know there is already the multi-press, but these don't use water!",
+  "size": 3,
+  "health": 280,
+  "hasItems": true,
+  "itemCapacity": 15,
+  "craftTime": 52,
+  "updateEffect": "coalSmeltsmoke",
+  "requirements": [
+    {
+      "item": "copper",
+      "amount": 130
     },
-    "category": "crafting",
-    "research": {
-        "block": "kiln",
-        "parent": "graphite-press"
-    },
-    "outputItem": {
-        "item": "graphite",
-        "amount": 4
+    {
+      "item": "lead",
+      "amount": 60
     }
+  ],
+  "consumes": {
+    "items": {
+      "items": [
+        {
+          "item": "coal",
+          "amount": 3
+        }
+      ]
+    }
+  },
+  "category": "crafting",
+  "research": {
+    "block": "kiln",
+    "parent": "graphite-press"
+  },
+  "outputItem": {
+    "item": "graphite",
+    "amount": 4
+  }
 }

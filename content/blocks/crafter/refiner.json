@@ -1,57 +1,52 @@
 {
-    "type": "separator",
-    "name": "Refinery",
-    "description": "Refines Copper and Scrap on heat liquid to make Silicon and Titanium.",
-    "health": 260,
-    "size": 2,
-    "hasItems": true,
-    "hasLiquids": true,
-    "hasPower": true,
-    "craftTime": 30,
-    "liquidCapacity": 112,
-    "itemCapacity": 15,
-    "requirements": [
-        {
-            "item": "copper",
-            "amount": 300
-        },
-        {
-            "item": "lead",
-            "amount": 150
-        },
-        {
-            "item": "titanium",
-            "amount": 50
-        }
-    ],
-    "consumes": {
-        "power": 1.068,
-        "items": {
-            "items": [
-                {
-                    "item": "copper",
-                    "amount": 2
-                },
-                {
-                    "item": "scrap",
-                    "amount": 3
-                }
-            ]
-        },
-        "liquid": {
-            "liquid": "slag",
-            "amount": 0.4
-        }
+  "type": "separator",
+  "name": "Refinery",
+  "description": "Refines Copper and Scrap on heat liquid to make Silicon and Titanium.",
+  "health": 260,
+  "size": 2,
+  "hasItems": true,
+  "hasLiquids": true,
+  "hasPower": true,
+  "craftTime": 30,
+  "liquidCapacity": 112,
+  "itemCapacity": 15,
+  "requirements": [
+    {
+      "item": "copper",
+      "amount": 300
     },
-    "results": [
-        "titanium/1000",
-        "silicon/750",
-        "thorium/15",
-        "plastanium/1"
-    ],
-    "category": "crafting",
-    "research": {
-        "block": "separator",
-        "parent": "melter"
+    {
+      "item": "lead",
+      "amount": 150
+    },
+    {
+      "item": "titanium",
+      "amount": 50
     }
+  ],
+  "consumes": {
+    "power": 1.068,
+    "items": {
+      "items": [
+        {
+          "item": "copper",
+          "amount": 2
+        },
+        {
+          "item": "scrap",
+          "amount": 3
+        }
+      ]
+    },
+    "liquid": {
+      "liquid": "slag",
+      "amount": 0.4
+    }
+  },
+  "results": ["titanium/1000", "silicon/750", "thorium/15", "plastanium/1"],
+  "category": "crafting",
+  "research": {
+    "block": "separator",
+    "parent": "melter"
+  }
 }
