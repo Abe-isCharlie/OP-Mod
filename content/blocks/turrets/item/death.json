@@ -42,7 +42,7 @@
       "ammoMultiplier": 6
     },
     "ice": {
-      "damage": 20,
+      "damage": 2,
       "status": "freeze",
       "speed": 16,
       "ammoMultiplier": 1
