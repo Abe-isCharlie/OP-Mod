@@ -4,6 +4,7 @@
   "healthMultiplier": 0.45,
   "speedMultiplier": 0,
   "dragMultiplier": 0.015,
+  "outlineRadius": 2,
   "effect": {
     "type": "ParticleEffect",
     "particles": 1,
