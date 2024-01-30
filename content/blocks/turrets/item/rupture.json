@@ -10,7 +10,7 @@
     "objectives": ["salvo"]
   },
   "health": 1500,
-  "reload": 600,
+  "reload": 300,
   "size": 3,
   "innacuracy": 0,
   "shootCone": 2,
