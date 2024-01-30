@@ -26,5 +26,22 @@
       "hitEffect": "hitBulletBig"
     }
   },
-  "requirements": ["copper/500, lead/400, titanium/ 350, silicon/ 450"]
+  "requirements": [
+    {
+      "item": "copper",
+      "amount": 500
+    },
+    {
+      "item": "lead",
+      "amount": 400
+    },
+    {
+      "item": "titanium",
+      "amount": 350
+    },
+    {
+      "item": "silicon",
+      "amount": 450
+    }
+  ]
 }
