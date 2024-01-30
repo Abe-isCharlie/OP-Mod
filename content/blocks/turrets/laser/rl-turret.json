@@ -14,7 +14,7 @@
   "targetGround": true,
   "health": 2000,
   "size": 4,
-  "range": 520,
+  "range": 400,
   "shootDuration": 270,
   "recoil": 4,
   "rotateSpeed": 2,

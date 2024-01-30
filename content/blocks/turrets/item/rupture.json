@@ -1,0 +1,30 @@
+{
+  "type": "itemTurret",
+  "name": "Rupture",
+  "description": "WIP",
+  "targetAir": true,
+  "targetGround": true,
+  "category": "turret",
+  "research": {
+    "parent": "scatter",
+    "objectives": ["salvo"]
+  },
+  "health": 1500,
+  "reload": 600,
+  "size": 3,
+  "range": 560,
+  "rotateSpeed": 1,
+  "ammoPerShot": 5,
+  "maxAmmo": 20,
+  "recoil": 7,
+  "ammoTypes": {
+    "silicon": {
+      "damage": 650,
+      "pierceArmor": true,
+      "shootEffect": "shootBig",
+      "smokeEffect": "shootBigSmoke",
+      "hitEffect": "hitBulletBig"
+    }
+  },
+  "requirements": ["copper/500, lead/400, titanium/ 350, silicon/ 450"]
+}

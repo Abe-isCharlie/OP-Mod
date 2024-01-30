@@ -7,42 +7,42 @@
   "targetGround": true,
   "category": "turret",
   "research": {
-    "block": "scatter",
-    "parent": "duo"
+    "parent": "duo",
+    "objectives": ["scatter"]
   },
   "health": 500,
-  "reload": 2,
+  "reload": 4,
   "size": 1,
-  "range": 350,
+  "range": 240,
   "rotateSpeed": 7,
   "ammoPerShot": 1,
   "maxAmmo": 50,
   "outlineRadius": 3,
   "ammoTypes": {
     "copper": {
-      "damage": 30,
+      "damage": 15,
       "speed": 16,
       "pierce": true,
       "ammoMultiplier": 4
     },
     "coal": {
-      "damage": 25,
+      "damage": 18,
       "status": "burning",
       "speed": 16,
       "ammoMultiplier": 3
     },
     "scrap": {
-      "damage": 15,
+      "damage": 9,
       "speed": 16
     },
     "sand": {
-      "damage": 12,
+      "damage": 3,
       "status": "sapped",
       "speed": 16,
       "ammoMultiplier": 6
     },
     "ice": {
-      "damage": 2,
+      "damage": 12,
       "status": "freeze",
       "speed": 16,
       "ammoMultiplier": 1
