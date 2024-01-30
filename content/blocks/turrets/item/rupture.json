@@ -17,13 +17,15 @@
   "ammoPerShot": 5,
   "maxAmmo": 20,
   "recoil": 7,
+  "shake": 4,
+  "shootEffect": "shootBig",
+  "smokeEffect": "shootBigSmoke",
+  "hitEffect": "hitBulletBig",
   "ammoTypes": {
     "silicon": {
       "damage": 650,
-      "pierceArmor": true,
-      "shootEffect": "shootBig",
-      "smokeEffect": "shootBigSmoke",
-      "hitEffect": "hitBulletBig"
+      "speed": 16,
+      "pierceArmor": true
     }
   },
   "requirements": [
