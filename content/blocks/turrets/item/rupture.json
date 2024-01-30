@@ -12,6 +12,8 @@
   "health": 1500,
   "reload": 600,
   "size": 3,
+  "innacuracy": 0,
+  "shootCone": 2,
   "range": 560,
   "rotateSpeed": 1,
   "ammoPerShot": 5,
