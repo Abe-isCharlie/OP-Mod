@@ -4,5 +4,5 @@ Planets.serpulo.orbitRadius = 20;
 Planets.serpulo.ruleSetter = (r) => {
   r.waveTeam = Team.malis;
   r.showSpawns = true;
-  r.deconstructRefundMultiplier = 1;
+  r.deconstructRefundMultiplier = 1.5;
 };
