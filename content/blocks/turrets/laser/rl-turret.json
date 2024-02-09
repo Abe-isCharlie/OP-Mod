@@ -17,7 +17,7 @@
   "range": 400,
   "shootDuration": 270,
   "recoil": 4,
-  "rotateSpeed": 2,
+  "rotateSpeed": 4,
   "reload": 40,
   "shootSound": "laserbig",
   "loopSound": "beam",
