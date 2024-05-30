@@ -6,7 +6,7 @@
   "liquidBoostIntensity": 2.1,
   "rotateSpeed": 1.01,
   "size": 2,
-  "tier": 3,
+  "tier": 2,
   "drillTime": 75,
   "category": "production",
   "requirements": [
@@ -21,6 +21,6 @@
   ],
   "research": {
     "block": "pneumatic-drill",
-    "parent": "mini-drill"
+    "objectives": ["mini-drill", "graphite"]
   }
 }

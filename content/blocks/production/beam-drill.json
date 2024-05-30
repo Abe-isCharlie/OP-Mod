@@ -4,7 +4,7 @@
   "description": "A laser drill better than of the vanilla.",
   "drawMineItem": true,
   "liquidBoostIntensity": 2.7,
-  "rotateSpeed": 1.5,
+  "rotateSpeed": 1.4,
   "size": 3,
   "tier": 4,
   "itemCapacity": 20,
