@@ -11,7 +11,7 @@
     "objectives": ["scatter"]
   },
   "health": 500,
-  "reload": 4,
+  "reload": 2,
   "size": 1,
   "range": 240,
   "rotateSpeed": 7,
@@ -20,29 +20,29 @@
   "outlineRadius": 3,
   "ammoTypes": {
     "copper": {
-      "damage": 15,
+      "damage": 19,
       "speed": 16,
       "pierce": true,
       "ammoMultiplier": 4
     },
     "coal": {
-      "damage": 18,
+      "damage": 22,
       "status": "burning",
       "speed": 16,
       "ammoMultiplier": 3
     },
     "scrap": {
-      "damage": 9,
+      "damage":13,
       "speed": 16
     },
     "sand": {
-      "damage": 3,
+      "damage": 7,
       "status": "sapped",
       "speed": 16,
       "ammoMultiplier": 6
     },
     "ice": {
-      "damage": 12,
+      "damage": 16,
       "status": "freeze",
       "speed": 16,
       "ammoMultiplier": 1

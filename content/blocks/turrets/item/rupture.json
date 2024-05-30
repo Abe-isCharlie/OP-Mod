@@ -6,7 +6,7 @@
   "targetGround": true,
   "category": "turret",
   "research": {
-    "parent": "scatter",
+    "parent": "death",
     "objectives": ["salvo"]
   },
   "health": 1500,

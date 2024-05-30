@@ -50,7 +50,7 @@
       "makeFire": true,
       "incendAmount": 6,
       "incendSpread": 2,
-      "sprite": "small-bomb",
+      "sprite": "missile-large",
       "recoil": 3
     },
     "blast-compound": {
@@ -65,7 +65,7 @@
       "makeFire": true,
       "incendAmount": 4,
       "incendSpread": 7,
-      "sprite": "large-bomb",
+      "sprite": "missile-large",
       "recoil": 4
     }
   },

@@ -43,7 +43,7 @@
       "amount": 0.4
     }
   },
-  "results": ["titanium/1000", "silicon/750", "thorium/15", "plastanium/1"],
+  "results": ["titanium/10000", "silicon/7500", "thorium/150", "plastanium/1"],
   "category": "crafting",
   "research": {
     "block": "separator",

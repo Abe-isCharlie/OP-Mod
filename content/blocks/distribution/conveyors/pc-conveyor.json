@@ -18,7 +18,7 @@
     }
   ],
   "research": {
-    "block": "faster-conveyor",
+    "block": "fast-conveyor",
     "parent": "titanium-conveyor"
   }
 }

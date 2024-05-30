@@ -5,8 +5,8 @@
   "size": 3,
   "health": 280,
   "hasItems": true,
-  "itemCapacity": 15,
-  "craftTime": 52,
+  "itemCapacity": 16,
+  "craftTime": 58,
   "updateEffect": "coalSmeltsmoke",
   "requirements": [
     {
@@ -23,7 +23,7 @@
       "items": [
         {
           "item": "coal",
-          "amount": 3
+          "amount": 2
         }
       ]
     }

@@ -3,7 +3,7 @@
   "name": "Smaller Mass Driver",
   "health": 150,
   "description": "It's just a mass driver, but smaller and with a big range.",
-  "itemCapacity": 250,
+  "itemCapacity": 350,
   "reload": 50,
   "shake": 0.5,
   "knockback": 1,
@@ -21,6 +21,10 @@
     {
       "item": "lead",
       "amount": 100
+    },
+    {
+        "item": "titanium",
+        "amount": 25
     }
   ],
   "category": "distribution",
