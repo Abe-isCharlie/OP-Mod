@@ -20,7 +20,7 @@
     }
   ],
   "research": {
-    "block": "pneumatic-drill",
-    "objectives": ["mini-drill", "graphite"]
+    "parent": "pneumatic-drill",
+    "objectives": ["graphite", "mini-drill"]
   }
 }
