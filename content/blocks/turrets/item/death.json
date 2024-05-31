@@ -48,7 +48,7 @@
       "ammoMultiplier": 1
     }, 
     "titanium": {
-      "damage": 22,
+      "damage": 28,
       "status": "freeze",
       "speed": 16,
       "ammoMultiplier": 7
