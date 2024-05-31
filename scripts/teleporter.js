@@ -54,18 +54,8 @@ const teleporter = extend(BufferedItemBridge, "teleporter", {
   })
 });
 
-// Defina os requisitos para construir o teleporter
-teleporter.requirements = ItemStack.with(
-  Items.phaseFabric, 10,
-  Items.silicon, 15,
-  Items.lead, 20,
-  Items.graphite, 20
-);
-
-// Habilite o teleporter em ambientes espaciais
-teleporter.envEnabled = Env.space;
-
-// Carregue o teleporter na categoria de distribuição
-teleporter.category = Category.distribution;
-
 // Certifique-se de que o código do mod está sendo carregado corretamente
+Events.on(ClientLoadEvent, () => {
+  Vars.content.units().each(e => e.health = e.maxHealth);
+  Log.info("Teleporter mod loaded.");
+});
