@@ -15,9 +15,6 @@ const teleporter = extend(BufferedItemBridge, "teleporter", {
   pulse: true,
   envEnabled: Env.space, // Habilita o teleporter em ambientes espaciais
 
-  // Consome energia para funcionar
-  consumePower: 1.0,
-
   buildType: () => extend(BufferedItemBridge.BufferedItemBridgeBuild, teleporter, {
     update() {
       this.super$update();
@@ -34,6 +31,17 @@ const teleporter = extend(BufferedItemBridge, "teleporter", {
     }
   })
 });
+
+// Defina os requisitos para construir o teleporter
+teleporter.requirements = ItemStack.with(
+  Items.phaseFabric, 10,
+  Items.silicon, 15,
+  Items.lead, 20,
+  Items.graphite, 20
+);
+
+// Habilite o teleporter em ambientes espaciais
+teleporter.envEnabled = Env.space;
 
 // Carregue o teleporter na categoria de distribuição
 teleporter.category = Category.distribution;
