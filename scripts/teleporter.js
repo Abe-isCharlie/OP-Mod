@@ -29,7 +29,7 @@ const teleporter = extend(BufferedItemBridge, "teleporter", {
 
   range: 20, // Define um alcance maior
   arrowPeriod: 0.5,
-  arrowTimeScl: 4.0,
+  arrowTimeScl: 2.75, // Ajustando o valor de arrowTimeScl
   hasPower: true,
   pulse: true,
   envEnabled: Env.space, // Habilita o teleporter em ambientes espaciais
