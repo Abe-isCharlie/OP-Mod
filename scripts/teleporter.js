@@ -12,14 +12,14 @@ const teleporter = extend(ItemBridge, "teleporter", {
 
   // Método de construção para armazenar a posição de entrada e saída
   buildConfiguration(tile, table) {
-    table.button(Icon.arrowUp, Styles.clearTransi, run(() => {
+    table.button(Icon.arrowUp, Styles.clearTransi, () => {
       // Define a posição de entrada como a posição atual do bloco
       this.input = tile.pos();
-    })).size(40);
-    table.button(Icon.arrowDown, Styles.clearTransi, run(() => {
+    }).size(40);
+    table.button(Icon.arrowDown, Styles.clearTransi, () => {
       // Define a posição de saída como a posição atual do bloco
       this.output = tile.pos();
-    })).size(40);
+    }).size(40);
   },
 
   // Método de atualização para transportar itens entre as posições armazenadas
