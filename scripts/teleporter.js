@@ -1,3 +1,22 @@
+// Define o massBullet para o teleporter
+const massBullet = extend(MassDriverBolt, {
+  draw(b) {
+    var w = 0.001;
+    var h = 0.001;
+
+    Draw.color(Pal.bulletYellowBack);
+    Draw.rect("shell-back", b.x, b.y, w, h, b.rotation() + 90);
+
+    Draw.color(Pal.bulletYellow);
+    Draw.rect("shell", b.x, b.y, w, h, b.rotation() + 90);
+
+    Draw.reset();
+  },
+  despawnEffect: Fx.none,
+  hitEffect: Fx.none,
+  collides: false,
+});
+
 // Define o teleporter
 const teleporter = extend(BufferedItemBridge, "teleporter", {
   // Defina os requisitos para construir o teleporter
@@ -14,6 +33,9 @@ const teleporter = extend(BufferedItemBridge, "teleporter", {
   hasPower: true,
   pulse: true,
   envEnabled: Env.space, // Habilita o teleporter em ambientes espaciais
+
+  // Define o massBullet para o teleporter
+  bullet: massBullet,
 
   buildType: () => extend(BufferedItemBridge.BufferedItemBridgeBuild, teleporter, {
     update() {
@@ -47,7 +69,3 @@ teleporter.envEnabled = Env.space;
 teleporter.category = Category.distribution;
 
 // Certifique-se de que o código do mod está sendo carregado corretamente
-Events.on(ClientLoadEvent, () => {
-  Vars.content.units().each(e => e.health = e.maxHealth);
-  Log.info("Teleporter mod loaded.");
-});
