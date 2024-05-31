@@ -1,3 +1,9 @@
 {
-  "category": "distribution"
+  "category": "distribution",
+  "requirements": [
+    {
+      "item": "copper",
+      "amount": 1
+    }
+  ]
 }
