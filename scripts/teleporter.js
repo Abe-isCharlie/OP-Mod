@@ -14,18 +14,18 @@ const teleporter = extend(ItemBridge, "teleporter", {
   buildConfiguration(tile, table) {
     table.button(Icon.arrowUp, Styles.clearTransi, run(() => {
       // Define a posição de entrada como a posição atual do bloco
-      teleporter.input = tile.pos();
+      this.input = tile.pos();
     })).size(40);
     table.button(Icon.arrowDown, Styles.clearTransi, run(() => {
       // Define a posição de saída como a posição atual do bloco
-      teleporter.output = tile.pos();
+      this.output = tile.pos();
     })).size(40);
   },
 
   // Método de atualização para transportar itens entre as posições armazenadas
   updateTransport(tile, other) {
     // Verifica se o bloco conectado é um teleporter e se possui uma posição de saída
-    if (other.block == teleporter && other.entity.output != null) {
+    if (other.block == this && other.entity.output != null) {
       // Verifica se há itens para transportar
       if (tile.entity.hasItem()) {
         // Obtém a posição de saída do bloco conectado
