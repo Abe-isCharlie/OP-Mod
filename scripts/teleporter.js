@@ -53,12 +53,3 @@ const teleporter = extend(BufferedItemBridge, "teleporter", {
     }
   })
 });
-
-// Carregue o teleporter na categoria de distribuição
-teleporter.category = Category.distribution;
-
-// Certifique-se de que o código do mod está sendo carregado corretamente
-Events.on(ClientLoadEvent, () => {
-  Vars.content.units().each(e => e.health = e.maxHealth);
-  Log.info("Teleporter mod loaded.");
-});
