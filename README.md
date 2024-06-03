@@ -4,7 +4,7 @@
 
 It's a [Mindustry](https://mindustrygame.github.io) mod.
 
-~~That Means Oh Phuck Mod, because yes.~~
+~~That Means Oh Phuck Mod, because yes~~
 
 This mod add new stupid blocks or upgraded(_~~sometimes op~~_) version of vanilla blocks. This doesn't means it's a hack.
 
