@@ -2,11 +2,11 @@
   "type": "ItemBridge",
   "name": "Ultra Bridge Conveyor",
   "description": "Transports items instantly across a very large range.",
-  "health": 100,
+  "health": 50,
   "requirements": [
     {
       "item": "copper",
-      "amount": 5
+      "amount": 10
     },
     {
       "item": "lead",
@@ -14,11 +14,8 @@
     }
   ],
   "category": "distribution",
-  "buildCostMultiplier": 1,
-  "range": 50,
-  "speed": 1.0,
-  "instantTransfer": true,
-  "displayedSpeed": "Instant",
+  "buildCostMultiplier": 0.5,
+  "range": 20,
   "research": {
     "block": "conveyor",
     "parent": "bridge-conveyor"
