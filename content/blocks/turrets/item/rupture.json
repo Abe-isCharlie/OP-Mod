@@ -9,6 +9,7 @@
     "parent": "death",
     "objectives": ["salvo"]
   },
+  "buildCostMultiplier": 0.5,
   "health": 1500,
   "reload": 300,
   "size": 3,
