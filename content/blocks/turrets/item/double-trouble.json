@@ -3,6 +3,7 @@
   "inaccuracy": 5,
   "name": "Double Trouble",
   "description": "WIP",
+  "buildCostMultiplier": 0.3,
   "targetAir": true,
   "targetGround": true,
   "category": "turret",

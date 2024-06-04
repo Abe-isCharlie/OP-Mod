@@ -9,6 +9,7 @@
   "hasItems": true,
   "hasLiquids": true,
   "outputsLiquid": true,
+  "buildCostMultiplier": 0.5,
   "itemCapacity": 15,
   "liquidCapacity": 120,
   "craftTime": 180,

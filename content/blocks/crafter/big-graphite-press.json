@@ -7,6 +7,7 @@
   "hasItems": true,
   "itemCapacity": 16,
   "craftTime": 58,
+  "buildCostMultiplier": 0.45,
   "updateEffect": "coalSmeltsmoke",
   "requirements": [
     {

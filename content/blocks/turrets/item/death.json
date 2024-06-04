@@ -4,6 +4,7 @@
   "name": "Death",
   "description": "WIP",
   "targetAir": true,
+  "buildCostMultiplier": 0.4,
   "targetGround": true,
   "category": "turret",
   "research": {

@@ -7,6 +7,7 @@
   "hasPower": true,
   "itemCapacity": 15,
   "liquidCapacity": 112,
+  "buildCostMultiplier": 0.25,
   "craftTime": 52,
   "updateEffect": "smokeCloud",
   "updateEffectChance": 0.021,

@@ -6,6 +6,7 @@
   "size": 2,
   "hasItems": true,
   "hasLiquids": true,
+  "buildCostMultiplier": 0.45,
   "hasPower": true,
   "craftTime": 30,
   "liquidCapacity": 112,
