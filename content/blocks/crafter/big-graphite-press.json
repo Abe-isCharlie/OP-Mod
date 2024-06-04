@@ -1,5 +1,5 @@
 {
-  "type": "genericCrafter",
+  "type": "GenericCrafter",
   "name": "Big Graphite Press",
   "description": "I know there is already the multi-press, but these don't use water!",
   "size": 3,
