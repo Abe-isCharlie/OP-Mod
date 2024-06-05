@@ -1,4 +1,5 @@
 {
+  "type": "SolarGenerator",
   "name": "Potent Solar Module",
   "description": "WIP",
   "category": "power",
