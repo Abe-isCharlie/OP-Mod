@@ -7,7 +7,7 @@
   "health": 200,
   "size": 2,
   "research": {
-    "parent": "power-node",
+    "parent": "combustion-generator",
     "objectives": ["solar-panel"]
   },
   "requirements": [

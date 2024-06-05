@@ -7,7 +7,7 @@
   "size": 5,
   "category": "effect",
   "unitType": "gamma",
-  "unitCapModifier": 40,
+  "unitCapModifier": 60,
   "thrusterLength": 11,
   "requirements": [
     {
