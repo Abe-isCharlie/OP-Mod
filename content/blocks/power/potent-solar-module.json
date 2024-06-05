@@ -5,7 +5,7 @@
     "lead/15",
     "silicon/40"
   ],
-  "energyProduction": 2.0,
+  "powerProduction": 2.0,
   "health": 200,
   "size": 2,
   "parent": "power-node",
