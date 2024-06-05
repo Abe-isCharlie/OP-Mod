@@ -1,3 +1,4 @@
 {
-  "powerProduction": 0.25
+  "powerProduction": 0.25,
+  "health": 50
 }
