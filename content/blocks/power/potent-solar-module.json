@@ -1,0 +1,13 @@
+{
+  "name": "Potent Solar Module",
+  "description": "WIP",
+  "requirements": [
+    "lead/15",
+    "silicon/40"
+  ],
+  "energyProduction": 2.0,
+  "health": 200,
+  "size": 2,
+  "parent": "power-node",
+  "objectives": ["solar-panel"]
+}
