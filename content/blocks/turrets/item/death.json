@@ -24,34 +24,40 @@
       "damage": 19,
       "speed": 16,
       "pierce": true,
+      "lifetime": 15,
       "ammoMultiplier": 4
     },
     "coal": {
       "damage": 22,
       "status": "burning",
       "speed": 16,
+      "lifetime": 15,
       "ammoMultiplier": 3
     },
     "scrap": {
       "damage":13,
+      "lifetime": 15,
       "speed": 16
     },
     "sand": {
       "damage": 7,
       "status": "sapped",
       "speed": 16,
+      "lifetime": 15,
       "ammoMultiplier": 5
     },
     "ice": {
       "damage": 16,
       "status": "freeze",
       "speed": 16,
+      "lifetime": 15,
       "ammoMultiplier": 1
     }, 
     "titanium": {
       "damage": 28,
       "status": "freeze",
       "speed": 16,
+      "lifetime": 15,
       "ammoMultiplier": 7
     }
   },

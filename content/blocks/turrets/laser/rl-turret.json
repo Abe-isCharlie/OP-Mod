@@ -37,7 +37,7 @@
     "type": "ContinuousLaserBulletType",
     "ammoMultiplier": 1,
     "damage": 60,
-    "length": 640,
+    "length": 400,
     "status": "melting",
     "statusDuration": 480,
     "colors": ["#C62B3950", "#a62e39", "#9b111e", "#9b111e"],
