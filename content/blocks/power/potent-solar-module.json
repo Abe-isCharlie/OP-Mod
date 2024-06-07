@@ -3,7 +3,7 @@
   "name": "Potent Solar Module",
   "description": "WIP",
   "category": "power",
-  "powerProduction": 2.0,
+  "powerProduction": 2,
   "health": 200,
   "size": 2,
   "research": {
@@ -13,5 +13,8 @@
   "requirements": [
     "lead/15",
     "silicon/40"
-  ]
+  ],
+  "consumes": {
+    "powerBuffered": 10000
+  }
 }
