@@ -13,8 +13,5 @@
   "requirements": [
     "lead/15",
     "silicon/40"
-  ],
-  "consumes": {
-    "powerBuffered": 10000
-  }
+  ]
 }
