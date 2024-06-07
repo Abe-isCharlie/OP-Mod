@@ -1,6 +1,6 @@
 {
   "type": "itemTurret",
-  "inaccuracy": 5,
+  "inaccuracy": 6,
   "name": "Double Trouble",
   "description": "WIP",
   "buildCostMultiplier": 0.3,
