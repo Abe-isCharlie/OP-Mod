@@ -7,7 +7,7 @@
   "rotateSpeed": 1.05,
   "size": 2,
   "tier": 3,
-  "drillTime": 75,
+  "drillTime": 145,
   "category": "production",
   "requirements": [
     {
