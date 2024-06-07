@@ -89,7 +89,7 @@
     }
   ],
   "research": {
-    "block": "scorch",
-    "parent": "death"
+    "parent": "death",
+    "objectives": ["pyratite", "scorch"]
   }
 }
