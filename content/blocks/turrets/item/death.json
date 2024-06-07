@@ -12,12 +12,12 @@
     "objectives": ["scatter"]
   },
   "health": 500,
-  "reload": 3,
+  "reload": 8,
   "size": 1,
   "range": 240,
   "rotateSpeed": 7,
   "ammoPerShot": 1,
-  "maxAmmo": 50,
+  "maxAmmo": 30,
   "outlineRadius": 3,
   "ammoTypes": {
     "copper": {
@@ -25,14 +25,14 @@
       "speed": 16,
       "pierce": true,
       "lifetime": 15,
-      "ammoMultiplier": 4
+      "ammoMultiplier": 3
     },
     "coal": {
       "damage": 22,
       "status": "burning",
       "speed": 16,
       "lifetime": 15,
-      "ammoMultiplier": 3
+      "ammoMultiplier": 2
     },
     "scrap": {
       "damage":13,
@@ -44,21 +44,23 @@
       "status": "sapped",
       "speed": 16,
       "lifetime": 15,
-      "ammoMultiplier": 5
+      "ammoMultiplier": 5,
+      "reloadMultiplier": 0.75
     },
     "ice": {
       "damage": 16,
       "status": "freeze",
       "speed": 16,
       "lifetime": 15,
-      "ammoMultiplier": 1
+      "ammoMultiplier": 1,
+      "reloadMultiplier": 0.3
     }, 
     "titanium": {
       "damage": 28,
       "status": "freeze",
       "speed": 16,
       "lifetime": 15,
-      "ammoMultiplier": 7
+      "ammoMultiplier": 4
     }
   },
   "requirements": [
