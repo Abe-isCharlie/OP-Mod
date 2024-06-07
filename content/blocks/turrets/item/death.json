@@ -21,26 +21,26 @@
   "outlineRadius": 3,
   "ammoTypes": {
     "copper": {
-      "damage": 19,
+      "damage": 9,
       "speed": 16,
       "pierce": true,
       "lifetime": 15,
       "ammoMultiplier": 3
     },
     "coal": {
-      "damage": 22,
+      "damage": 10.5,
       "status": "burning",
       "speed": 16,
       "lifetime": 15,
       "ammoMultiplier": 2
     },
     "scrap": {
-      "damage":13,
+      "damage": 6.2,
       "lifetime": 15,
       "speed": 16
     },
     "sand": {
-      "damage": 7,
+      "damage": 3.3,
       "status": "sapped",
       "speed": 16,
       "lifetime": 15,
@@ -48,15 +48,15 @@
       "reloadMultiplier": 0.75
     },
     "ice": {
-      "damage": 16,
+      "damage": 7.6,
       "status": "freeze",
       "speed": 16,
       "lifetime": 15,
       "ammoMultiplier": 1,
       "reloadMultiplier": 0.3
-    }, 
+    },
     "titanium": {
-      "damage": 28,
+      "damage": 13.3,
       "status": "freeze",
       "speed": 16,
       "lifetime": 15,
