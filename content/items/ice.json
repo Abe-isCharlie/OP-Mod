@@ -2,7 +2,7 @@
   "name": "Ice",
   "description": "A ice cube that can be used as ammo to freeze enemies.",
   "color": "#dcdde3",
-  "cost": 1.5,
+  "cost": 1.05,
   "research": {
     "item": "metaglass",
     "parent": "water"
