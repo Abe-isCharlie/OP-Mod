@@ -23,12 +23,12 @@
   "shake": 4,
   "shootEffect": "shootBig",
   "smokeEffect": "shootBigSmoke",
-  "hitEffect": "hitBulletBig",
   "ammoTypes": {
     "silicon": {
       "damage": 650,
       "speed": 16,
-      "pierceArmor": true
+      "pierceArmor": true,
+      "hitEffect": "hitBulletBig"
     }
   },
   "requirements": [
