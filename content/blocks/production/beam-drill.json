@@ -8,7 +8,7 @@
   "size": 3,
   "tier": 4,
   "itemCapacity": 20,
-  "drillTime": 280,
+  "drillTime": 50,
   "updateEffect": "smokeCloud",
   "drillEffect": "mineHuge",
   "category": "production",
@@ -27,7 +27,13 @@
     }
   ],
   "consumes": {
-    "power": 1.4
+    "power": 1.4,
+    "liquid": {
+      "liquid": "water",
+      "amount": 0.15,
+      "optional": true,
+      "booster": true
+    }
   },
   "research": {
     "parent": "laser-drill",
