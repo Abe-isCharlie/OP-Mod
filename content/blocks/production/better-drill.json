@@ -7,7 +7,7 @@
   "rotateSpeed": 1.05,
   "size": 2,
   "tier": 3,
-  "drillTime": 145,
+  "drillTime": 75,
   "category": "production",
   "requirements": [
     {
@@ -24,3 +24,4 @@
     "objectives": ["graphite", "mini-drill"]
   }
 }
+
