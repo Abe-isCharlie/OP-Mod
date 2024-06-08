@@ -14,7 +14,7 @@
   "liquidCapacity": 120,
   "craftTime": 180,
   "consumes": {
-    "power": 3.5,
+    "power": 2.4,
     "items": {
       "items": [
         {
