@@ -10,6 +10,7 @@
   "itemCapacity": 15,
   "liquidCapacity": 45,
   "drillTime": 30,
+  "hardnessDrillMultiplier": 30,
   "updateEffect": "smokeCloud",
   "drillEffect": "mineHuge",
   "category": "production",
