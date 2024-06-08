@@ -3,7 +3,6 @@
   "name": "Mini Drill",
   "description": "A small version of mechanical drill.",
   "drawMineItem": false,
-  "liquidBoostIntensity": 0,
   "hasLiquids": false,
   "rotateSpeed": 1.01,
   "size": 1,
