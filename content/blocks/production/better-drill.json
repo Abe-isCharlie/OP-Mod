@@ -9,7 +9,7 @@
   "tier": 3,
   "liquidCapacity": 30,
   "drillTime": 60,
-  "hardnessDrillMultiplier": 40,
+  "hardnessDrillMultiplier": 0,
   "category": "production",
   "requirements": [
     {
