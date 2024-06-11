@@ -1,5 +1,6 @@
 {
   "type": "itemTurret",
+  "buildVisibility": "sandboxOnly",
   "name": "Rupture",
   "description": "WIP",
   "targetAir": true,
