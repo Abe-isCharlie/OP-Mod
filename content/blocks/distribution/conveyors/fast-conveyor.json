@@ -1,20 +1,17 @@
 {
-  "type": "Conveyor",
-  "name": "Fast Conveyor",
-  "description": "Very Fast. Yes, faster than titanium conveyor.",
-  "health": 80,
-  "requirements": [
-    {
-      "item": "copper",
-      "amount": 2
+    "type": "Conveyor",
+    "name": "Fast Conveyor",
+    "description": "Very Fast.",
+    "health": 80,
+    "requirements": [
+        "copper/3", "lead/2", "titanium/1"
+        ],
+    "category": "distribution",
+    "buildCostMultiplier": 2.5,
+    "speed": 0.12,
+    "displayedSpeed": 16,
+    "research": {
+        "block": "titanium-conveyor",
+        "parent": "titanium-conveyor"
     }
-  ],
-  "category": "distribution",
-  "buildCostMultiplier": 0.5,
-  "speed": 0.17,
-  "displayedSpeed": 20,
-  "research": {
-    "block": "conveyor",
-    "parent": "router"
-  }
 }
