@@ -1,5 +1,5 @@
 Planets.serpulo.allowSectorInvasion = true;
-Planets.serpulo.atmosphereColor = Color.valueOf("#FFdd88");
+Planets.serpulo.atmosphereColor = Color.valueOf("#FFee22");
 Planets.serpulo.orbitRadius = 20;
 Planets.serpulo.ruleSetter = (r) => {
   r.showSpawns = true;
