@@ -5,7 +5,7 @@
   "size": 3,
   "health": 280,
   "hasItems": true,
-  "itemCapacity": 16,
+  "itemCapacity": 15,
   "craftTime": 58,
   "buildCostMultiplier": 0.45,
   "updateEffect": "coalSmeltsmoke",
