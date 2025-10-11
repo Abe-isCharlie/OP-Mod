@@ -3,7 +3,7 @@
   "name": "Ultra Bridge Conveyor",
   "description": "Transports items instantly across a very large range.",
   "connectedPower": false,
-  "ItemCapacity": 20,
+  "itemCapacity": 20,
   "health": 50,
   "requirements": [
     {
