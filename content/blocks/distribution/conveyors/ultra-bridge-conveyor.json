@@ -3,8 +3,8 @@
   "name": "Ultra Bridge Conveyor",
   "description": "Transports items instantly across a very large range.",
   "hasPower": false,
-  "itemCapacity": 20,
-  "transportTime": 1,
+  "itemCapacity": 100,
+  "transportTime": 0.6,
   "health": 50,
   "requirements": [
     {
