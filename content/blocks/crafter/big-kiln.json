@@ -6,7 +6,7 @@
   "health": 320,
   "hasPower": true,
   "itemCapacity": 15,
-  "liquidCapacity": 112,
+  "liquidCapacity": 120,
   "buildCostMultiplier": 0.33,
   "craftTime": 52,
   "updateEffect": "smokeCloud",
@@ -41,15 +41,12 @@
     },
     "liquid": {
       "liquid": "water",
-      "amount": 0.4
+      "amount": 0.2
     }
   },
   "category": "crafting",
   "research": "kiln",
-  "outputItem": {
-    "item": "metaglass",
-    "amount": 3
-  },
+  "outputItem": ["metaglass/3"],
   "drawer": [
     {
       "type": "DrawDefault"

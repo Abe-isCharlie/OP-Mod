@@ -40,7 +40,7 @@
       "amount": 0.25
     }
   },
-  "results": ["titanium/65", "silicon/55", "lead/43", "copper/37"],
+  "results": ["titanium/57", "silicon/76", "lead/33", "copper/25"],
   "category": "crafting",
   "research": {
     "block": "separator",

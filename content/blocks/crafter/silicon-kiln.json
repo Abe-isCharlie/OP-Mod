@@ -35,14 +35,14 @@
       ]
     }
   },
+  "outputItem": {
+    "item": "silicon",
+    "amount": 4
+  },
   "category": "crafting",
   "research": {
     "block": "silicon-smelter",
     "parent": "big-kiln"
-  },
-  "outputItem": {
-    "item": "silicon",
-    "amount": 4
   },
   "drawer": [
     {
