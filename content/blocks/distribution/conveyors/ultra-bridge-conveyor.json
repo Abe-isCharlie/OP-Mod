@@ -4,6 +4,7 @@
   "description": "Transports items instantly across a very large range.",
   "hasPower": false,
   "itemCapacity": 20,
+  "transportTime": 1,
   "health": 50,
   "requirements": [
     {
