@@ -1,5 +1,5 @@
 // checkUpdate.js
-var currentVersion = "1.2.6";
+var currentVersion = "1.3.0";
 var versionURL = "https://raw.githubusercontent.com/Abe-isCharlie/OP-Mod/main/mod.json";
 
 Events.on(EventType.ClientLoadEvent, function() {
