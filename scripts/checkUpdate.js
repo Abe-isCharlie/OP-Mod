@@ -1,5 +1,5 @@
 
-var currentVersion = "1.2.6";
+var currentVersion = "1.2.7";
 var versionURL =
   "https://raw.githubusercontent.com/Abe-isCharlie/OP-Mod/main/mod.json";
 

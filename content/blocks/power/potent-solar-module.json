@@ -10,8 +10,5 @@
     "parent": "combustion-generator",
     "objectives": ["solar-panel"]
   },
-  "requirements": [
-    "lead/15",
-    "silicon/40"
-  ]
+  "requirements": ["lead/15", "silicon/40"]
 }
