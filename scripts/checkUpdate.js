@@ -1,33 +1,26 @@
-const Events = require("mindustry/game/Events");
-const ClientLoadEvent = Packages.mindustry.game.EventType.ClientLoadEvent;
+// checkUpdate.js
+var currentVersion = "1.2.6";
+var versionURL = "https://raw.githubusercontent.com/Abe-isCharlie/OP-Mod/main/mod.json";
 
-const currentVersion = "1.2.6";
-const repoURL = "https://github.com/Abe-isCharlie/OP-Mod";
-const versionURL =
-  "https://raw.githubusercontent.com/Abe-isCharlie/OP-Mod/main/mod.json";
-
-Events.on(ClientLoadEvent, () => {
-  Http.get(
-    versionURL,
-    (res) => {
+Packages.mindustry.game.Events.on(
+  Packages.mindustry.game.EventType.ClientLoadEvent, 
+  function() {
+    Packages.arc.util.Http.get(versionURL, function(res) {
       try {
-        const data = Packages.arc.util.serialization.Jval.read(
-          res.getResultAsString()
-        );
-        const latestVersion = data.getString("version", currentVersion);
-
+        var data = Packages.arc.util.serialization.Jval.read(res.getResultAsString());
+        var latestVersion = data.getString("version", currentVersion);
+        
         if (latestVersion !== currentVersion) {
-          Vars.ui.showInfoToast(
-            `[orange]Atualização disponível![]\nVá até a aba Mods e clique em 'Reinstalar' no OP Things.`,
+          Packages.mindustry.Vars.ui.showInfoToast(
+            "[orange]Update available![]\nGo to the Mods tab and click 'Reinstall' on OP Things.",
             8
           );
         }
       } catch (e) {
-        print("Erro ao verificar atualização: " + e);
+        print("Error checking update: " + e);
       }
-    },
-    (err) => {
-      print("Erro ao verificar atualização: " + err);
-    }
-  );
-});
+    }, function(err) {
+      print("Error checking update: " + err);
+    });
+  }
+);
