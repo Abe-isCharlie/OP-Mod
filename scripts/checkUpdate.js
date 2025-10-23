@@ -1,5 +1,5 @@
 // checkUpdate.js (Versão 6.0 - Usando Dialog Customizado)
-var currentVersion = "1.3.0"; // Use a versão real do seu mod aqui!
+var currentVersion = "1.3.4"; // Use a versão real do seu mod aqui!
 var versionURL =
   "https://raw.githubusercontent.com/Abe-isCharlie/OP-Mod/main/mod.json"; 
 
