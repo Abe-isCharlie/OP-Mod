@@ -1,7 +1,7 @@
 // checkUpdate.js
-var currentVersion = "1.3.1";
+var currentVersion = "1.3.0";
 var versionURL =
-  "https://raw.githubusercontent.com/Abe-isCharlie/OP-Mod/main/mod.json";
+  "https://raw.githubusercontent.com/Abe-isCharlie/OP-Mod/refs/heads/main/mod.json";
 
 Events.on(EventType.ClientLoadEvent, function () {
   // Adiciona timestamp pra evitar cache
