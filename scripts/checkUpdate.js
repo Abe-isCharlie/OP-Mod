@@ -1,5 +1,5 @@
 // checkUpdate.js (Versão Corrigida)
-var currentVersion = "1.3.1";
+var currentVersion = "1.3.2";
 var versionURL =
   "https://raw.githubusercontent.com/Abe-isCharlie/OP-Mod/refs/heads/main/mod.json";
 
