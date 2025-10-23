@@ -1,10 +1,9 @@
-// checkUpdate.js
-var currentVersion = "1.3.0";
+// checkUpdate.js (Versão Corrigida)
+var currentVersion = "1.3.1";
 var versionURL =
   "https://raw.githubusercontent.com/Abe-isCharlie/OP-Mod/refs/heads/main/mod.json";
 
 Events.on(EventType.ClientLoadEvent, function () {
-  // Adiciona timestamp pra evitar cache
   var urlWithCacheBuster = versionURL + "?t=" + Packages.arc.util.Time.millis();
 
   print("Checking for updates at: " + urlWithCacheBuster);
@@ -14,7 +13,6 @@ Events.on(EventType.ClientLoadEvent, function () {
     function (res) {
       print("HTTP Response received!");
       var responseText = res.getResultAsString();
-      print("Response: " + responseText);
 
       try {
         var data = Packages.arc.util.serialization.Jval.read(responseText);
@@ -24,29 +22,23 @@ Events.on(EventType.ClientLoadEvent, function () {
         print("Latest version: " + latestVersion);
 
         if (latestVersion !== currentVersion) {
-          print("Versions differ! Showing toast...");
-          print(
-            "Core.app exists: " + (Core.app !== null && Core.app !== undefined)
-          );
-          try {
-            Core.app.post(function () {
-              print("Inside Core.app.post callback");
-              Vars.ui.showInfoToast(
-                "[orange]Update available![]\nCurrent: " +
-                  currentVersion +
-                  ", Latest: " +
-                  latestVersion,
-                10
-              );
-            });
-          } catch (e) {
-            print("Core.app.post failed: " + e);
+          print("Versions differ! Attempting to show toast...");
+          Core.app.post(function () {
             try {
-              Vars.ui.showInfoToast("[orange]Update available!", 10);
-            } catch (e2) {
-              print("Direct toast also failed: " + e2);
+              Vars.ui.showInfoToast(
+                "[orange]Update available![]\nVersão Atual: " +
+                  currentVersion +
+                  ", Última: " +
+                  latestVersion,
+                5
+              );
+              print("Toast displayed successfully.");
+            } catch (e) {
+              print(
+                "FATAL: Failed to display toast even with Core.app.post: " + e
+              );
             }
-          }
+          });
         } else {
           print("Versions match, no update needed.");
         }
