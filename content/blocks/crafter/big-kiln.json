@@ -46,7 +46,10 @@
   },
   "category": "crafting",
   "research": "kiln",
-  "outputItem": ["metaglass/3"],
+  "outputItem": {
+    "item": "metaglass",
+    "amount": 3
+  },
   "drawer": [
     {
       "type": "DrawDefault"
