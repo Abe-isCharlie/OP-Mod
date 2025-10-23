@@ -1,11 +1,9 @@
 // checkUpdate.js (Versão 3.1 - Final)
-var currentVersion = "1.3.0";
-// URL ajustada para o formato padrão do GitHub Raw
+var currentVersion = "1.3.3";
 var versionURL =
   "https://raw.githubusercontent.com/Abe-isCharlie/OP-Mod/main/mod.json"; 
 
 Events.on(EventType.ClientLoadEvent, function ( ) {
-  // Adiciona timestamp para evitar cache
   var urlWithCacheBuster = versionURL + "?t=" + Packages.arc.util.Time.millis();
 
   print("Checking for updates at: " + urlWithCacheBuster);
@@ -25,8 +23,6 @@ Events.on(EventType.ClientLoadEvent, function ( ) {
 
         if (latestVersion !== currentVersion) {
           print("Versions differ! Attempting to show toast with Time.run...");
-
-          // Usa Core.app.post e Time.run para garantir a sincronização da UI
           Core.app.post(function () {
             Packages.arc.util.Time.run(10, function() {
                 try {
@@ -35,7 +31,7 @@ Events.on(EventType.ClientLoadEvent, function ( ) {
                         currentVersion +
                         ", Última: " +
                         latestVersion,
-                        5 // Duração em segundos
+                        5
                     );
                     print("Toast displayed successfully via Time.run.");
                 } catch (e) {
