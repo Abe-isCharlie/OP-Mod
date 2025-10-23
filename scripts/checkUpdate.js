@@ -1,5 +1,5 @@
 // checkUpdate.js
-var currentVersion = "1.3.1";
+var currentVersion = "1.3.0";
 var versionURL =
   "https://raw.githubusercontent.com/Abe-isCharlie/OP-Mod/main/mod.json";
 
@@ -13,13 +13,12 @@ Events.on(EventType.ClientLoadEvent, function () {
     versionURL,
     function (res) {
       print("HTTP Response received!");
-      print("Response: " + res.getResultAsString());
+      var responseText = res.getResultAsString();
+      print("Response: " + responseText);
 
       try {
-        var data = Packages.arc.util.serialization.Jval.read(
-          res.getResultAsString()
-        );
-        var latestVersion = data.getString("version", currentVersion);
+        var data = Packages.arc.util.serialization.Jval.read(responseText);
+        var latestVersion = data.getString("version"); // SEM o segundo parâmetro!
 
         print("Current version: " + currentVersion);
         print("Latest version: " + latestVersion);
