@@ -14,7 +14,7 @@
   "range": 320,
   "rotateSpeed": 3,
   "maxAmmo": 35,
-  "shootSound": "missileSmall",
+  "shootSound": "shootMissileSmall",
   "shoot": {
     "type": "ShootAlternate",
     "barrels": 2,

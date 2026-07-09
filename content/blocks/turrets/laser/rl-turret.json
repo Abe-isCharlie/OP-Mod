@@ -19,7 +19,7 @@
   "recoil": 4,
   "rotateSpeed": 4,
   "reload": 40,
-  "shootSound": "laserbig",
+  "shootSound": "shootLaser",
   "loopSound": "beam",
   "consumes": {
     "power": 2.5,

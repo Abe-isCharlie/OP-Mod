@@ -3,8 +3,8 @@
   "inaccuracy": 2,
   "name": "Death",
   "description": "WIP",
-  "targetAir": true,
   "buildCostMultiplier": 0.4,
+  "targetAir": true,
   "targetGround": true,
   "category": "turret",
   "research": {
