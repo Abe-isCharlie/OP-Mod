@@ -20,7 +20,7 @@
   "rotateSpeed": 4,
   "reload": 40,
   "shootSound": "shootLaser",
-  "loopSound": "beam",
+  "loopSound": "loopSmelter",
   "consumes": {
     "power": 2.5,
     "coolant": {
