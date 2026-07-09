@@ -1,76 +1,76 @@
 {
-  "type": "itemTurret",
-  "inaccuracy": 2,
-  "name": "Death",
-  "description": "WIP",
-  "buildCostMultiplier": 0.4,
-  "targetAir": true,
-  "targetGround": true,
-  "category": "turret",
-  "research": {
-    "parent": "duo",
-    "objectives": ["scatter"]
-  },
-  "health": 500,
-  "reload": 12,
-  "size": 1,
-  "range": 240,
-  "rotateSpeed": 7,
-  "ammoPerShot": 1,
-  "maxAmmo": 30,
-  "outlineRadius": 3,
-  "ammoTypes": {
-    "copper": {
-      "damage": 11,
-      "speed": 16,
-      "pierce": true,
-      "lifetime": 15,
-      "ammoMultiplier": 3
-    },
-    "coal": {
-      "damage": 12.5,
-      "status": "burning",
-      "speed": 16,
-      "lifetime": 15,
-      "ammoMultiplier": 2
-    },
-    "scrap": {
-      "damage": 8.2,
-      "lifetime": 15,
-      "speed": 16
-    },
-    "sand": {
-      "damage": 5.3,
-      "status": "sapped",
-      "speed": 16,
-      "lifetime": 15,
-      "ammoMultiplier": 5,
-      "reloadMultiplier": 0.75
-    },
-    "ice": {
-      "damage":9.6,
-      "status": "freeze",
-      "speed": 16,
-      "lifetime": 15,
-      "ammoMultiplier": 1,
-      "reloadMultiplier": 0.3
-    },
-    "titanium": {
-      "damage": 15.3,
-      "status": "freeze",
-      "speed": 16,
-      "lifetime": 15,
-      "ammoMultiplier": 4
-    }
-  },
-  "requirements": [
-    {
-      "item": "lead",
-      "amount": 20
-    },
-    {
-      "item": "copper",
-      "amount": 50
-    }
-  ]
+	"type": "itemTurret",
+	"inaccuracy": 2,
+	"name": "Death",
+	"description": "WIP",
+	"buildCostMultiplier": 0.4,
+	"targetAir": true,
+	"targetGround": true,
+	"category": "turret",
+	"research": {
+		"parent": "duo",
+		"objectives": ["scatter"]
+	},
+	"health": 500,
+	"reload": 12,
+	"size": 1,
+	"range": 240,
+	"rotateSpeed": 7,
+	"ammoPerShot": 1,
+	"maxAmmo": 30,
+	"outlineRadius": 3,
+	"ammoTypes": {
+		"copper": {
+			"damage": 11,
+			"speed": 16,
+			"pierce": true,
+			"lifetime": 15,
+			"ammoMultiplier": 3
+		},
+		"coal": {
+			"damage": 12.5,
+			"status": "burning",
+			"speed": 16,
+			"lifetime": 15,
+			"ammoMultiplier": 2
+		},
+		"scrap": {
+			"damage": 8.2,
+			"lifetime": 15,
+			"speed": 16
+		},
+		"sand": {
+			"damage": 5.3,
+			"status": "sapped",
+			"speed": 16,
+			"lifetime": 15,
+			"ammoMultiplier": 5,
+			"reloadMultiplier": 0.75
+		},
+		"ice": {
+			"damage": 9.6,
+			"status": "freeze",
+			"speed": 16,
+			"lifetime": 15,
+			"ammoMultiplier": 1,
+			"reloadMultiplier": 0.3
+		},
+		"titanium": {
+			"damage": 15.3,
+			"status": "freeze",
+			"speed": 16,
+			"lifetime": 15,
+			"ammoMultiplier": 4
+		}
+	},
+	"requirements": [
+		{
+			"item": "lead",
+			"amount": 20
+		},
+		{
+			"item": "copper",
+			"amount": 50
+		}
+	]
 }
